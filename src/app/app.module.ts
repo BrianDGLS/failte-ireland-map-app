@@ -9,22 +9,25 @@ import { InfoPanelComponent } from './info-panel/info-panel.component';
 import { MaterialModule } from './material-module';
 import { HeaderComponent } from './header/header.component';
 import { MapPanelComponent } from './map-panel/map-panel.component';
+import { DataService } from './data.service';
+import { AttractionCardComponent } from './attraction-card/attraction-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InfoPanelComponent,
     HeaderComponent,
-    MapPanelComponent
+    MapPanelComponent,
+    AttractionCardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [DataService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
