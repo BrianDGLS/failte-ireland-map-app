@@ -32,9 +32,7 @@ export class MapPanelComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     const data = await this.dataService.getAttractionsJson();
 
-    const subset = data
-      .filter((_) => _.Url && _.Longitude && _.Latitude)
-      .slice(0, 20);
+    const subset = data.slice(0, 10);
     const features = [];
 
     for (const sub of subset) {

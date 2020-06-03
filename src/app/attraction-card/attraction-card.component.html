@@ -7,24 +7,23 @@
     >
   </mat-card-header>
   <img
+    *ngIf="attraction.ogImage !== 'undefined'"
     mat-card-image
-    src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-    alt="Photo of a Shiba Inu"
+    [src]="attraction.ogImage"
+    [alt]="attraction.Name"
   />
   <mat-card-content>
-    <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz
-      breeds of dog from Japan. A small, agile dog that copes very well with
-      mountainous terrain, the Shiba Inu was originally bred for hunting.
+    <p *ngIf="attraction.ogDescription !== 'undefined'">
+      {{ attraction.ogDescription }}
     </p>
+    <div *ngIf="attraction.Telephone">
+      Call:
+      <a href="tel:{{ attraction.Telephone }}">{{ attraction.Telephone }}</a>
+    </div>
+    <div *ngIf="attraction.Url">
+      Website:
+      <a [href]="attraction.Url" target="_blank">{{ attraction.Url }}</a>
+    </div>
   </mat-card-content>
-  <mat-card-actions>
-    <a [href]="attraction.Url" target="_blank" *ngIf="attraction.Url">{{
-      attraction.Url
-    }}</a>
-    <br />
-    <a href="tel:{{ attraction.Telephone }}" *ngIf="attraction.Telephone">{{
-      attraction.Telephone
-    }}</a>
-  </mat-card-actions>
+  <mat-card-actions> </mat-card-actions>
 </mat-card>
