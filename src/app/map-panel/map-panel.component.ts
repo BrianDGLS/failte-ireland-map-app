@@ -14,6 +14,7 @@ import Point from 'ol/geom/Point';
 import { Icon, Style } from 'ol/style';
 import VectorSource from 'ol/source/Vector';
 import { DataService } from '../data.service';
+import { AttractionService } from '../attraction.service';
 
 @Component({
   selector: 'app-map-panel',
@@ -23,7 +24,10 @@ import { DataService } from '../data.service';
 export class MapPanelComponent implements OnInit {
   public center: number[] = [-8.001, 53.537];
 
-  constructor(private readonly dataService: DataService) {}
+  constructor(
+    private readonly dataService: DataService,
+    private readonly attractionService: AttractionService
+  ) {}
 
   async ngOnInit(): Promise<void> {
     const data = await this.dataService.getAttractionsJson();
@@ -35,10 +39,10 @@ export class MapPanelComponent implements OnInit {
 
     for (const sub of subset) {
       const feature = new Feature({
-        name: sub.Name,
+        attraction: sub,
         geometry: new Point(fromLonLat([sub.Longitude, sub.Latitude])),
       });
-      var iconStyle = new Style({
+      const iconStyle = new Style({
         image: new Icon({
           anchor: [0.5, 46],
           anchorXUnits: 'fraction',
@@ -48,6 +52,7 @@ export class MapPanelComponent implements OnInit {
       });
 
       feature.setStyle(iconStyle);
+      feature.on('click', () => console.log(sub));
       features.push(feature);
     }
 
@@ -62,6 +67,22 @@ export class MapPanelComponent implements OnInit {
         center: fromLonLat(this.center),
         zoom: 8,
       }),
+    });
+
+    const displayFeatureInfo = (pixel) => {
+      vectorLayer.getFeatures(pixel).then((features) => {
+        var feature = features.length ? features[0] : undefined;
+        if (feature) {
+          const attraction = feature.values_.attraction;
+          if (attraction) {
+            this.attractionService.selectedAttraction$.next(attraction);
+          }
+        }
+      });
+    };
+
+    map.on('click', (evt) => {
+      displayFeatureInfo(evt.pixel);
     });
   }
 }
