@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { MapPanelComponent } from './map-panel/map-panel.component';
 import { DataService } from './data.service';
 import { AttractionCardComponent } from './attraction-card/attraction-card.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AttractionCardComponent } from './attraction-card/attraction-card.compo
     HeaderComponent,
     MapPanelComponent,
     AttractionCardComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

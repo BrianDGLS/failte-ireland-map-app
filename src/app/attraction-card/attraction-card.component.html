@@ -1,9 +1,8 @@
-<mat-card *ngIf="attraction">
+<mat-card *ngIf="attraction" class="app-attraction-card">
   <mat-card-header>
-    <div mat-card-avatar></div>
     <mat-card-title>{{ attraction.Name }}</mat-card-title>
     <mat-card-subtitle
-      >{{ attraction.AddressLocality }} |
+      >{{ attraction.AddressLocality }},
       {{ attraction.AddressRegion }}</mat-card-subtitle
     >
   </mat-card-header>
@@ -20,8 +19,12 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <a [href]="attraction.Url" target="_blank">{{ attraction.Url }}</a>
+    <a [href]="attraction.Url" target="_blank" *ngIf="attraction.Url">{{
+      attraction.Url
+    }}</a>
     <br />
-    <a href="tel:{{ attraction.Telephone }}">{{ attraction.Telephone }}</a>
+    <a href="tel:{{ attraction.Telephone }}" *ngIf="attraction.Telephone">{{
+      attraction.Telephone
+    }}</a>
   </mat-card-actions>
 </mat-card>
