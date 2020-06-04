@@ -1,7 +1,6 @@
 const ogs = require("open-graph-scraper");
 const { join } = require("path");
 const { readFileSync, writeFileSync } = require("fs");
-const cheerio = require("cheerio");
 
 const csvToJson = (csv) => {
   const lines = csv.split("\n");
@@ -28,7 +27,7 @@ const attractionsJson = csvToJson(attractionsCsv);
 
 const Main = (async () => {
   const promises = [];
-  for (const attraction of attractionsJson.slice(0, 10)) {
+  for (const attraction of attractionsJson) {
     if (attraction.Url) {
       const options = { url: attraction.Url };
       promises.push(
@@ -42,18 +41,23 @@ const Main = (async () => {
             }
             if (result.ogImage) {
               attraction.ogImage = Array.isArray(result.ogImage)
-                ? result.ogImage[0].url
+                ? result.ogImage.pop().url
                 : result.ogImage.url;
             }
+
+            console.log(result.ogDescription);
             resolve(attraction);
           });
         })
       );
+    } else {
+      promises.push(attraction);
     }
   }
   await Promise.all(promises);
+
   const converter = require("json-2-csv");
-  converter.json2csv(attractionsJson, (err, csv) => {
+  converter.json2csv(promises, (err, csv) => {
     if (err) {
       throw err;
     }

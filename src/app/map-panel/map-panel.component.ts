@@ -32,48 +32,50 @@ export class MapPanelComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     const data = await this.dataService.getAttractionsJson();
 
-    const subset = data.slice(0, 10);
+    const iconStyle = new Style({
+      image: new Icon({
+        anchor: [0.5, 46],
+        anchorXUnits: 'fraction',
+        anchorYUnits: 'pixels',
+        src: 'https://openlayers.org/en/v4.6.5/examples/data/icon.png',
+      }),
+    });
+
     const features = [];
-
-    for (const sub of subset) {
-      const feature = new Feature({
-        attraction: sub,
-        geometry: new Point(fromLonLat([sub.Longitude, sub.Latitude])),
-      });
-      const iconStyle = new Style({
-        image: new Icon({
-          anchor: [0.5, 46],
-          anchorXUnits: 'fraction',
-          anchorYUnits: 'pixels',
-          src: 'https://openlayers.org/en/v4.6.5/examples/data/icon.png',
-        }),
-      });
-
-      feature.setStyle(iconStyle);
-      feature.on('click', () => console.log(sub));
-      features.push(feature);
-    }
 
     const source = new VectorSource({ features });
     const vectorLayer = new VectorLayer({ source });
-
     const map = new Map({
       interactions: defaultInteractions().extend([new DragRotateAndZoom()]),
       layers: [new TileLayer({ source: new OSM() }), vectorLayer],
       target: 'map',
       view: new View({
         center: fromLonLat(this.center),
-        zoom: 8,
+        zoom: 7,
       }),
     });
+
+    for (const [index, attraction] of data.entries()) {
+      if (attraction.Longitude && attraction.Latitude) {
+        const feature = new Feature({
+          index,
+          geometry: new Point(
+            fromLonLat([attraction.Longitude, attraction.Latitude])
+          ),
+        });
+
+        // feature.setStyle(iconStyle);
+        source.addFeature(feature);
+      }
+    }
 
     const displayFeatureInfo = (pixel) => {
       vectorLayer.getFeatures(pixel).then((features) => {
         var feature = features.length ? features[0] : undefined;
         if (feature) {
-          const attraction = feature.values_.attraction;
-          if (attraction) {
-            this.attractionService.selectedAttraction$.next(attraction);
+          const index = feature.values_.index;
+          if (index in data) {
+            this.attractionService.selectedAttraction$.next(data[index]);
           }
         }
       });

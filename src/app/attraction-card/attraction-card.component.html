@@ -6,16 +6,7 @@
       {{ attraction.AddressRegion }}</mat-card-subtitle
     >
   </mat-card-header>
-  <img
-    *ngIf="attraction.ogImage !== 'undefined'"
-    mat-card-image
-    [src]="attraction.ogImage"
-    [alt]="attraction.Name"
-  />
   <mat-card-content>
-    <p *ngIf="attraction.ogDescription !== 'undefined'">
-      {{ attraction.ogDescription }}
-    </p>
     <div *ngIf="attraction.Telephone">
       Call:
       <a href="tel:{{ attraction.Telephone }}">{{ attraction.Telephone }}</a>

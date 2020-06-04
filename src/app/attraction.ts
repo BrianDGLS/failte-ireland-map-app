@@ -7,6 +7,4 @@ export interface Attraction {
   AddressRegion: string;
   AddressLocality: string;
   AddressCountry: string;
-  ogDescription: string;
-  ogImage: string;
 }
