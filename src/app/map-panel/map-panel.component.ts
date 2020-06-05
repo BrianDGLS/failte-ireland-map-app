@@ -2,17 +2,15 @@ import { Component, OnInit } from '@angular/core';
 
 import Map from 'ol/Map';
 import View from 'ol/View';
-import {
-  defaults as defaultInteractions,
-  DragRotateAndZoom,
-} from 'ol/interaction';
-import { Tile as TileLayer, Vector as VectorLayer } from 'ol/layer';
 import OSM from 'ol/source/OSM';
-import { fromLonLat } from 'ol/proj';
 import Feature from 'ol/Feature';
 import Point from 'ol/geom/Point';
-import { Icon, Style } from 'ol/style';
+import * as Layer from 'ol/layer';
+import * as Projection from 'ol/proj';
 import VectorSource from 'ol/source/Vector';
+import * as Interaction from 'ol/interaction';
+import { Icon, Style, Fill, Stroke, Circle } from 'ol/style';
+
 import { DataService } from '../data.service';
 import { AttractionService } from '../attraction.service';
 
@@ -29,30 +27,53 @@ export class MapPanelComponent implements OnInit {
     private readonly attractionService: AttractionService
   ) {}
 
+  private _activeStyle: Style;
+  public get activeStyle(): Style {
+    if (!this._activeStyle) {
+      const fill = new Fill({ color: 'rgba(255,255,255,0.4)' });
+      const stroke = new Stroke({ color: '#9933CC', width: 1.25 });
+      const image = new Circle({ fill: fill, stroke: stroke, radius: 5 });
+      this._activeStyle = new Style({ image, fill, stroke });
+    }
+    return this._activeStyle;
+  }
+
+  private _defaultStyle: Style;
+  public get defaultStyle(): Style {
+    if (!this._defaultStyle) {
+      const fill = new Fill({ color: 'rgba(255,255,255,0.4)' });
+      const stroke = new Stroke({ color: '#3399CC', width: 1.25 });
+      const image = new Circle({ fill: fill, stroke: stroke, radius: 5 });
+      this._defaultStyle = new Style({ image, fill, stroke });
+    }
+    return this._defaultStyle;
+  }
+
+  public activeFeature: Feature;
+
   async ngOnInit(): Promise<void> {
     const data = await this.dataService.getAttractionsJson();
 
-    const iconStyle = new Style({
-      image: new Icon({
-        anchor: [0.5, 46],
-        anchorXUnits: 'fraction',
-        anchorYUnits: 'pixels',
-        src: 'https://openlayers.org/en/v4.6.5/examples/data/icon.png',
-      }),
-    });
+    // const iconStyle = new Style({
+    //   image: new Icon({
+    //     anchor: [0.5, 1],
+    //     anchorXUnits: 'fraction',
+    //     anchorYUnits: 'pixels',
+    //     src: '/assets/icons/default-icon.svg',
+    //   }),
+    // });
 
     const features = [];
-
     const source = new VectorSource({ features });
-    const vectorLayer = new VectorLayer({ source });
+    const vectorLayer = new Layer.Vector({ source });
+    const osmLayer = new Layer.Tile({ source: new OSM() });
     const map = new Map({
-      interactions: defaultInteractions().extend([new DragRotateAndZoom()]),
-      layers: [new TileLayer({ source: new OSM() }), vectorLayer],
       target: 'map',
-      view: new View({
-        center: fromLonLat(this.center),
-        zoom: 7,
-      }),
+      layers: [osmLayer, vectorLayer],
+      view: new View({ center: Projection.fromLonLat(this.center), zoom: 7 }),
+      interactions: Interaction.defaults().extend([
+        new Interaction.DragRotateAndZoom(),
+      ]),
     });
 
     for (const [index, attraction] of data.entries()) {
@@ -60,7 +81,7 @@ export class MapPanelComponent implements OnInit {
         const feature = new Feature({
           index,
           geometry: new Point(
-            fromLonLat([attraction.Longitude, attraction.Latitude])
+            Projection.fromLonLat([attraction.Longitude, attraction.Latitude])
           ),
         });
 
@@ -70,19 +91,31 @@ export class MapPanelComponent implements OnInit {
     }
 
     const displayFeatureInfo = (pixel) => {
-      vectorLayer.getFeatures(pixel).then((features) => {
-        var feature = features.length ? features[0] : undefined;
-        if (feature) {
-          const index = feature.values_.index;
-          if (index in data) {
-            this.attractionService.selectedAttraction$.next(data[index]);
-          }
+      const features = map.getFeaturesAtPixel(pixel);
+      var feature = features.length ? features[0] : undefined;
+      if (feature) {
+        feature.setStyle(this.activeStyle);
+
+        if (this.activeFeature) {
+          this.activeFeature.setStyle(this.defaultStyle);
         }
-      });
+
+        this.activeFeature = feature;
+        const index = feature.values_.index;
+        if (index in data) {
+          this.attractionService.selectedAttraction$.next(data[index]);
+        }
+      }
     };
 
-    map.on('click', (evt) => {
-      displayFeatureInfo(evt.pixel);
+    map.on('click', (e) => {
+      displayFeatureInfo(e.pixel);
+    });
+
+    map.on('pointermove', (e) => {
+      map.getTargetElement().style.cursor = map.hasFeatureAtPixel(e.pixel)
+        ? 'pointer'
+        : '';
     });
   }
 }
