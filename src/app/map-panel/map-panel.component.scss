@@ -6,4 +6,13 @@
     width: 100%;
     height: 100%;
   }
+
+  .map-popup {
+    background: white;
+
+    &__title {
+      font-size: 1rem;
+      margin: 0;
+    }
+  }
 }

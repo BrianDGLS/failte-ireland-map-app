@@ -1,3 +1,22 @@
 <div class="app-map-panel">
-  <div id="map" class="map"></div>
+  <div id="map" class="map">
+    <div #popup class="popup-wrap">
+      <div *ngIf="attraction && showPopUp" class="map-popup">
+        <h2 class="map-popup__title">{{ attraction.Name }}</h2>
+        <div class="map-popup__location">
+          {{ attraction.AddressLocality }}, {{ attraction.AddressRegion }}
+        </div>
+        <div *ngIf="attraction.Telephone" class="map-popup__number">
+          Call:
+          <a href="tel:{{ attraction.Telephone }}">{{
+            attraction.Telephone
+          }}</a>
+        </div>
+        <div *ngIf="attraction.Url" class="map-popup__website">
+          Website:
+          <a [href]="attraction.Url" target="_blank">{{ attraction.Url }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

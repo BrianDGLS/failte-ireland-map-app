@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 
 import Map from 'ol/Map';
 import View from 'ol/View';
 import OSM from 'ol/source/OSM';
 import Feature from 'ol/Feature';
+import Overlay from 'ol/Overlay';
 import Point from 'ol/geom/Point';
 import * as Layer from 'ol/layer';
 import * as Projection from 'ol/proj';
@@ -13,6 +14,7 @@ import { Icon, Style, Fill, Stroke, Circle } from 'ol/style';
 
 import { DataService } from '../data.service';
 import { AttractionService } from '../attraction.service';
+import { Attraction } from '../attraction';
 
 @Component({
   selector: 'app-map-panel',
@@ -20,7 +22,10 @@ import { AttractionService } from '../attraction.service';
   styleUrls: ['./map-panel.component.scss'],
 })
 export class MapPanelComponent implements OnInit {
+  @ViewChild('popup') $popup: ElementRef;
   public center: number[] = [-8.001, 53.537];
+  public showPopUp: boolean = false;
+  public attraction: Attraction;
 
   constructor(
     private readonly dataService: DataService,
@@ -52,6 +57,9 @@ export class MapPanelComponent implements OnInit {
   public activeFeature: Feature;
 
   async ngOnInit(): Promise<void> {
+    this.attractionService.selectedAttraction$.subscribe((attraction) => {
+      this.attraction = attraction;
+    });
     const data = await this.dataService.getAttractionsJson();
 
     // const iconStyle = new Style({
@@ -90,10 +98,19 @@ export class MapPanelComponent implements OnInit {
       }
     }
 
+    const popup = new Overlay({
+      element: this.$popup.nativeElement,
+      positioning: 'bottom-center',
+      stopEvent: false,
+      offset: [0, -10],
+    });
+    map.addOverlay(popup);
+
     const displayFeatureInfo = (pixel) => {
       const features = map.getFeaturesAtPixel(pixel);
       var feature = features.length ? features[0] : undefined;
       if (feature) {
+        this.showPopUp = true;
         feature.setStyle(this.activeStyle);
 
         if (this.activeFeature) {
@@ -104,6 +121,15 @@ export class MapPanelComponent implements OnInit {
         const index = feature.values_.index;
         if (index in data) {
           this.attractionService.selectedAttraction$.next(data[index]);
+        }
+
+        const coordinates = feature.getGeometry().getCoordinates();
+        popup.setPosition(coordinates);
+        console.log(coordinates);
+      } else {
+        this.showPopUp = false;
+        if (this.activeFeature) {
+          this.activeFeature.setStyle(this.defaultStyle);
         }
       }
     };
