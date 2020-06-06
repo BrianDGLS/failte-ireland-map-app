@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { AttractionService } from '../attraction.service';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Attraction } from '../attraction';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-info-panel',
@@ -8,13 +8,15 @@ import { Attraction } from '../attraction';
   styleUrls: ['./info-panel.component.scss'],
 })
 export class InfoPanelComponent implements OnInit {
-  public selectedAttraction: Attraction;
+  public attractions: Attraction[] = [];
 
-  constructor(private readonly attractionService: AttractionService) {}
+  constructor(private readonly dataService: DataService) {}
 
-  ngOnInit(): void {
-    this.attractionService.selectedAttraction$.subscribe((attraction) => {
-      this.selectedAttraction = attraction;
-    });
+  async ngOnInit(): Promise<void> {
+    const data = await this.dataService.getAttractionsJson();
+
+    this.attractions.push(data[3226]);
+    this.attractions.push(data[508]);
+    this.attractions.push(data[600]);
   }
 }

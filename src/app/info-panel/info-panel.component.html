@@ -1,6 +1,21 @@
 <div class="app-info-panel">
-  <app-attraction-card [attraction]="selectedAttraction"></app-attraction-card>
-  <!-- <app-attraction-card index="104"></app-attraction-card> -->
-  <!-- <app-attraction-card index="2100"></app-attraction-card> -->
-  <!-- <app-attraction-card index="717"></app-attraction-card> -->
+  <h2>Unmissable Destinations</h2>
+
+  <app-attraction-card
+    [attraction]="attractions[0]"
+    image="/assets/images/fanad-lighthouse.jpg"
+    description="Fanad Lighthouse Tours offer visitors an unforgettable maritime adventure of lighthouse history and heritage on the Wild Atlantic Way in North Donegal."
+  ></app-attraction-card>
+
+  <app-attraction-card
+    [attraction]="attractions[2]"
+    image="/assets/images/croke-park.jpg"
+    description="Croke Park is a Gaelic games stadium located in Dublin, Ireland. Named after Archbishop Thomas Croke, it is sometimes called Croker by GAA fans and locals. It serves as both the principal stadium and headquarters of the Gaelic Athletic Association."
+  ></app-attraction-card>
+
+  <app-attraction-card
+    [attraction]="attractions[1]"
+    image="/assets/images/rock-of-cashel.jpg"
+    description="The Rock of Cashel, also known as Cashel of the Kings and St. Patrick's Rock, is a historic site located at Cashel, County Tipperary, Ireland."
+  ></app-attraction-card>
 </div>

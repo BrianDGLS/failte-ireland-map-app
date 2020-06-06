@@ -8,4 +8,6 @@ import { Attraction } from '../attraction';
 })
 export class AttractionCardComponent {
   @Input() attraction: Attraction;
+  @Input() image: string;
+  @Input() description: string;
 }

@@ -125,7 +125,6 @@ export class MapPanelComponent implements OnInit {
 
         const coordinates = feature.getGeometry().getCoordinates();
         popup.setPosition(coordinates);
-        console.log(coordinates);
       } else {
         this.showPopUp = false;
         if (this.activeFeature) {
