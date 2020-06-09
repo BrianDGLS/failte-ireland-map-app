@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "failte-ireland-map-app",
+      "public": "dist/failte-ireland-map-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "failte-maps": {
+      "hosting": {
+        "failte-ireland-map-app": [
+          "failte-maps"
+        ]
+      }
+    }
+  }
+}
