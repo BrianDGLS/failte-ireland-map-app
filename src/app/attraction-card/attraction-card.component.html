@@ -19,6 +19,12 @@
     </div>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-raised-button color="accent">View on map</button>
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="viewAttractionOnMap(attraction)"
+    >
+      View on map
+    </button>
   </mat-card-actions>
 </mat-card>

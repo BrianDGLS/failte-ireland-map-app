@@ -9,6 +9,7 @@ import Overlay from 'ol/Overlay';
 import Point from 'ol/geom/Point';
 import * as Layer from 'ol/layer';
 import * as Projection from 'ol/proj';
+import Collection from 'ol/Collection';
 import VectorSource from 'ol/source/Vector';
 import * as Interaction from 'ol/interaction';
 import { Icon, Style, Fill, Stroke, Circle } from 'ol/style';
@@ -22,17 +23,19 @@ import { DataService } from './data.service';
 export class MapService {
   public map: Map;
   public popup: Overlay;
+  public features: Collection;
   public activeFeature: Feature;
   public attraction: Attraction;
   public center: number[] = [-8.001, 53.537];
   public selectedFeature$: Subject<Feature> = new Subject();
 
-  private _zoom = 7;
   get zoom(): number {
-    return this._zoom;
+    return this.map.getView().getZoom();
   }
+
   set zoom(value: number) {
-    this._zoom = value;
+    const view = this.map.getView();
+    view.setZoom(value);
   }
 
   private _activeStyle: Style;
@@ -82,11 +85,12 @@ export class MapService {
   }
 
   public async createMap($popup: ElementRef): Promise<void> {
-    const source = new VectorSource({ features: await this.getFeatures() });
+    this.features = new Collection(await this.getFeatures());
+    const source = new VectorSource({ features: this.features });
     const vectorLayer = new Layer.Vector({ source });
     const osmLayer = new Layer.Tile({ source: new OSM() });
     const center = Projection.fromLonLat(this.center);
-    const view = new View({ center, zoom: this.zoom });
+    const view = new View({ center, zoom: 7 });
     const dragAndRotate = new Interaction.DragRotateAndZoom();
     const interactions = Interaction.defaults().extend([dragAndRotate]);
     const layers = [osmLayer, vectorLayer];
@@ -94,7 +98,10 @@ export class MapService {
 
     this.registerPopup($popup);
     this.registerInputEvents();
+    this.subscribeToSelectedFeature();
+  }
 
+  private subscribeToSelectedFeature() {
     this.selectedFeature$.subscribe((feature) => {
       if (!feature && this.activeFeature) {
         this.activeFeature.setStyle(this.defaultStyle);
