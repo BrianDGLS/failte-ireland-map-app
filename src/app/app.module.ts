@@ -12,7 +12,7 @@ import { MapPanelComponent } from './map-panel/map-panel.component';
 import { DataService } from './data.service';
 import { AttractionCardComponent } from './attraction-card/attraction-card.component';
 import { FooterComponent } from './footer/footer.component';
-import { AttractionService } from './attraction.service';
+import { MapService } from './map.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,7 @@ import { AttractionService } from './attraction.service';
     MaterialModule,
     FlexLayoutModule,
   ],
-  providers: [DataService, AttractionService],
+  providers: [DataService, MapService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

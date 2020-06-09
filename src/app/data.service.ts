@@ -15,7 +15,8 @@ export class DataService {
     if (this._attractionsJson) return this._attractionsJson;
 
     const csvData = await this.getAttractionsCsv();
-    return this.csvToJsonService.convert(csvData);
+    const attractions: Attraction[] = this.csvToJsonService.convert(csvData);
+    return attractions.filter((_) => _.Longitude && _.Latitude);
   }
 
   public async getAttractionsCsv(): Promise<string> {

@@ -1,7 +1,7 @@
 <div class="app-map-panel">
   <div id="map" class="map">
     <div #popup class="popup-wrap">
-      <div *ngIf="attraction && showPopUp" class="map-popup">
+      <div *ngIf="attraction" class="map-popup">
         <mat-card>
           <mat-card-title>{{ attraction.Name }}</mat-card-title>
           <mat-card-subtitle

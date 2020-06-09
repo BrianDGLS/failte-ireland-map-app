@@ -15,7 +15,7 @@ export class InfoPanelComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     const data = await this.dataService.getAttractionsJson();
 
-    this.attractions.push(data[3226]);
+    this.attractions.push(data[3225]);
     this.attractions.push(data[508]);
     this.attractions.push(data[600]);
   }
