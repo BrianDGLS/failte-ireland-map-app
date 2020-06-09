@@ -4,6 +4,8 @@ import * as Projection from 'ol/proj';
 
 import { Attraction } from '../attraction';
 import { MapService } from '../map.service';
+import { AppComponent } from '../app.component';
+import { MatBottomSheetRef } from '@angular/material/bottom-sheet';
 
 @Component({
   selector: 'app-attraction-card',
@@ -15,7 +17,10 @@ export class AttractionCardComponent {
   @Input() description: string;
   @Input() attraction: Attraction;
 
-  constructor(private readonly mapService: MapService) {}
+  constructor(
+    private readonly mapService: MapService,
+    private _bottomSheetRef: MatBottomSheetRef<AppComponent>
+  ) {}
 
   public viewAttractionOnMap(attraction: Attraction) {
     const { Name } = attraction;
@@ -32,5 +37,9 @@ export class AttractionCardComponent {
     view.setZoom(10);
 
     this.mapService.selectedFeature$.next(feature);
+
+    if (window.innerWidth < 960) {
+      this._bottomSheetRef.dismiss();
+    }
   }
 }

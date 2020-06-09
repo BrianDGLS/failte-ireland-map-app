@@ -1,10 +1,14 @@
 <div fxLayout="column" class="content-container">
   <app-header></app-header>
 
-  <div fxLayout="row" fxFlex="1">
-    <app-map-panel fxFlex="67"></app-map-panel>
-    <app-info-panel fxFlex="33"></app-info-panel>
+  <div fxLayout="column" fxLayout.gt-sm="row" fxFlex="1">
+    <app-map-panel fxFlex.gt-sm="67"></app-map-panel>
+    <app-info-panel fxFlex.gt-sm="33" *ngIf="isLargeScreen"></app-info-panel>
   </div>
 
-  <app-footer></app-footer>
+  <button mat-raised-button *ngIf="!isLargeScreen" (click)="openBottomSheet()">
+    Unmissable Destinations
+  </button>
+
+  <app-footer *ngIf="isLargeScreen"></app-footer>
 </div>

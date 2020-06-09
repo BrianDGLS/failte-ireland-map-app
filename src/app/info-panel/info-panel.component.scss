@@ -1,5 +1,8 @@
 .app-info-panel {
-  max-height: calc(100vh - 104px);
-  overflow-y: scroll;
   padding: 0 10px;
+
+  @media screen and (min-width: 960px) {
+    overflow-y: scroll;
+    max-height: calc(100vh - 104px);
+  }
 }

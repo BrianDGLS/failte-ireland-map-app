@@ -13,6 +13,7 @@ import { DataService } from './data.service';
 import { AttractionCardComponent } from './attraction-card/attraction-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { MapService } from './map.service';
+import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MapService } from './map.service';
     MapPanelComponent,
     AttractionCardComponent,
     FooterComponent,
+    MobileInfoPanelComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,3 +4,9 @@
   margin: 0 auto;
   background: rgba(247, 247, 247);
 }
+
+app-map-panel {
+  @media screen and (max-width: 960px) {
+    height: calc(100vh - 90px);
+  }
+}
