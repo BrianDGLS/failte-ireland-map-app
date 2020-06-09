@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, AfterViewInit } from '@angular/core';
 
 import * as Projection from 'ol/proj';
 
@@ -6,21 +6,30 @@ import { Attraction } from '../attraction';
 import { MapService } from '../map.service';
 import { AppComponent } from '../app.component';
 import { MatBottomSheetRef } from '@angular/material/bottom-sheet';
+import { MobileMenuService } from '../mobile-menu.service';
 
 @Component({
   selector: 'app-attraction-card',
   templateUrl: './attraction-card.component.html',
   styleUrls: ['./attraction-card.component.scss'],
 })
-export class AttractionCardComponent {
+export class AttractionCardComponent implements AfterViewInit {
   @Input() image: string;
   @Input() description: string;
   @Input() attraction: Attraction;
 
+  public mobileMenuRef: MatBottomSheetRef<AppComponent>;
+
   constructor(
     private readonly mapService: MapService,
-    private _bottomSheetRef: MatBottomSheetRef<AppComponent>
+    private readonly mobileMenuService: MobileMenuService
   ) {}
+
+  ngAfterViewInit() {
+    this.mobileMenuService.mobileMenuRef$.subscribe((ref) => {
+      this.mobileMenuRef = ref;
+    });
+  }
 
   public viewAttractionOnMap(attraction: Attraction) {
     const { Name } = attraction;
@@ -38,8 +47,8 @@ export class AttractionCardComponent {
 
     this.mapService.selectedFeature$.next(feature);
 
-    if (window.innerWidth < 960) {
-      this._bottomSheetRef.dismiss();
+    if (window.innerWidth < 960 && this.mobileMenuRef) {
+      this.mobileMenuRef.dismiss();
     }
   }
 }

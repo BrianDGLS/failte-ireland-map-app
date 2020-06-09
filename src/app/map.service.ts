@@ -124,6 +124,7 @@ export class MapService {
 
   private mapClickHandler() {
     this.map.on('click', (e) => {
+      e.preventDefault();
       const features = this.map.getFeaturesAtPixel(e.pixel);
       this.selectedFeature$.next(features.length ? features[0] : undefined);
     });

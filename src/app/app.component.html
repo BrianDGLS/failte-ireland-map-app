@@ -6,7 +6,12 @@
     <app-info-panel fxFlex.gt-sm="33" *ngIf="isLargeScreen"></app-info-panel>
   </div>
 
-  <button mat-raised-button *ngIf="!isLargeScreen" (click)="openBottomSheet()">
+  <button
+    class="bottom-sheet-button"
+    mat-raised-button
+    *ngIf="!isLargeScreen"
+    (click)="openBottomSheet()"
+  >
     Unmissable Destinations
   </button>
 

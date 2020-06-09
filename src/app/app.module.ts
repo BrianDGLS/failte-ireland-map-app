@@ -14,6 +14,7 @@ import { AttractionCardComponent } from './attraction-card/attraction-card.compo
 import { FooterComponent } from './footer/footer.component';
 import { MapService } from './map.service';
 import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.component';
+import { MobileMenuService } from './mobile-menu.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.
     MaterialModule,
     FlexLayoutModule,
   ],
-  providers: [DataService, MapService],
+  providers: [DataService, MapService, MobileMenuService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
