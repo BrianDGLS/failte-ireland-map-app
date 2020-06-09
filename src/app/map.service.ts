@@ -103,10 +103,11 @@ export class MapService {
 
   private subscribeToSelectedFeature() {
     this.selectedFeature$.subscribe((feature) => {
-      if (!feature && this.activeFeature) {
+      if (this.activeFeature) {
         this.activeFeature.setStyle(this.defaultStyle);
-        return;
       }
+
+      if (!feature) return;
 
       feature.setStyle(this.activeStyle);
       this.activeFeature = feature;
