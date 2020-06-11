@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { CsvToJsonService } from './csv-to-json.service';
+
 import { Attraction } from './attraction';
+import { CsvToJsonService } from './csv-to-json.service';
 
 @Injectable({
   providedIn: 'root',

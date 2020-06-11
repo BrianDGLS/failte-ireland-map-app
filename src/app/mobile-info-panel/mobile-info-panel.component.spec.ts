@@ -1,4 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {
+  MatBottomSheetRef,
+  MAT_BOTTOM_SHEET_DATA,
+} from '@angular/material/bottom-sheet';
 
 import { MobileInfoPanelComponent } from './mobile-info-panel.component';
 
@@ -8,9 +12,12 @@ describe('MobileInfoPanelComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MobileInfoPanelComponent ]
-    })
-    .compileComponents();
+      declarations: [MobileInfoPanelComponent],
+      providers: [
+        { provide: MatBottomSheetRef, useValue: {} },
+        { provide: MAT_BOTTOM_SHEET_DATA, useValue: {} },
+      ],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

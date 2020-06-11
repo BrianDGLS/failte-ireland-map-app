@@ -13,4 +13,14 @@ describe('DataService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+  it('should return a string when getting csv data', async () => {
+    const csvData = await service.getAttractionsCsv();
+    expect(typeof csvData).toBe('string');
+  });
+
+  it('should return an array when getting json data', async () => {
+    const jsonData = await service.getAttractionsJson();
+    expect(Array.isArray(jsonData)).toBeTrue();
+  });
 });
