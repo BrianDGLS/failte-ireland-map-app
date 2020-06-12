@@ -8,8 +8,6 @@ import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'failte-ireland-map-app';
-
   get isLargeScreen(): boolean {
     return window.innerWidth > 960;
   }
