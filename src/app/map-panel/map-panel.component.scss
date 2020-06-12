@@ -11,7 +11,23 @@
   }
 
   .map-popup {
-    max-width: 95%;
+    cursor: default;
+
+    @media screen and (max-width: 960px) {
+      max-width: 95%;
+    }
+  }
+
+  .close {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+  }
+
+  .popup {
+    padding-top: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .arrow-down {

@@ -2,7 +2,14 @@
   <div id="map" class="map">
     <div #popup class="popup-wrap">
       <div *ngIf="attraction" class="map-popup">
-        <mat-card>
+        <mat-card class="popup">
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Close popup"
+            class="close"
+            (click)="closePopup()"
+            >close</mat-icon
+          >
           <mat-card-title>{{ attraction.Name }}</mat-card-title>
           <mat-card-subtitle
             >{{ attraction.AddressLocality }},

@@ -66,7 +66,7 @@ export class MapService {
     this.popup = new Overlay({
       element: $popup.nativeElement,
       positioning: 'bottom-center',
-      stopEvent: false,
+      stopEvent: true,
       offset: [0, -10],
     });
     this.map.addOverlay(this.popup);
@@ -124,9 +124,10 @@ export class MapService {
 
   private mapClickHandler() {
     this.map.on('click', (e) => {
-      e.preventDefault();
       const features = this.map.getFeaturesAtPixel(e.pixel);
-      this.selectedFeature$.next(features.length ? features[0] : undefined);
+      const feature = features.length ? features[0] : undefined;
+
+      this.selectedFeature$.next(feature);
     });
   }
 

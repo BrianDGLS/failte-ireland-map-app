@@ -30,4 +30,8 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
   async ngAfterViewInit(): Promise<void> {
     await this.mapService.createMap(this.$popup);
   }
+
+  closePopup() {
+    this.mapService.selectedFeature$.next();
+  }
 }
