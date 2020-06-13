@@ -7,13 +7,16 @@
 
 app-map-panel {
   @media screen and (max-width: 960px) {
-    height: calc(100vh - 93px);
+    height: calc(100vh - 56px);
   }
 }
 
-.bottom-sheet-button {
+.bottom-toolbar {
   position: fixed;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  background: linear-gradient(-180deg, transparent 50%, #344955 50%);
+
+  .bottom-sheet-button {
+    margin: 0 auto;
+  }
 }

@@ -29,14 +29,16 @@
           <mat-card-actions *ngIf="showButtonControls">
             <a
               *ngIf="attraction.Telephone"
-              mat-stroked-button
+              mat-raised-button
+              color="primary"
               [href]="attraction.Telephone"
               target="_blank"
               >Call</a
             >
             <a
               *ngIf="attraction.Url"
-              mat-stroked-button
+              mat-raised-button
+              color="accent"
               [href]="attraction.Url"
               target="_blank"
               >Website</a

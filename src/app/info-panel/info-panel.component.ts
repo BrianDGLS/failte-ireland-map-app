@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 import { Attraction } from '../attraction';
 import { DataService } from '../data.service';
 
