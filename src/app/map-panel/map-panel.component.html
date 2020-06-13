@@ -15,12 +15,9 @@
             >{{ attraction.AddressLocality }},
             {{ attraction.AddressRegion }}</mat-card-subtitle
           >
-          <mat-card-content>
+          <mat-card-content *ngIf="!showButtonControls">
             <div *ngIf="attraction.Telephone">
-              Call:
-              <a href="tel:{{ attraction.Telephone }}">{{
-                attraction.Telephone
-              }}</a>
+              Call: <i>{{ attraction.Telephone }}</i>
             </div>
             <div *ngIf="attraction.Url">
               Website:
@@ -29,6 +26,22 @@
               }}</a>
             </div>
           </mat-card-content>
+          <mat-card-actions *ngIf="showButtonControls">
+            <a
+              *ngIf="attraction.Telephone"
+              mat-stroked-button
+              [href]="attraction.Telephone"
+              target="_blank"
+              >Call</a
+            >
+            <a
+              *ngIf="attraction.Url"
+              mat-stroked-button
+              [href]="attraction.Url"
+              target="_blank"
+              >Website</a
+            >
+          </mat-card-actions>
         </mat-card>
         <div class="arrow-down"></div>
       </div>

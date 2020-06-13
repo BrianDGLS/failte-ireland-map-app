@@ -7,6 +7,7 @@ import { MapService } from '../map.service';
 import { AppComponent } from '../app.component';
 import { MatBottomSheetRef } from '@angular/material/bottom-sheet';
 import { MobileMenuService } from '../mobile-menu.service';
+import { ScreenSizeService } from '../screen-size.service';
 
 @Component({
   selector: 'app-attraction-card',
@@ -22,7 +23,8 @@ export class AttractionCardComponent implements AfterViewInit {
 
   constructor(
     private readonly mapService: MapService,
-    private readonly mobileMenuService: MobileMenuService
+    private readonly mobileMenuService: MobileMenuService,
+    private readonly screenSizeService: ScreenSizeService
   ) {}
 
   ngAfterViewInit() {
@@ -47,7 +49,7 @@ export class AttractionCardComponent implements AfterViewInit {
 
     this.mapService.selectedFeature$.next(feature);
 
-    if (window.innerWidth < 960 && this.mobileMenuRef) {
+    if (this.screenSizeService.isSmallScreen && this.mobileMenuRef) {
       this.mobileMenuRef.dismiss();
     }
   }

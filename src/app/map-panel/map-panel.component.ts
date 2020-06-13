@@ -8,6 +8,7 @@ import {
 
 import { Attraction } from '../attraction';
 import { MapService } from '../map.service';
+import { ScreenSizeService } from '../screen-size.service';
 
 @Component({
   selector: 'app-map-panel',
@@ -19,7 +20,14 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
 
   public attraction: Attraction;
 
-  constructor(private readonly mapService: MapService) {}
+  get showButtonControls(): boolean {
+    return this.screenSizeService.isSmallScreen;
+  }
+
+  constructor(
+    private readonly mapService: MapService,
+    private readonly screenSizeService: ScreenSizeService
+  ) {}
 
   ngOnInit() {
     this.mapService.selectedFeature$.subscribe((feature) => {

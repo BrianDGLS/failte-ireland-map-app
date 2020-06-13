@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MapService } from './map.service';
 import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.component';
 import { MobileMenuService } from './mobile-menu.service';
+import { ScreenSizeService } from './screen-size.service';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,7 @@ import { MobileMenuService } from './mobile-menu.service';
     MaterialModule,
     FlexLayoutModule,
   ],
-  providers: [DataService, MapService, MobileMenuService],
+  providers: [DataService, MapService, MobileMenuService, ScreenSizeService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
