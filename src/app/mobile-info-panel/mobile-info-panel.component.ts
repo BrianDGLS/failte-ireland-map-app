@@ -18,7 +18,7 @@ export class MobileInfoPanelComponent implements AfterViewInit {
     this.mobileMenuService.mobileMenuRef$.next(this._bottomSheetRef);
   }
 
-  openLink(event: MouseEvent): void {
+  closePanel(event: MouseEvent): void {
     this._bottomSheetRef.dismiss();
     event.preventDefault();
   }
