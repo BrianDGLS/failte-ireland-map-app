@@ -1,10 +1,8 @@
-@import "settings/theme";
-
 .content-container {
   max-width: 1187px;
   min-height: 100%;
   margin: 0 auto;
-  background: mat-color($mat-gray, 100);
+  background: #f5f5f5;
 }
 
 app-map-panel {
@@ -16,11 +14,7 @@ app-map-panel {
 .bottom-toolbar {
   position: fixed;
   bottom: 0;
-  background: linear-gradient(
-    -180deg,
-    transparent 50%,
-    mat-color($app-primary) 50%
-  );
+  background: linear-gradient(-180deg, transparent 50%, #455a64 50%);
 
   .bottom-sheet-button {
     margin: 0 auto;
