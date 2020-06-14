@@ -6,7 +6,7 @@
     <app-info-panel fxFlex.gt-sm="33" *ngIf="isLargeScreen"></app-info-panel>
   </div>
 
-  <mat-toolbar class="bottom-toolbar">
+  <mat-toolbar class="bottom-toolbar" *ngIf="!isLargeScreen">
     <button
       mat-flat-button
       color="accent"

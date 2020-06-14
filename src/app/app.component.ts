@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
+
+import { ScreenSizeService } from './screen-size.service';
 import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.component';
 
 @Component({
@@ -9,12 +11,15 @@ import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.
 })
 export class AppComponent {
   get isLargeScreen(): boolean {
-    return window.innerWidth > 960;
+    return this.screenSizeService.isLargeScreen;
   }
 
-  constructor(private _bottomSheet: MatBottomSheet) {}
+  constructor(
+    private readonly $bottomSheet: MatBottomSheet,
+    private readonly screenSizeService: ScreenSizeService
+  ) {}
 
   openBottomSheet(): void {
-    this._bottomSheet.open(MobileInfoPanelComponent);
+    this.$bottomSheet.open(MobileInfoPanelComponent);
   }
 }

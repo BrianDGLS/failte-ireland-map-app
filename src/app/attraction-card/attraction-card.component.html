@@ -9,22 +9,35 @@
   <img *ngIf="image" mat-card-image [src]="image" alt="" />
   <mat-card-content>
     <p *ngIf="description">{{ description }}</p>
-    <div *ngIf="attraction.Telephone">
-      Call:
-      <a href="tel:{{ attraction.Telephone }}">{{ attraction.Telephone }}</a>
-    </div>
-    <div *ngIf="attraction.Url">
-      Website:
-      <a [href]="attraction.Url" target="_blank">{{ attraction.Url }}</a>
-    </div>
+
+    <table *ngIf="attraction.Telephone || attraction.Url">
+      <tr style="text-align: left;" *ngIf="attraction.Telephone">
+        <th>Phone</th>
+        <td>{{ attraction.Telephone }}</td>
+      </tr>
+      <tr style="text-align: left;" *ngIf="attraction.Url">
+        <th>Website</th>
+        <td>
+          <a [href]="attraction.Url" target="_blank">{{
+            concatenatedURL(attraction)
+          }}</a>
+        </td>
+      </tr>
+    </table>
   </mat-card-content>
   <mat-card-actions>
-    <button
-      mat-raised-button
-      color="accent"
-      (click)="viewAttractionOnMap(attraction)"
+    <a
+      *ngIf="attraction.Telephone"
+      mat-button
+      href="tel:{{ attraction.Telephone }}"
+      target="_blank"
+      ><mat-icon>phone</mat-icon></a
     >
-      View on map
+    <a *ngIf="attraction.Url" mat-button [href]="attraction.Url" target="_blank"
+      ><mat-icon>website</mat-icon></a
+    >
+    <button mat-stroked-button (click)="viewAttractionOnMap(attraction)">
+      View
     </button>
   </mat-card-actions>
 </mat-card>

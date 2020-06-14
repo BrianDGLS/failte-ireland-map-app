@@ -4,4 +4,9 @@
     overflow-y: scroll;
     max-height: calc(100vh - 104px);
   }
+
+  &__view-all-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }

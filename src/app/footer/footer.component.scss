@@ -1,4 +1,6 @@
-.disclaimer {
-  margin: 8px 0;
-  display: inline-block;
+.app-footer {
+  &__disclaimer {
+    margin: 8px 0;
+    display: inline-block;
+  }
 }

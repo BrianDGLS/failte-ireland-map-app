@@ -42,7 +42,7 @@ export class MapService {
   public get activeStyle(): Style {
     if (!this._activeStyle) {
       const fill = new Fill({ color: 'rgba(255,255,255,0.4)' });
-      const stroke = new Stroke({ color: '#9933CC', width: 1.25 });
+      const stroke = new Stroke({ color: '#004D40', width: 1.25 });
       const image = new Circle({ fill: fill, stroke: stroke, radius: 5 });
       this._activeStyle = new Style({ image, fill, stroke });
     }
@@ -53,7 +53,7 @@ export class MapService {
   public get defaultStyle(): Style {
     if (!this._defaultStyle) {
       const fill = new Fill({ color: 'rgba(255,255,255,0.4)' });
-      const stroke = new Stroke({ color: '#3399CC', width: 1.25 });
+      const stroke = new Stroke({ color: '#009688', width: 1.25 });
       const image = new Circle({ fill: fill, stroke: stroke, radius: 5 });
       this._defaultStyle = new Style({ image, fill, stroke });
     }
