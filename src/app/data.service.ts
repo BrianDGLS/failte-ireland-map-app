@@ -17,7 +17,11 @@ export class DataService {
 
     const csvData = await this.getAttractionsCsv();
     const attractions: Attraction[] = this.csvToJsonService.convert(csvData);
-    return attractions.filter((_) => _.Longitude && _.Latitude);
+    this._attractionsJson = attractions.filter(
+      (_) => _.Longitude && _.Latitude
+    );
+
+    return this._attractionsJson;
   }
 
   public async getAttractionsCsv(): Promise<string> {
@@ -25,9 +29,10 @@ export class DataService {
 
     const request = await fetch('/assets/data/attractions.csv');
     if (request.ok) {
-      return await request.text();
+      this._attractionsCsv = await request.text();
+      return this._attractionsCsv;
+    } else {
+      throw new Error(request.statusText);
     }
-
-    throw new Error(request.statusText);
   }
 }
