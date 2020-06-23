@@ -16,6 +16,7 @@ import { MapPanelComponent } from './map-panel/map-panel.component';
 import { InfoPanelComponent } from './info-panel/info-panel.component';
 import { AttractionCardComponent } from './attraction-card/attraction-card.component';
 import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.component';
+import { HelpBarComponent } from './help-bar/help-bar.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.
     AttractionCardComponent,
     FooterComponent,
     MobileInfoPanelComponent,
+    HelpBarComponent,
   ],
   imports: [
     BrowserModule,

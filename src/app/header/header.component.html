@@ -2,11 +2,15 @@
   <mat-toolbar-row>
     <span>Fáilte Maps</span>
     <span class="app-header__spacer"></span>
-    <mat-icon
-      class="app-header__icon"
-      aria-hidden="false"
-      aria-label="Click to get info about this app"
-      >info</mat-icon
-    >
+
+    <button mat-icon-button>
+      <mat-icon
+        class="app-header__icon"
+        aria-hidden="false"
+        aria-label="Click to get info about this app"
+        (click)="openHelpBar()"
+        >info</mat-icon
+      >
+    </button>
   </mat-toolbar-row>
 </mat-toolbar>

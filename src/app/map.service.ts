@@ -16,6 +16,7 @@ import { Icon, Style, Fill, Stroke, Circle } from 'ol/style';
 
 import { Attraction } from './attraction';
 import { DataService } from './data.service';
+import { ScreenSizeService } from './screen-size.service';
 
 @Injectable({
   providedIn: 'root',
@@ -42,8 +43,12 @@ export class MapService {
   public get activeStyle(): Style {
     if (!this._activeStyle) {
       const fill = new Fill({ color: 'rgba(255,255,255,0.4)' });
-      const stroke = new Stroke({ color: '#004D40', width: 1.25 });
-      const image = new Circle({ fill: fill, stroke: stroke, radius: 5 });
+      const stroke = new Stroke({ color: '#004D40', width: 2 });
+      const image = new Circle({
+        fill: fill,
+        stroke: stroke,
+        radius: this.screenSizeService.isLargeScreen ? 8 : 10,
+      });
       this._activeStyle = new Style({ image, fill, stroke });
     }
     return this._activeStyle;
@@ -53,14 +58,21 @@ export class MapService {
   public get defaultStyle(): Style {
     if (!this._defaultStyle) {
       const fill = new Fill({ color: 'rgba(255,255,255,0.4)' });
-      const stroke = new Stroke({ color: '#009688', width: 1.25 });
-      const image = new Circle({ fill: fill, stroke: stroke, radius: 5 });
+      const stroke = new Stroke({ color: '#009688', width: 2 });
+      const image = new Circle({
+        fill: fill,
+        stroke: stroke,
+        radius: this.screenSizeService.isLargeScreen ? 6 : 8,
+      });
       this._defaultStyle = new Style({ image, fill, stroke });
     }
     return this._defaultStyle;
   }
 
-  constructor(private readonly dataService: DataService) {}
+  constructor(
+    private readonly dataService: DataService,
+    private readonly screenSizeService: ScreenSizeService
+  ) {}
 
   public registerPopup($popup: ElementRef) {
     this.popup = new Overlay({
@@ -79,7 +91,9 @@ export class MapService {
       const { Longitude, Latitude } = attraction;
       const projection = Projection.fromLonLat([Longitude, Latitude]);
       const geometry = new Point(projection);
-      features.push(new Feature({ attraction, geometry }));
+      const feature = new Feature({ attraction, geometry });
+      feature.setStyle(this.defaultStyle);
+      features.push(feature);
     }
     return features;
   }
