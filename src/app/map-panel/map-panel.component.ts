@@ -42,4 +42,6 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
   closePopup() {
     this.mapService.selectedFeature$.next();
   }
+
+  share(attraction: Attraction) {}
 }
