@@ -17,6 +17,8 @@ import { InfoPanelComponent } from './info-panel/info-panel.component';
 import { AttractionCardComponent } from './attraction-card/attraction-card.component';
 import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.component';
 import { HelpBarComponent } from './help-bar/help-bar.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,7 @@ import { HelpBarComponent } from './help-bar/help-bar.component';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [DataService, MapService, MobileMenuService, ScreenSizeService],
   bootstrap: [AppComponent],
