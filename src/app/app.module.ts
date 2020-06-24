@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
+import { ServiceWorkerModule } from '@angular/service-worker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MapService } from './map.service';
@@ -10,15 +11,14 @@ import { MaterialModule } from './material-module';
 import { AppRoutingModule } from './app-routing.module';
 import { MobileMenuService } from './mobile-menu.service';
 import { ScreenSizeService } from './screen-size.service';
+import { environment } from '../environments/environment';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HelpBarComponent } from './help-bar/help-bar.component';
 import { MapPanelComponent } from './map-panel/map-panel.component';
 import { InfoPanelComponent } from './info-panel/info-panel.component';
 import { AttractionCardComponent } from './attraction-card/attraction-card.component';
 import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.component';
-import { HelpBarComponent } from './help-bar/help-bar.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,9 @@ import { environment } from '../environments/environment';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+    }),
   ],
   providers: [DataService, MapService, MobileMenuService, ScreenSizeService],
   bootstrap: [AppComponent],

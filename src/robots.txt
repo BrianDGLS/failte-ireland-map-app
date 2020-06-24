@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://failte-maps.ie/sitemap.xml
