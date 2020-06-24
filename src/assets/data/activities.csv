@@ -24,7 +24,7 @@ Dalvey,http://www.dalvey.com,+353(0)16799977,-6.259924,53.341803,Dublin,Dublin C
 Tí Joe Watty's,http://www.joewattys.com,+353(0)860494509,-9.674758,53.12105,Galway,Inishmore - Árainn,Republic of Ireland
 Lucy's Wood Garden,http://www.visitwexford.ie/locations/lucys-wood-garden,+353(0)539377256,-6.667606,52.653465,Wexford,Bunclody,Republic of Ireland
 Colclough Walled  Garden,http://www.colcloughwalledgarden.com,+353(0)833064159,-6.83345453194169,52.243823241559,Wexford,Saltmills,Republic of Ireland
-"Jaipur, Malahide",http://jaipur.ie/locations/malahide/,+353(0)18455455,-6.15179475826641,53.4514512524201,Dublin,Malahide,Republic of Ireland
+Jaipur Malahide,http://jaipur.ie/locations/malahide/,+353(0)18455455,-6.15179475826641,53.4514512524201,Dublin,Malahide,Republic of Ireland
 Jaipur,http://www.jaipur.ie,+353(0)12850552,-6.104259,53.277496,Dublin,Dalkey,Republic of Ireland
 Jewel in The Crown,http://www.jewelinthecrown.ie,+353(0)16670959,-6.232093,53.330505,Dublin,Ballsbridge,Republic of Ireland
 Coolaught Gardens,,+353(0)539244137,-6.718682,52.468534,Wexford,Clonroche,Republic of Ireland
@@ -96,12 +96,12 @@ Galway Irish Crystal,http://www.galwaycrystal.ie,+353(0)91757311,-8.996774872352
 Galway Family History Society (West) Ltd.,http://www.rootsireland.ie,+353(0)91860464,-9.07109418650816,53.2759568992711,Galway,Galway City,Republic of Ireland
 South Mayo Family Research Centre,http://www.mayo.irishroots.net/,+353(0)949541214,-9.222428,53.623485,Mayo,Ballinrobe,Republic of Ireland
 County Sligo Heritage and Genealogy Society,http://www.sligoroots.com,+353(0)719143728,-8.477043,54.268771,Sligo,Sligo,Republic of Ireland
-Inishowen Boating,http://www.facebook.com/inishowenboating,+353(0)862522685,-7.262806,55.303162,Donegal,"Culdaff, Inishowen",Republic of Ireland
+Inishowen Boating,http://www.facebook.com/inishowenboating,+353(0)862522685,-7.262806,55.303162,Donegal,Culdaff,Republic of Ireland
 Ashford Equestrian Centre,http://www.ashfordequestrian.com,+353(0)949546507,-9.260245,53.553519,Mayo,Cong,Republic of Ireland
 Blue Water Fishing,http://www.seafishingireland.net,+353(0)9521073,-10.042122,53.511565,Galway,Clifden,Republic of Ireland
 Glencoagh Lough,,+353(0)749735032,-8.20210169559716,54.6409769050299,Donegal,Mountcharles,Republic of Ireland
 The Táin Way,http://carlingfordandcooleypeninsula.ie/,+353(0)429373033,-6.39708,54.004607,Louth,Carlingford,Republic of Ireland
-"Walking - The Western Way, Galway",http://www.thewesternway.ie,+353(0)9541116,-9.048728,53.276473,Galway,Oughterard,Republic of Ireland
+Walking - The Western Way,http://www.thewesternway.ie,+353(0)9541116,-9.048728,53.276473,Galway,Oughterard,Republic of Ireland
 The Cavan Way,http://www.irishtrails.ie/Trail/Cavan-Way/8/,+353(0)494378543,-8.01507229944411,54.1899060717684,Cavan,Blacklion,Republic of Ireland
 The Offaly Way,,+353(0)61317522,-7.67019277587894,53.1384854207371,Offaly,Cadamstown,Republic of Ireland
 Kilkea Castle Golf Club,http://www.kilkeacastle.ie/golf,+353(0)599145555,-6.884657,52.943571,Kildare,Castledermot,Republic of Ireland
@@ -226,7 +226,7 @@ Inis Meáin Knitting Company,http://www.inismeain.ie,+353(0)9973009,-9.583115,53
 Castlebar Golf Club,http://www.castlebargolfclub.ie,+353(0)949021649,-9.271672,53.833609,Mayo,Castlebar,Republic of Ireland
 Tuam Golf Club,http://www.tuamgolfclub.com,+353(0)9328993,-8.835863,53.494126,Galway,Tuam,Republic of Ireland
 Cycle Holidays Ireland,http://www.cycleholidaysireland.com,+353(0)878321200,-8.296194,53.115448,Galway,Ballinasloe,Republic of Ireland
-"Ravensdale Lodge, Equestrian & Trekking Centre",http://www.ravensdalelodge.com,+353(0)429371034,-6.3408,54.057899,Louth,Dundalk,Republic of Ireland
+Ravensdale Lodge Equestrian & Trekking Centre,http://www.ravensdalelodge.com,+353(0)429371034,-6.3408,54.057899,Louth,Dundalk,Republic of Ireland
 Carlingford Adventure Centre,http://www.carlingfordadventure.com,+353(0)429373100,-6.186241,54.040061,Louth,Carlingford,Republic of Ireland
 Sonairte The National Ecology Centre,http://www.sonairte.ie,+353(0)419827572,-6.25604567591858,53.6782761795197,Meath,Laytown,Republic of Ireland
 Cons Bar,http://www.facebook.com/Consbar/,+353(0)449340925,-7.34574194973754,53.524764798656,Westmeath,Mullingar,Republic of Ireland
@@ -429,7 +429,7 @@ Connemara Smokehouse,http://www.smokehouse.ie,+353(0)9523739,-10.1165398820463,5
 Travel Choice,http://www.irishtravelchoice.com,+353(0)578660775,-7.299242,53.03403,Laois,Portlaoise,Republic of Ireland
 Callan Golf Club,http://www.callangolfclub.com,+353(0)567725136,-7.372338,52.530772,Kilkenny,Callan,Republic of Ireland
 Doolans Boat Hire,,+353(0)449342085,-7.35704365576059,53.5591027072512,Westmeath,Mullingar,Republic of Ireland
-"Fadó Antiques, Gifts & Gallery Framing",,+353(0)669151452,-10.268361,52.141472,Kerry,Dingle,Republic of Ireland
+Fadó Antiques Gifts & Gallery Framing,,+353(0)669151452,-10.268361,52.141472,Kerry,Dingle,Republic of Ireland
 Annalee Restaurant,http://www.hotelkilmore.ie/annalee-restaurant.html,+353(0)494332288,-7.322566,53.986931,Cavan,Cavan Town,Republic of Ireland
 The Spirit Store,http://www.spiritstore.ie,+353(0)429352697,-6.390138,54.009001,Louth,Dundalk,Republic of Ireland
 CJ's Restaurant,http://www.thelandmarkhotel.com,+353(0)719622222,-8.092845,53.94355,Leitrim,Carrick-On-Shannon,Republic of Ireland
@@ -459,7 +459,7 @@ Gene Anderson's Thatch Pub,http://www.andersonspub.com,+353(0)872283288,-8.12980
 O'Grady's Bar and Restaurant,http://www.ogradysgort.net,+353(0)91631096,-8.819298,53.066596,Galway,Gort,Republic of Ireland
 Cooke's Restaurant & Wine Bar,http://cookes.ie/,+353(0)91568203,-9.052722,53.273693,Galway,Galway City,Republic of Ireland
 Keogh's Bar and Restaurant,,+353(0)91637145,-8.937647,53.138623,Galway,Kinvara,Republic of Ireland
-"Mount Gable House, Bar & Restaurant",http://www.burkes-clonbur.com,+353(0)949546175,-9.365542,53.545039,Galway,Clonbur,Republic of Ireland
+Mount Gable House Bar & Restaurant,http://www.burkes-clonbur.com,+353(0)949546175,-9.365542,53.545039,Galway,Clonbur,Republic of Ireland
 Fermoy Golf Club,http://www.fermoygolfclub.ie,+353(0)2531472,-8.298737,52.113122,Cork,Fermoy,Republic of Ireland
 Irish Midlands Ancestry,http://www.irishmidlandsancestry.com,+353(0)579321421,-7.493293,53.277603,Offaly,Tullamore,Republic of Ireland
 The Galleon Restaurant,http://www.facebook.com/TheGalleonRestaurant/,+353(0)91522963,-9.075967,53.260369,Galway,Salthill,Republic of Ireland
@@ -571,7 +571,7 @@ Triona,https://www.trionadesign.com,+353(0)749541422,-8.41807987512493,54.762395
 Hi-Way Restaurant & Lounge Bar,http://www.hiwaybar.ie/,+353(0)61227449,-8.653787,52.63693,Limerick,Limerick City,Republic of Ireland
 Michael Kennedy Ceramics,,+353(0)719148844,-8.473423,54.270148,Sligo,Sligo Town,Republic of Ireland
 Bird Watching in Dunmore East,,,-6.99846730415838,52.1534789756632,Waterford,Dunmore East,Republic of Ireland
-Cushendale Woollen Mills,http://www.cushendale.ie,+353(0)599724118,-6.957462,52.541015,Kilkenny,"Graignamanagh,",Republic of Ireland
+Cushendale Woollen Mills,http://www.cushendale.ie,+353(0)599724118,-6.957462,52.541015,Kilkenny,Graignamanagh,Republic of Ireland
 The Pantry,http://www.facebook.com/pages/The-Pantry/150366408369006,+353(0)567762250,-7.25319053067119,52.65292067887,Kilkenny,Kilkenny City,Republic of Ireland
 Carrigaholt Sea Angling Centre,http://www.fishandstay.com,+353(0)659058209,-9.721332,52.591996,Clare,Carrigaholt,Republic of Ireland
 Finnegans Bar & Restaurant,,+353(0)61337338,-8.517996,52.672298,Limerick,Annacotty,Republic of Ireland
@@ -652,7 +652,7 @@ Letterkenny Shopping Centre,http://www.letterkennysc.com/,+353(0)749123094,-7.72
 Killarney Outlet Centre,http://www.killarneyoutletcentre.com,+353(0)646636744,-9.503043,52.059641,Kerry,Killarney,Republic of Ireland
 John Benny's Pub,http://www.johnbennyspub.com,+353(0)669151215,-10.274483,52.139396,Kerry,Dingle ,Republic of Ireland
 Derrynane Sea Sports,http://www.derrynaneseasports.com,+353(0)879081208,-10.1291749472829,51.7647852125677,Kerry,Caherdaniel,Republic of Ireland
-"Crockets on the Quay, Restaurant & Bar",,+353(0)9675930,-9.137234,54.131542,Mayo,Ballina,Republic of Ireland
+Crockets on the Quay Restaurant & Bar,,+353(0)9675930,-9.137234,54.131542,Mayo,Ballina,Republic of Ireland
 Siopa Chill Rialaig,,+353(0)669479277,-10.266306,51.832578,Kerry,Ballinskelligs,Republic of Ireland
 Hayes Cycles and Fishing Shop,http://www.hayescycles.com/,+353(0)539122462,-6.459404,52.335739,Wexford,Wexford,Republic of Ireland
 Mandy Parslow Studio Potter,http://www.parslowpottery.com,+353(0)6256011,-8.192048,52.419387,Tipperary,Glen Of Aherlow,Republic of Ireland
@@ -675,7 +675,7 @@ Wehrly Bros Ltd - Jewellers,https://www.wehrlybros.ie,+353(0)719142252,-8.4753,5
 Castleisland Golf Club,http://castleislandgc.com/,+353(0)667141709,-9.4694,52.262644,Kerry,Castleisland,Republic of Ireland
 Tralee Golf Club,http://www.traleegolfclub.com,+353(0)667136379,-9.8579,52.301299,Kerry,Tralee,Republic of Ireland
 Ireland Walk Hike Bike,http://www.irelandwalkhikebike.com,+353(0)667186181,-9.69031721408077,52.286721526826,Kerry,Tralee,Republic of Ireland
-"Allo's Restaurant, Bar & Bistro",,+353(0)6822880,-9.484211,52.446586,Kerry,Listowel,Republic of Ireland
+Allo's Restaurant Bar & Bistro,,+353(0)6822880,-9.484211,52.446586,Kerry,Listowel,Republic of Ireland
 The Cliff Restaurant,,+353(0)6827777,-9.673277,52.514457,Kerry,Ballybunion,Republic of Ireland
 Horseshoe Bar & Restaurant,,+353(0)6821083,-9.486148,52.44625,Kerry,Listowel,Republic of Ireland
 The Marine Links Hotel,,+353(0)6827139,-9.675874,52.510845,Kerry,Ballybunion,Republic of Ireland
@@ -820,7 +820,7 @@ Oscar Taylor's,http://www.islandviewhotel.ie,+353(0)18450099,-6.141412,53.449607
 Pearl Brasserie,http://www.pearl-brasserie.com,+353(0)16613572,-6.253195,53.338265,Dublin,Dublin City,Republic of Ireland
 Peterson of Dublin,http://www.peterson.ie,+353(0)16714652,-6.259391,53.344024,Dublin,Dublin City Centre,Republic of Ireland
 Alex Restaurant,http://conradhotels3.hilton.com/en/hotels/ireland/conrad-dublin-DUBHCCI/index.html,+353(0)16028900,-6.257232,53.334945,Dublin,Dublin city centre,Republic of Ireland
-"Porterhouse, Temple Bar",http://www.porterhousebrewco.com,+353(0)16798847,-6.267354,53.3451,Dublin,Dublin City,Republic of Ireland
+Porterhouse Temple Bar,http://www.porterhousebrewco.com,+353(0)16798847,-6.267354,53.3451,Dublin,Dublin City,Republic of Ireland
 The Royal Dublin Golf Club,http://www.theroyaldublingolfclub.com,+353(0)18336346,-6.170537,53.356746,Dublin,Dublin,Republic of Ireland
 Salamanca,http://www.salamanca.ie,+353(0)16774799,-6.261616,53.343483,Dublin,Dublin City,Republic of Ireland
 Sinnotts Bar,http://www.sinnotts.ie,+353(0)14784698,-6.262002,53.339967,Dublin,Dublin City,Republic of Ireland
@@ -865,8 +865,8 @@ The Vathouse Bar of Temple Bar,http://www.vathouse.ie,+353(0)16715622,-6.262143,
 The Bankers,http://thebankersbar.ie/,+353(0)16793697,-6.262441,53.343947,Dublin,Dublin City,Republic of Ireland
 Shanahan's on the Green,http://www.shanahans.ie,+353(0)14070939,-6.262309,53.338397,Dublin,Dublin City,Republic of Ireland
 Art & Antiques Quarter,http://www.artandantiquesquarter.ie/,+353(0)14731126,-6.273896,53.340223,Dublin,Dublin City Centre,Republic of Ireland
-"Kilkenny Shop, Cafe & Restaurant",http://www.kilkennyshop.com,+353(0)16777075,-6.255074,53.342141,Dublin,Dublin City,Republic of Ireland
-"Cafe Cairo, Trinity Capital Hotel",http://www.trinitycapitalhotel.com,+353(0)16481000,-6.254148,53.345194,Dublin,Dublin city centre,Republic of Ireland
+Kilkenny Shop Cafe & Restaurant,http://www.kilkennyshop.com,+353(0)16777075,-6.255074,53.342141,Dublin,Dublin City,Republic of Ireland
+Cafe Cairo Trinity Capital Hotel,http://www.trinitycapitalhotel.com,+353(0)16481000,-6.254148,53.345194,Dublin,Dublin city centre,Republic of Ireland
 Celtic Whiskey Shop,http://www.celticwhiskeyshop.com,+353(0)16759744,-6.258824,53.339874,Dublin,Dublin city centre,Republic of Ireland
 Lemon Jelly Café,http://www.lemonjellycafe.ie/,+353(0)18735161,-6.26540399999998,53.347195,Dublin,Jervis Street,Republic of Ireland
 Irish Celtic Craftshop,https://www.facebook.com/Irish-Celtic-Craftshop-495260460660611/,+353(0)16799912,-6.269449,53.343846,Dublin,Dublin city centre,Republic of Ireland
@@ -902,7 +902,7 @@ Tullamore Golf Club,http://www.tullamoregolfclub.ie,+353(0)579321439,-7.520626,5
 Ballinlough Castle Golf Club,http://www.ballinloughcastle.ie,+353(0)469433760,-7.025624,53.636621,Westmeath,Clonmellon,Republic of Ireland
 Moate Golf Club,http://www.moategolfclub.ie,+353(0)906481271,-7.726236,53.399452,Westmeath,Moate,Republic of Ireland
 Mullingar Golf Club,http://www.mullingargolfclub.com,+353(0)449348366,-7.357337,53.481557,Westmeath,Mullingar,Republic of Ireland
-"McSwiggan's Restaurant, Pub and Cafe Bar",http://www.mcswiggans.com,+353(0)91568917,-9.052594,53.275025,Galway,Galway City,Republic of Ireland
+McSwiggan's Restaurant Pub and Cafe Bar,http://www.mcswiggans.com,+353(0)91568917,-9.052594,53.275025,Galway,Galway City,Republic of Ireland
 The Old Courthouse Bistro,http://www.liffordoldcourthouse.com,+353(0)749141733,-7.47886,54.833088,Donegal,Lifford,Republic of Ireland
 The Rusty Nail,,+353(0)749376116,-7.451841,55.275279,Donegal,Clonmany,Republic of Ireland
 Kinsale Outdoor Education Centre,http://www.kinsaleoutdoors.com,+353(0)214772896,-8.520366,51.701492,Cork,Kinsale,Republic of Ireland
@@ -1132,7 +1132,7 @@ Shawbrook Ballet Theatre,http://www.shawbrook.org/,+353(0)449357570,-7.602052,53
 Centenary Stores,http://www.thestores.ie,+353(0)539124424,-6.46210845213227,52.3407839552912,Wexford,Wexford,Republic of Ireland
 Mannions  Pub,http://www.mannionspub.ie,+353(0)51426510,-6.93689279046725,52.4144624913497,Wexford,New Ross,Republic of Ireland
 Horans Baltinglass,http://www.horansbaltinglass.com,+353(0)596481733,-6.708369,52.940932,Wicklow,Baltinglass,Republic of Ireland
-"The Horse & Hound, Delgany",http://www.horseandhounddelgany.com/,+353(0)12874642,-6.091065,53.133743,Wicklow,Delgany,Republic of Ireland
+The Horse & Hound Delgany,http://www.horseandhounddelgany.com/,+353(0)12874642,-6.091065,53.133743,Wicklow,Delgany,Republic of Ireland
 Jacobs Well,http://www.jacobswellrathdrum.com,+353(0)40446282,-6.230762,52.932593,Wicklow,Rathdrum,Republic of Ireland
 Lees Shamrock House,,+353(0)12875267,-6.064889,53.109495,Wicklow,Kilcoole,Republic of Ireland
 Phelan Licensed Grocer,https:///www.facebook.com/PhelanLicensedGrocer,+353(0)40446368,-6.259712,52.903368,Wicklow,Rathdrum,Republic of Ireland
@@ -1672,7 +1672,7 @@ Bold Thady Quill,,+353(0)646641368,-9.583341,51.880132,Kerry,Kenmare,Republic of
 Mulcahy's,http://www.mulcahys.ie,+353(0)526125054,-7.70194,52.354371,Tipperary,Clonmel,Republic of Ireland
 Lavelles Pub,,+353(0)9826049,-9.521616,53.800049,Mayo,Westport,Republic of Ireland
 Jake's Bar at Lynhams Hotel,http://www.lynhamsoflaragh.ie/,+353(0)40445345,-6.297239,53.008103,Wicklow,Glendalough,Republic of Ireland
-"Monks Ballyvaughan, Seafood Restaurant & Bar",http://www.monks.ie,+353(0)657077059,-9.15469914207415,53.1197614461439,Clare,Ballyvaughan,Republic of Ireland
+Monks Ballyvaughan Seafood Restaurant & Bar,http://www.monks.ie,+353(0)657077059,-9.15469914207415,53.1197614461439,Clare,Ballyvaughan,Republic of Ireland
 The Club,http://www.theclubdalkey.com/,+353(0)12858511,-6.10262,53.277288,Dublin,Dalkey,Republic of Ireland
 The Quays Bar,http://www.louisfitzgerald.com/quaysgalway,+353(0)91568347,-9.053915,53.271083,Galway,Galway City Centre,Republic of Ireland
 Triskel Arts Centre,http://www.triskelartscentre.ie,+353(0)214272022,-8.469731,51.898543,Cork,Cork City,Republic of Ireland
@@ -1720,7 +1720,7 @@ Beshoffs Restaurant,http://www.beshoffrestaurant.com/,+353(0)18724400,-6.2600837
 Joels Restaurant Newlands Cross,http://www.joels.ie,+353(0)14033336,-6.392954,53.320814,Dublin,Clondalkin,Republic of Ireland
 Kealys of Cloghran,http://www.kealysofcloghran.ie,+353(0)18401372,-6.230054,53.425315,Dublin,Dublin Airport,Republic of Ireland
 Sheries Café Bar,http://www.sheries.ie/index.htm,+353(0)18747237,-6.25898,53.34872,Dublin,Dublin City Centre,Republic of Ireland
-"The Harcourt Hotel, Bar and Restaurant",http://www.harcourthotel.ie,+353(0)14783677,-6.262743,53.334425,Dublin,Dublin City Centre,Republic of Ireland
+The Harcourt Hotel Bar and Restaurant,http://www.harcourthotel.ie,+353(0)14783677,-6.262743,53.334425,Dublin,Dublin City Centre,Republic of Ireland
 The Old Schoolhouse Restaurant,http://www.theoldschoolhouse.ie/,+353(0)18402846,-6.222929,53.456663,Dublin,Swords,Republic of Ireland
 The Pie Dish Bistro,http://www.stephensgreenhotel.ie/restaurant-bar.aspx,+353(0)16073600,-6.263403,53.337401,Dublin,Dublin City Centre,Republic of Ireland
 Caravaggios Restaurant,http://www.ocallaghanhotels.com,+353(0)16073700,-6.249085,53.341851,Dublin,Dublin City Centre,Republic of Ireland
@@ -1738,7 +1738,7 @@ Listowel Golf and Fishing Club,http://www.gogolfing.ie/golf-course.php?id_club=2
 Dunguaire Castle Banquet,http://www.shannonheritage.com,+353(0)61360788,-8.926241,53.142202,Galway,Kinvara,Republic of Ireland
 Kite Design Studios -  Henrietta Street,http://www.kitedesignstudios.ie/,+353(0)51858914,-7.108182,52.260266,Waterford,Waterford City,Republic of Ireland
 The Milk Market,http://www.milkmarketlimerick.ie,,-8.622063,52.663656,Limerick,Limerick City,Republic of Ireland
-"Citywest Hotel, Conference, Leisure & Golf Resort.",http://www.citywesthotel.com,+353(0)14010878,-6.450051,53.285947,Dublin,Saggart,Republic of Ireland
+Citywest Hotel Conference Leisure & Golf Resort.,http://www.citywesthotel.com,+353(0)14010878,-6.450051,53.285947,Dublin,Saggart,Republic of Ireland
 Donabate Golf Club,http://www.donabategolfclub.com,+353(0)18436346,-6.127202,53.480266,Dublin,Donabate,Republic of Ireland
 The Waterloo Bar,http://www.thewaterloobarandgrill.ie,+353(0)16600650,-6.24327377794452,53.333331716237,Dublin,Dublin City,Republic of Ireland
 Turks Head,http://www.paramounthotel.ie/turks-head.html,+353(0)16799701,-6.267649,53.344687,Dublin,Temple Bar,Republic of Ireland
@@ -1762,7 +1762,7 @@ Yesterdays,http://www.yesterdays.ie,+353(0)567765557,-8.474115,51.899172,Kilkenn
 The Candle Room Restaurant,http://www.killarneyroyal.ie,+353(0)646631853,-9.505592,52.060059,Kerry,Killarney,Republic of Ireland
 Tung Sing Restaurant,,+353(0)214382138,-8.561638,51.933633,Cork,Blarney,Republic of Ireland
 The Snug,,+353(0)2750057,-9.454856,51.680311,Cork,Bantry,Republic of Ireland
-"Declan Killen, Goldsmith",http://www.declankillen.com,+353(0)16770829,-6.264316,53.342127,Dublin,Dublin City,Republic of Ireland
+Declan Killen Goldsmith,http://www.declankillen.com,+353(0)16770829,-6.264316,53.342127,Dublin,Dublin City,Republic of Ireland
 Dublin Discovered Boat Tours,http://www.dublindiscovered.ie,+353(0)14730000,-6.261545,53.34718,Dublin,Bachelors Walk,Republic of Ireland
 Christophe's,http://www.christophescafe.com/index.html,+353(0)18874417,-6.277303,53.348355,Dublin,Dublin City,Republic of Ireland
 Market Bar,http://www.marketbar.ie,+353(0)16139094,-6.264005,53.342066,Dublin,Dublin City,Republic of Ireland
@@ -1816,7 +1816,7 @@ Adventure One Surf School,http://www.adventureone.net,+353(0)876285565,-7.737421
 Kelly's Restaurant,,+353(0)214273375,-8.473961,51.897096,Cork,Cork City,Republic of Ireland
 Roycroft Cycles,http://www.westcorkcycles.ie/,+353(0)2821235,-9.266316,51.547883,Cork,Skibbereen,Republic of Ireland
 Gormanston & District Anglers,http://www.gormanstonanglers.com,+353(0)876825619,-6.186156,53.58512,Dublin,Balrothery,Republic of Ireland
-"Organico Café, Shop and Bakery",http://www.organico.ie,+353(0)2751391,-9.449521,51.680136,Cork,Bantry,Republic of Ireland
+Organico Café Shop and Bakery,http://www.organico.ie,+353(0)2751391,-9.449521,51.680136,Cork,Bantry,Republic of Ireland
 Cactus Jacks,http://www.cactusjacks.ie,+353(0)18746198,-6.265206,53.347098,Dublin,Dublin City Centre,Republic of Ireland
 Dublin Wine Rooms,http://www.dublinwinerooms.com,+353(0)16360616,-6.243436,53.3497,Dublin,Dublin City Centre,Republic of Ireland
 Dynasty Chinese Restaurant,,+353(0)2823419,-9.270498,51.549883,Cork,Skibbereen,Republic of Ireland
@@ -1878,10 +1878,10 @@ The Half Barrel,,+353(0)61927477,-8.372035,52.951875,Clare,Whitegate,Republic of
 Chopsticks Oriental Restaurant and Take Away,,+353(0)61921283,-8.532148,52.91065,Clare,Scarriff,Republic of Ireland
 Perfect Day Surf School,http://www.perfectdaysurfing.com,+353(0)872029399,-8.608994,54.270107,Sligo,Strandhill,Republic of Ireland
 Dhaka Indian Tandouri Restaurant and Take Away,,+353(0)61640688,-8.532222,52.910152,Clare,Scarriff,Republic of Ireland
-"7th Wave Surf, Sup, Kayak School",http://www.surfsligo.com,+353(0)879716389,-9.096148,54.212294,Sligo,Enniscrone,Republic of Ireland
+7th Wave Surf Sup Kayak School,http://www.surfsligo.com,+353(0)879716389,-9.096148,54.212294,Sligo,Enniscrone,Republic of Ireland
 An Teach Ol,,+353(0)656831200,-8.758696,52.868304,Clare,Tulla,Republic of Ireland
 Inchydoney Surf School,http://www.inchydoneysurfschool.com,+353(0)868695396,-8.863463,51.597063,Cork,Clonakilty,Republic of Ireland
-"Canny’s Bar, Shop and Filling Station",,+353(0)61925148,-8.703296,52.9888,Clare,Near Feakle,Republic of Ireland
+Canny’s Bar Shop and Filling Station,,+353(0)61925148,-8.703296,52.9888,Clare,Near Feakle,Republic of Ireland
 Shortt's Bar and Lounge,http://www.visiteastclare.ie/company/shortts-bar-feakle/,+353(0)61924277,-8.649228,52.925882,Clare,Feakle,Republic of Ireland
 Slas Powerhouse Bar,,+353(0)656835880,-8.756135,52.867064,Clare,Tulla,Republic of Ireland
 Mc Namara’s Bar & Restaurant,,+353(0)61921020,-8.531733,52.910557,Clare,Scarriff,Republic of Ireland
@@ -1892,7 +1892,7 @@ Sunrise Inn,,+353(0)579120345,-7.908523,53.099851,Offaly,Birr,Republic of Irelan
 The Thatch Pub,http://www.thethatchcrinkill.com,+353(0)579120682,-7.898239,53.079904,Offaly,Birr,Republic of Ireland
 Emporium at The Stables,http://www.thestablesrestaurant.com,+353(0)579120263,-7.912997,53.098157,Offaly,Birr,Republic of Ireland
 Whigsborough House,,+353(0)579133318,-7.849322,53.157844,Offaly,Birr,Republic of Ireland
-"The Moving Stairs, Pub & Restaurant",,+353(0)719663586,-8.302482,53.970171,Roscommon,Boyle,Republic of Ireland
+The Moving Stairs Pub & Restaurant,,+353(0)719663586,-8.302482,53.970171,Roscommon,Boyle,Republic of Ireland
 Douglas Farmers Market,http://douglasmarket.ie/index.html,+353(0)861685312,-8.431099,51.878615,Cork,Douglas,Republic of Ireland
 Cornmarket Street Market,,+353(0)217330178,-8.476607,51.899521,Cork,Cork City,Republic of Ireland
 Bantry Market,,+353(0)2821489,-9.453503,51.680491,Cork,Bantry,Republic of Ireland
@@ -1943,7 +1943,7 @@ Clonmacnoise Pottery,,+353(0)906430379,-7.97781849331867,53.324027333278,Offaly,
 Kildare Village Outlet Shopping,http://www.kildarevillage.com,+353(0)45520501,-6.916801,53.153588,Kildare,Kildare Town,Republic of Ireland
 Holden Leather Goods,http://www.holdenleathergoods.com,+353(0)669151796,-10.301088,52.126873,Kerry,Dingle,Republic of Ireland
 The Orangery,http://cliffatlyons.ie/gastronomy/the-orangery/,+353(0)16303500,-6.54501797477723,53.3011596571405,Kildare,Celbridge,Republic of Ireland
-"Red Stables Food Market, St Anne’s Park",http://www.redstables.ie,+353(0)879017693,-6.175409,53.369286,Dublin,Raheny,Republic of Ireland
+Red Stables Food Market St Anne’s Park,http://www.redstables.ie,+353(0)879017693,-6.175409,53.369286,Dublin,Raheny,Republic of Ireland
 Links Golf Ireland (Emerald Elite Ltd.),http://www.linksgolf-ireland.com/,18005504162,-6.223125,53.425287,Dublin,Santry,Republic of Ireland
 Kraft Kaffee and Visitor Information Point,https://www.facebook.com/pages/Kraft-Kaffee-Vintage-Shop/162967944762,+353(0)498542645,-7.1632112037048,53.7669417127108,Meath,Oldcastle,Republic of Ireland
 Fuchsia House Restaurant,http://www.fuchsiahouse.ie,+353(0)416858432,-6.540749,53.862291,Louth,Ardee,Republic of Ireland
@@ -2059,7 +2059,7 @@ Corrib Canoe,http://www.corribcanoe.com,+353(0)857868717,-9.05304525653923,53.26
 Liam Costigan Gold and Silversmith,http://ccoi.ie/directory/clients/member/20816,+353(0)567762408,-7.253925,52.652025,Kilkenny,Kilkenny City,Republic of Ireland
 Ballyelland Pottery,http://www.ballyellandpottery.ie,+353(0)872029730,-6.44956759259037,52.3836432229428,Wexford,Castlebridge,Republic of Ireland
 Longford Community Tourist Office,http://visitlongford.ie/,+353(0)433343509,-7.79958981349182,53.7257723440071,Longford,Longford,Republic of Ireland
-"Tralee Gas, Cycle & Nursery Supplies",http://traleenurserysupplies.com,+353(0)667122018,-9.709673,52.268843,Kerry,Tralee,Republic of Ireland
+Tralee Gas Cycle & Nursery Supplies,http://traleenurserysupplies.com,+353(0)667122018,-9.709673,52.268843,Kerry,Tralee,Republic of Ireland
 Glengarriff Wood Looped Walk,,+353(0)2821489,-9.55080611338787,51.7505836755935,Cork,Glengarriff,Republic of Ireland
 The Dock,http://www.thedock.ie,+353(0)719650828,-8.098019,53.944838,Leitrim,Carrick-On-Shannon,Republic of Ireland
 The Burren - Flora and Fauna,http://www.burrenbeo.com,+353(0)91638096,-8.93860633232657,53.1389106316426,Galway,Kinvara,Republic of Ireland
@@ -2076,7 +2076,7 @@ The Old Town Whiskey Bar,http://www.oldtownwhiskeybar.com,+353(0)214273756,-8.47
 Fenor Bog,,+353(0)51381978,-7.225924867769,52.1619386843428,Waterford,Fenor,Republic of Ireland
 Raven Point Centre,,+353(0)868608328,-6.46425412430914,52.3414497581374,Wexford,Wexford Town,Republic of Ireland
 Outdoors Ireland,http://www.outdoorsireland.com,+353(0)868604563,-9.779367,52.105137,Kerry,Killarney,Republic of Ireland
-"An Evening of Food, Folklore and Fairies'",http://www.irishfolktours.com,+353(0)12188555,-6.27638627728084,53.3450156933679,Dublin,Dublin City,Republic of Ireland
+An Evening of Food Folklore and Fairies',http://www.irishfolktours.com,+353(0)12188555,-6.27638627728084,53.3450156933679,Dublin,Dublin City,Republic of Ireland
 Listowel 'Sive'  Walk,http://www.irishtrails.ie/Trail/Listowel-Village-Walks---Sive-Walk/601/,+353(0)667121288,-9.48392527411675,52.4471201192782,Kerry,Listowel,Republic of Ireland
 Ballybunion 'Walking the Beach' Looped Walk,http://www.irishtrails.ie/Trail/Ballybunion-Loops---Beach-Walk/607/,+353(0)667121288,-9.67172770562618,52.5235018831357,Kerry,Ballybunion,Republic of Ireland
 Ballybunion Cliff Walk,http://www.irishtrails.ie/Trail/Ballybunion-Loops---Cliff-Walk/604/,+353(0)667121288,-9.67172804668427,52.5235108653928,Kerry,Ballybunion,Republic of Ireland
@@ -2132,7 +2132,7 @@ Kinnitty - Glinsk Castle Loop,http://www.slievebloom.ie,,-7.72219702318858,53.09
 DB Cycles,http://www.dbcycles.ie,+353(0)906492280,-7.950082,53.423703,Westmeath,Athlone,Republic of Ireland
 Athlone Equestrian Centre,http://www.athloneequestrian.ie,+353(0)862433609,-7.875526,53.429473,Westmeath,Athlone,Republic of Ireland
 Abbey Par 3 Golf Club,,+353(0)866084257,-6.862713,52.231827,Wexford,New Ross,Republic of Ireland
-"Handwoven Tweeds - Eddie Doherty,",http://www.handwoventweed.com,+353(0)749541304,-8.411972,54.762678,Donegal,Ardara,Republic of Ireland
+Handwoven Tweeds - Eddie Doherty,http://www.handwoventweed.com,+353(0)749541304,-8.411972,54.762678,Donegal,Ardara,Republic of Ireland
 Cadamstown Paul's Lane Loop,http://www.irishtrails.ie/Trail/Cadamstown---Pauls-Lane-loop/154/,,-7.65915297371912,53.1255461113344,Offaly,Cadamstown,Republic of Ireland
 Inishowen Head Loop,http://www.govisitinishowen.com,+353(0)749363451,-7.31017299050521,55.1915199156836,Donegal,Buncrana,Republic of Ireland
 Ballyhoura - Attychraan Loop,http://visitballyhoura.com,+353(0)6391300,-8.22652895813584,52.2945679532137,Limerick,Kilbeheny,Republic of Ireland
@@ -2202,7 +2202,7 @@ Quay Co-op,http://www.quaycoop.com/,+353(0)214317026,-8.475008,51.895493,Cork,Co
 Derroura Bike Hire,http://www.westsidecyclesgalway.com,+353(0)91525007,-9.075921,53.275041,Galway,Galway City ,Republic of Ireland
 Roches Bar,http://www.rochesbar.ie/,+353(0)51389188,-6.933865,52.221329,Wexford,The Hook Peninsula,Republic of Ireland
 Sqigl Restaurant,http://sqiglrestaurant.com,+353(0)51389188,-6.933831,52.221495,Wexford,Duncannon,Republic of Ireland
-"Nevilles Bar, Fethard on Sea",http://www.nevilles.ie,+353(0)51397160,-6.839195,52.190743,Wexford,New Ross,Republic of Ireland
+Nevilles Bar Fethard on Sea,http://www.nevilles.ie,+353(0)51397160,-6.839195,52.190743,Wexford,New Ross,Republic of Ireland
 The Spinnaker Bar,http://www.thespinnakerbar.com,+353(0)51383133,-6.995264,52.155769,Waterford,Dunmore East,Republic of Ireland
 Azzurro,http://www.azzurro.ie,+353(0)51383141,-6.99501474603266,52.1536481661174,Waterford,Dunmore East,Republic of Ireland
 Visit Dublin Centre Suffolk Street,http://www.visitdublin.com,+353(0)16057700,-6.26040674470516,53.3435062601912,Dublin,Dublin City,Republic of Ireland
@@ -2342,9 +2342,9 @@ Red Oak Restaurant,,+353(0)877974079,-8.318872,53.089164,Galway,Portumna,Republi
 Glasson Golf Club,http://www.glassongolf.com,+353(0)906485120,-7.900718,53.475674,Westmeath,Athlone,Republic of Ireland
 Mirchi Cafe and Restaurant,,+353(0)469773800,-7.04171910052491,53.3447731179405,Offaly,Edenderry,Republic of Ireland
 Bird Watching  in Kilkenny,http://www.birdwatchireland.ie,+353(0)567762130,-7.239384,52.641309,Kilkenny,Kilkenny,Republic of Ireland
-"MV Cill Airne, Dublin's Floating Restaurant & Bar on the River Liffey",http://www.mvcillairne.com,+353(0)18178760,-6.236833,53.347152,Dublin,Dublin City Centre,Republic of Ireland
-"No. 27 Bar & Lounge, Shelbourne Hotel",http://www.shelbournedining.ie,+353(0)16634500,-6.256063,53.339053,Dublin,Dublin City Centre,Republic of Ireland
-"Deirdre's Cafe, Orchard Lane",,+353(0)876188866,-10.26870138525,52.1416206591402,Kerry,Dingle,Republic of Ireland
+MV Cill Airne Dublin's Floating Restaurant & Bar on the River Liffey,http://www.mvcillairne.com,+353(0)18178760,-6.236833,53.347152,Dublin,Dublin City Centre,Republic of Ireland
+No. 27 Bar & Lounge Shelbourne Hotel,http://www.shelbournedining.ie,+353(0)16634500,-6.256063,53.339053,Dublin,Dublin City Centre,Republic of Ireland
+Deirdre's Cafe Orchard Lane,,+353(0)876188866,-10.26870138525,52.1416206591402,Kerry,Dingle,Republic of Ireland
 Hush Yoga,http://www.hushyoga.com,+353(0)861716131,-6.247371,53.335407,Dublin,Dublin City Centre,Republic of Ireland
 Saba Restaurant at Clarendon Street,http://www.sabadublin.com,+353(0)16792000,-6.262036,53.341097,Dublin,Dublin City Centre,Republic of Ireland
 Skibbereen Country Market,,+353(0)2821489,-9.270301,51.548937,Cork,Skibbereen,Republic of Ireland
@@ -2352,7 +2352,7 @@ The Palmer Ryder Cup Course,http://www.kclub.ie,+353(0)16017200,-6.627881,53.311
 Casey's Bistro,http://www.brooklanehotel.com,+353(0)646642077,-9.59150495700839,51.8835720662552,Kerry,Kenmare,Republic of Ireland
 Dunloe Farmers Market,,+353(0)863470060,-9.64384941815183,52.0028938044072,Kerry,Killarney,Republic of Ireland
 Sneem Market,,+353(0)646631633,-9.89848,51.837384,Kerry,Sneem,Republic of Ireland
-"Jim McMorrow Walking Guide, Leitrim and Sligo",http://www.trails.ie/detail.php?id=1053,+00353(0)719856229,-8.48080712641232,54.2713073010575,Leitrim,Sligo Town,Republic of Ireland
+Jim McMorrow Walking Guide Leitrim and Sligo,http://www.trails.ie/detail.php?id=1053,+00353(0)719856229,-8.48080712641232,54.2713073010575,Leitrim,Sligo Town,Republic of Ireland
 The Grill at the Castle,http://www.fitzpatrickcastle.com,+353(0)12305400,-6.113045,53.269346,Dublin,Killiney,Republic of Ireland
 Dolphinwatch Carrigaholt,http://www.dolphinwatch.ie,+353(0)659058156,-9.708878,52.603998,Clare,Carrigaholt,Republic of Ireland
 Morelands Grill,http://morelandsgrill.com,+353(0)16451318,-6.258875,53.345644,Dublin,Dublin City Centre,Republic of Ireland
@@ -2372,7 +2372,7 @@ Kayak Cork Harbour,https://www.facebook.com/KayakCorkHarbour,+353(0)863469078,-8
 Mullingar Equestrian Centre,http://www.mullingarequestrian.com,+353(0)449348331,-7.391711,53.515389,Westmeath,Mullingar,Republic of Ireland
 Copper and Spices,http://www.copperandspices.ie,+353(0)469060648,-6.683632,53.652563,Meath,Navan,Republic of Ireland
 The Field Bar & Restaurant,http://www.thefieldkilkenny.com,+353(0)567702763,-7.25206990674587,52.6505981069472,Kilkenny,Kilkenny City,Republic of Ireland
-"Benny's Deli, Restaurant and Café",http://www.bennysdeli.com,+353(0)949620575,-8.494804,53.769288,Roscommon,Castlerea,Republic of Ireland
+Benny's Deli Restaurant and Café,http://www.bennysdeli.com,+353(0)949620575,-8.494804,53.769288,Roscommon,Castlerea,Republic of Ireland
 Lina Stein Millinery,http://www.linasteinmillinery.com,+353(0)879268401,-9.52277094090058,53.7997063541055,Mayo,Westport,Republic of Ireland
 Tory Island Loop,,,-8.20711937587958,55.2620152359501,Donegal,Tory Island - Toraigh,Republic of Ireland
 Birchill Loop,http://www.upperchurch.ie,+353(0)876076838,-8.01824596323405,52.7036692746239,Tipperary,Thurles,Republic of Ireland
@@ -2494,7 +2494,7 @@ Ballymun Market,http://ballymunmarket.ie/,+353(0)876981093,-6.263459,53.3954,Dub
 Carmanhall Road Food Market,http://irishvillagemarkets.ie/sandyford/#14/53.2709/-6.2255,+353(0)12841197,-6.194613,53.265658,Dublin,Sandyford,Republic of Ireland
 Clontarf Farmers Market,,+353(0)861999842,-6.216951,53.363194,Dublin,Clontarf,Republic of Ireland
 Coppinger Row Outdoor Farmers Market,,+353(0)868150836,-6.261894,53.341919,Dublin,Dublin City,Republic of Ireland
-Farmleigh Food Market,"http://www.farmleigh.ie/Events/Title,23698,en.html",+353(0)18155981,-6.359935,53.365179,Dublin,Dublin 15,Republic of Ireland
+Farmleigh Food Market,http://www.farmleigh.ie,+353(0)18155981,-6.359935,53.365179,Dublin,Dublin 15,Republic of Ireland
 Fingal Farmers Market,,,-6.21841,53.459956,Dublin,Swords,Republic of Ireland
 Liffey Valley Farmers Market,,+353(0)876115016,-6.391867,53.352374,Dublin,Dublin 22,Republic of Ireland
 Marley Park Farmers Market,,+353(0)879573647,-6.270362,53.278106,Dublin,Rathfarnham,Republic of Ireland
@@ -2691,7 +2691,7 @@ Waterford Castle Golf Club,http://www.waterfordcastleresort.com/golf-home.html,+
 Woodstock Hotel Golf Course,http://www.woodstockgolfclub.com,+353(0)656899800,-9.027523,52.841029,Clare,Ennis,Republic of Ireland
 Kilkee Thalassotherapy Centre,http://www.kilkeethalasso.com,+353(0)659056742,-9.644872,52.680966,Clare,Kilkee,Republic of Ireland
 Rock 'n' Bowl,http://www.rocknbowl.ie,+353(0)449333300,-7.344248,53.513402,Westmeath,Mullingar,Republic of Ireland
-Rinn Duin Castle Loop,http://visitroscommon.com/IntoNature/RinnDuinWarrenPointLoopandCastleLoop.aspx,+353(0)906630252,-8.00432573022647,53.5441966619341,Roscommon,"Roscommon West Business Park, Golf Links Road",Republic of Ireland
+Rinn Duin Castle Loop,http://visitroscommon.com/IntoNature/RinnDuinWarrenPointLoopandCastleLoop.aspx,+353(0)906630252,-8.00432573022647,53.5441966619341,Roscommon,Roscommon West Business Park,Republic of Ireland
 Rinn Duin - Warren Point Loop,http://www.irishtrails.ie/Trail/Rinn-Duin---Warren-Point-Loop/387/,+353(0)867713550,-7.99694429101748,53.5410344934507,Roscommon,Golf Links Road,Republic of Ireland
 Patrick Larkin Bar & Lounge,http://www.larkinsbar.com,+353(0)469731594,-7.051238,53.343337,Offaly,Edenderry,Republic of Ireland
 Torrinos Italian Restaurant,http://www.torrinos.ie,+353(0)9828338,-9.521792,53.7995,Mayo,Westport,Republic of Ireland
@@ -2710,7 +2710,7 @@ Powerscourt Golf Club,http://powerscourtgolfclub.com,+353(0)12046033,-6.186245,5
 Zuni Restaurant,http://www.zuni.ie,+353(0)567723999,-7.251932,52.649611,Kilkenny,Kilkenny City,Republic of Ireland
 Killeen Castle,http://www.killeencastle.com/golf-club/about-killeen-golf-club.asp,+353(0)16893015,-6.594196,53.535326,Meath,Dunsany,Republic of Ireland
 The Grapevine Wine & Tapas Bar,http://www.thegrapevinetapasbar.com,+353(0)567712956,-7.251243,52.651388,Kilkenny,Kilkenny City,Republic of Ireland
-"The Marble City Bar, Gastro-Pub & Tea Rooms",http://www.langtons.ie/marble-city-bar/,+353(0)567761143,-7.25353417790984,52.6530204241547,Kilkenny,Kilkenny City,Republic of Ireland
+The Marble City Bar Gastro-Pub & Tea Rooms,http://www.langtons.ie/marble-city-bar/,+353(0)567761143,-7.25353417790984,52.6530204241547,Kilkenny,Kilkenny City,Republic of Ireland
 Loughrea Equestrian Centre,,+353(0)91847077,-8.541223,53.164373,Galway,Loughrea,Republic of Ireland
 Experience Gaelic Games,http://www.experiencegaelicgames.com,+353(0)12544292,-6.265537,53.374205,Dublin,Glasnevin,Republic of Ireland
 L'Athmosphere,http://www.restaurant-latmosphere.com,+353(0)51858426,-7.107938,52.26062,Waterford,Waterford City,Republic of Ireland
@@ -2833,7 +2833,7 @@ Castlerea Railway Museum and Pub,http://www.hellskitchenmuseum.com,+353(0)872308
 Greenan Maze,http://www.greenanmaze.com,+353(0)40446000,-6.305334,52.91459,Wicklow,Rathdrum,Republic of Ireland
 The Dolmen Centre,http://www.dolmencentre.com/,+353(0)749545010,-8.43687,54.822714,Donegal,Narin And Portnoo,Republic of Ireland
 Ballymorris Pottery,http://www.ballymorrispottery.com,+353(0)61357118,-8.771893,52.690513,Clare,Cratloe,Republic of Ireland
-"Yeats Country Hotel, Spa and Leisure Club",http://www.yeatscountryhotel.com/Eros-Spa/,+353(0)719177211,-8.56518955863067,54.306170068116,Sligo,Sligo,Republic of Ireland
+Yeats Country Hotel Spa and Leisure Club,http://www.yeatscountryhotel.com/Eros-Spa/,+353(0)719177211,-8.56518955863067,54.306170068116,Sligo,Sligo,Republic of Ireland
 Kellys Resort Hotel Spa,http://www.kellys.ie,+353(0)539132114,-6.387774,52.275493,Wexford,Rosslare,Republic of Ireland
 Muckross Park Hotel and Spa,http://www.muckrosspark.com/spa.html,+353(0)646623456,-9.48982,52.024808,Kerry,Killarney,Republic of Ireland
 Imperial Hotel with Escape Spa,http://www.flynnhotels.com/Imperial_Hotel_Cork/Salon_and_Spa/Escape_Lifestyle_Spa,+353(0)214274040,-8.470184,51.897162,Cork,Cork City,Republic of Ireland
@@ -2846,7 +2846,7 @@ Brandon House Hotel Solas Croi Spa,http://www.solascroi.ie,+353(0)51421703,-6.94
 Radisson Blu Hotel and Spa,http://www.solasspa.com,+353(0)719192442,-8.500057,54.2991,Sligo,Sligo,Republic of Ireland
 Best Western Plus Westport Woods Hotel & Spa,http://www.westportwoodshotel.com/beech-health-club-and-spa,+353(0)9825811,-9.540553,53.799301,Mayo,Westport,Republic of Ireland
 Aghadoe Heights Hotel & Spa,http://www.aghadoeheights.com/spa.html,+353(0)646631766,-9.556431,52.077414,Kerry,Killarney,Republic of Ireland
-"Hotel Westport, Leisure, Spa and Conference",http://www.hotelwestport.ie/,+353(0)9850008,-9.528553,53.800955,Mayo,Westport,Republic of Ireland
+Hotel Westport Leisure Spa and Conference,http://www.hotelwestport.ie/,+353(0)9850008,-9.528553,53.800955,Mayo,Westport,Republic of Ireland
 Hillgrove Hotel Leisure & Spa,http://www.hillgrovehotel.com/spa.htm,+353(0)4781288,-6.954996,54.2465,Monaghan,Monaghan,Republic of Ireland
 Rain Spa & Leisure at The Radisson Blu Hotel Limerick,http://www.radissonblu.ie/hotel-limerick/spa,+353(0)61456299,-8.710108,52.684376,Limerick,Limerick City,Republic of Ireland
 Fitzgeralds Woodlands House Hotel,http://www.woodlands-hotel.ie/spa-breaks-ireland-day-spas-in-limerick.html,+353(0)61605120,-8.76592543700715,52.5630372427716,Limerick,Adare,Republic of Ireland
@@ -2878,11 +2878,11 @@ The Wolseley Spa at the Mount Wolseley Hotel,http://www.mountwolseley.ie/spa.htm
 Fota Island Hotel Spa,http://www.fotaisland.ie/Fota-Island-Spa,+353(0)214673131,-8.291177,51.898761,Cork,Fota Island,Republic of Ireland
 Spa Haven at the Westgrove Hotel,http://www.westgrovehotel.com/index.html,+353(0)45989900,-6.681432,53.289866,Kildare,Clane,Republic of Ireland
 Mount Falcon Estate,http://www.mountfalcon.com/spa-leisure-mayo,+353(0)9674472,-9.15704881752619,54.0568740370926,Mayo,Ballina,Republic of Ireland
-"The River Spa  at Knightsbrook Hotel, Spa and Golf Resort",http://www.knightsbrook.com,+353(0)469482100,-6.7644,53.548435,Meath,Trim,Republic of Ireland
+The River Spa  at Knightsbrook Hotel Spa and Golf Resort,http://www.knightsbrook.com,+353(0)469482100,-6.7644,53.548435,Meath,Trim,Republic of Ireland
 Health Spa at Farnham Estate Hotel,http://www.farnhamestate.ie/luxury-spa-hotel,+353(0)494379046,-7.39877158993534,53.9935340037744,Cavan,Cavan Town,Republic of Ireland
 Carton House Spa,http://www.cartonhouse.com/spa.html,+353(0)16517744,-6.553547,53.378089,Kildare,Maynooth,Republic of Ireland
 Francis Ledwidge Museum,http://www.francisledwidge.com/,+353(0)419824544,-6.527446,53.707137,Meath,Slane,Republic of Ireland
-"Pillo Hotel, Ashbourne",http://www.pillohotelashbourne.com/spa-and-leisure.html,+353(0)18356800,-6.41416533314938,53.5266354803459,Meath,Ashbourne,Republic of Ireland
+Pillo Hotel Ashbourne,http://www.pillohotelashbourne.com/spa-and-leisure.html,+353(0)18356800,-6.41416533314938,53.5266354803459,Meath,Ashbourne,Republic of Ireland
 The  Lodge Spa At Castle Leslie Estate,http://www.castleleslie.com/spa-breaks-ireland.html,+353(0)4788100,-6.895825,54.316282,Monaghan,Glaslough,Republic of Ireland
 Powerscourt Hotel Resort Spa,http://www.powerscourthotel.com/espa-over.html,+353(0)12749710,-6.180321,53.185287,Wicklow,Enniskerry,Republic of Ireland
 Vanilla Browns Spa at the Absolute Hotel,http://www.absolutehotel.com/beauty-limerick.html,+353(0)61463600,-8.619591,52.667163,Limerick,Limerick City Centre,Republic of Ireland
@@ -2911,7 +2911,7 @@ Ennis Walking Tours,http://www.enniswalkingtours.com,+353(0)876483714,-8.9815126
 Clare Walking Tours,http://www.clarevillehouse.ie,+353(0)61922925,-8.53967026564966,52.8955351123845,Clare,Tuamgraney,Republic of Ireland
 Lucy Erridge,,+353(0)61396898,-8.79147,52.5641,Limerick,Adare,Republic of Ireland
 Farm Heritage Tours,http://www.farmheritagetours.com,+353(0)657089944,-9.07592975871387,53.1481445399265,Clare,Burren,Republic of Ireland
-Angela's Ashes Walking Tour,"http://www.shannonregiontrails.ie/FindaTrail/Walking/ScenicandHistoricalWalks/TrailName,5986,en.html",+353(0)61317522,-8.62566,52.6653,Limerick,Limerick,Republic of Ireland
+Angela's Ashes Walking Tour,http://www.shannonregiontrails.ie/FindaTrail/Walking/ScenicandHistoricalWalks/,+353(0)61317522,-8.62566,52.6653,Limerick,Limerick,Republic of Ireland
 Ben O'Neill Music Shop,http://www.benoneilldungarvan.com/,+353(0)5841933,-7.623865,52.089429,Waterford,Dungarvan,Republic of Ireland
 O'Reilly & Turpin,https://www.facebook.com/OReillyTurpin,+353(0)9828151,-9.522895,53.798459,Mayo,Westport,Republic of Ireland
 Foxford Woollen Mills Visitor and Shop,http://www.foxfordwoollenmills.com,+353(0)949256104,-9.11339700082521,53.9820486971993,Mayo,Foxford,Republic of Ireland
@@ -2925,7 +2925,7 @@ Go Visit Ireland Cycling Tours,http://www.govisitireland.com,+353(0)669762094,-9
 Malcolm McPherson - Angling Guide,http://www.killalaseatroutangling.com,+353(0)9632667,-9.23231691962894,54.2074163796499,Mayo,Ballina,Republic of Ireland
 Roadford House Restaurant,http://www.roadfordrestaurant.com,+353(0)657075050,-9.372543,53.020494,Clare,Doolin,Republic of Ireland
 The Wytchway Inn & Restaurant,https://www.facebook.com/thewytchwayinnholycross/timeline,+353(0)50443117,-7.89886,52.632879,Tipperary,Thurles,Republic of Ireland
-Southern County Fishing Resort & Activities Resort,https://www.facebook.com/southerncountyfishingresort/,+353(0)599157773,-6.83698140799401,52.6752583270997,Carlow,"Garryhill, Bagenalstown",Republic of Ireland
+Southern County Fishing Resort & Activities Resort,https://www.facebook.com/southerncountyfishingresort/,+353(0)599157773,-6.83698140799401,52.6752583270997,Carlow,Garryhill,Republic of Ireland
 Ocean Scene Surf School,http://www.oceanscene.ie,+353(0)657081108,-9.346285,52.93101,Clare,Lahinch,Republic of Ireland
 Irish Golf Classics,http://www.irishgolfclassics.ie/,+353(0)12890830,-6.166771,53.267788,Dublin,Cornelscourt,Republic of Ireland
 Donnelly's Coaches,http://www.facebook.com/donnellys.coaches/,+353(0)436686540,-7.492014,53.778684,Longford,Granard,Republic of Ireland
@@ -3137,7 +3137,7 @@ Collin’s Bog Looped Walk,,,-7.34773624281035,52.9135465953122,Laois,Abbeyleix,
 Durrow Leafy Loops -Dunmore Woods,http://www.irishtrails.ie/Trail/Durrow-Leafy-Loops---Dunmore-Woods-loop/620/,,-7.39442432501096,52.8476817254982,Laois,Durrow,Republic of Ireland
 Abbeyleix Loops - Killamuck Bog,http://www.irishtrails.ie/Trail/Abbeyleix-Loops---Killamuck-Bog-loop/623/,,-7.35307920316802,52.9068305299693,Laois,Abbeyleix,Republic of Ireland
 Durrow Leafy Loop Walk,http://www.irishtrails.ie/trail/durrow-leafy-loops---leafy-loop/621/,,-7.39579761602658,52.8468523376508,Laois,Durrow,Republic of Ireland
-"Berfranks Café, Deli and Wine Shop",https://www.facebook.com/Berfranks/,+353(0)51306032,-7.11013766715086,52.2616029370357,Waterford,Waterford City,Republic of Ireland
+Berfranks Café Deli and Wine Shop,https://www.facebook.com/Berfranks/,+353(0)51306032,-7.11013766715086,52.2616029370357,Waterford,Waterford City,Republic of Ireland
 Quealy's Bar,http://www.lsbmarketing.ie/clients/quealys-bar-dungarvan-pub/,+353(0)5824555,-7.62225614603266,52.0894539269498,Waterford,Dungarvan,Republic of Ireland
 Harlequin Cafe & Winebar,,+353(0)51877552,-7.11359530740969,52.2598054602281,Waterford,Waterford City,Republic of Ireland
 Ashford Adventure Company,http://www.ashfordoutdoors.com/index.php/en/,+353(0)871143040,-9.29160795242307,53.536008395156,Mayo,Cong,Republic of Ireland
@@ -3236,7 +3236,7 @@ Brittas Bay Surf School,http://www.brittasbaysurfschool.com/,+353(0)867396010,-6
 Seapoint Fish & Grill,http://www.seapointrestaurant.ie,+353(0)16638480,-6.15347051237495,53.2938990218407,Dublin,Dublin,Republic of Ireland
 O’Dea’s Bar De Bucket,http://www.facebook.com/debucketbar,+353(0)61353028,-8.76604927116397,52.6200253921983,Limerick,Kildimo,Republic of Ireland
 Dax Restaurant,http://www.dax.ie/restaurant/,+353(0)16761494,-6.25443012802043,53.3348121259198,Dublin,Dublin,Republic of Ireland
-"Le Bon Crubeen, 81-82 Talbot Street",http://www.leboncrubeen.ie/,+353(0)17040126,-6.25528307048716,53.3505166019747,Dublin,Dublin,Republic of Ireland
+Le Bon Crubeen 81-82 Talbot Street,http://www.leboncrubeen.ie/,+353(0)17040126,-6.25528307048716,53.3505166019747,Dublin,Dublin,Republic of Ireland
 Lub Dun Eochla - Inis Mór,http://www.irishtrails.ie/Trail/Inis-Mor---Lub-Dun-Eochla/684/,,-9.68307808263467,53.1033800055677,Galway,Kilronan,Republic of Ireland
 Lúb an Chorrúch - Inis Mór,,+353(0)9961263,-9.67071846349404,53.109975395172,Galway,Inis Mór,Republic of Ireland
 Lúb Cill Mhuirbhigh - Inis Mór,,,-9.67329538681633,53.1088716903232,Galway,Inis Mor,Republic of Ireland
@@ -3254,7 +3254,7 @@ Olesya's Wine Bar & Bistro,http://www.olesyaswinebar.com/,+353(0)16724087,-6.263
 The Celt Bar,http://www.thecelt.ie/,+353(0)18788655,-6.25499339191355,53.3505646337133,Dublin,Dublin,Republic of Ireland
 Waterford Nature Park,http://www.facebook.com/waterfordnaturepark,+353(0)51849759,-7.12103964240486,52.2450968234608,Waterford,Waterford City,Republic of Ireland
 Into the West Adventures,http://www.intothewestadventures.com/,+353(0)879861764,-9.03912044374999,53.2670282748154,Galway,Galway City,Republic of Ireland
-"The Thatched Cottage Restaurant, Bar and Banquet Room",http://www.thethatchedcottage.ie,+353(0)6731426,-8.24443041115649,52.891342024558,Tipperary,Nenagh,Republic of Ireland
+The Thatched Cottage Restaurant Bar and Banquet Room,http://www.thethatchedcottage.ie,+353(0)6731426,-8.24443041115649,52.891342024558,Tipperary,Nenagh,Republic of Ireland
 Wilderness Activities Ireland,http://wildernessactivitiesireland.com/,+353(0)16606442,-6.35910755720647,52.964184670855,Wicklow,Glenmalure,Republic of Ireland
 O'Ceallachains,https://www.facebook.com/oCeallachains,+353(0)51645502,-7.4112354,52.3453426,Tipperary,Carrick on Suir,Republic of Ireland
 Neat Feet,http://www.facebook.com/NeatFeetWestport,+353(0)9856467,-9.52406973687084,53.7990729303992,Mayo,Westport,Republic of Ireland
@@ -3265,7 +3265,7 @@ Architectural Furniture,http://www.architectural-furniture.com,+353(0)419827124,
 Crookstown Craft Village,http://www.crookstowncraftvillage.com,+353(0)598623208,-6.81007739617211,53.0187777453897,Kildare,Ballitore,Republic of Ireland
 The Avon,http://theavon.club,+353(0)45900670,-6.53324764103695,53.1614692347135,Wicklow,Blessington,Republic of Ireland
 Basket Barn,http://kathleenmccormickbaskets.com/,+353(0)868807208,-6.9789433,53.4139917,Kildare,Broadford,Republic of Ireland
-"Radisson Blu Hotel & Spa, Galway",http://www.spiritonespa.com,+353(0)91538461,-9.04314637462152,53.2743085177841,Galway,Galway City,Republic of Ireland
+Radisson Blu Hotel & Spa Galway,http://www.spiritonespa.com,+353(0)91538461,-9.04314637462152,53.2743085177841,Galway,Galway City,Republic of Ireland
 Hill Picket Studio,http://www.absolutelywicklow.ie,+353(0)40430581,-6.24266267588495,52.8669754012028,Wicklow,Avoca,Republic of Ireland
 Fisherman out of Ireland,http://www.fishermanoutofireland.com,+353(0)749738233,-8.5692959728874,54.6545132758556,Donegal,Kilcar,Republic of Ireland
 Breda Haugh Jeweller and Designer,http://www.bredahaugh.com,+353(0)16705738,-6.23910230000001,53.3411011209964,Dublin,Grand Canal Quay,Republic of Ireland
@@ -3336,14 +3336,14 @@ Louth Adventures,http://www.louthadventures.ie,+353(0)878208985,-6.182215233252,
 Oakwood Stables  Equestrian Centre,http://www.oakwoodstables.ie/,+353(0)40441699,-6.1779990380287,52.9086235887095,Wicklow,Redcross,Republic of Ireland
 The Imperial Garden Chinese Restaurant,http://imperialgarden.ie/,+353(0)51583690,-7.11722017676766,52.2517836681842,Waterford,Waterford City,Republic of Ireland
 The Bond Cafe & Bistro,https://www.facebook.com/TheBondBistro,+353(0)9675060,-9.15084891415563,54.1153259467065,Mayo,Ballina,Republic of Ireland
-"Loughdan House, Guided and  Self-Guided Walks",http://www.loughdanhouse.com/,+353(0)12817027,-6.29598767995605,53.0667695625681,Wicklow,Roundwood,Republic of Ireland
+Loughdan House Guided and Self-Guided Walks,http://www.loughdanhouse.com/,+353(0)12817027,-6.29598767995605,53.0667695625681,Wicklow,Roundwood,Republic of Ireland
 Toscana Restaurant City Centre Dublin,http://www.toscanarestaurant.ie/,+353(0)16709785,-6.26757419307637,53.344106137688,Dublin,Dame Street,Republic of Ireland
 Cosy Joes,http://cosyjoesbar.ie/,+353(0)9829403,-9.522207,53.799561,Mayo,Westport,Republic of Ireland
 Vista,http://www.facebook.com/VistaBistro/,+353(0)214706866,-8.51899307060853,51.701934517952,Cork,Kinsale,Republic of Ireland
 John Gray's Restaurant at the McWilliam Park Hotel,http://www.mcwilliampark.ie,+353(0)949378000,-9.0017356,53.7238764,Mayo,Claremorris,Republic of Ireland
 Temptations Restaurant,http://www.milltimeshotel.ie,+353(0)9829200,-9.52230749635623,53.7984935695416,Mayo,Westport,Republic of Ireland
 The Huntsman Bar and Restaurant,http://thehuntsmanbelgooly.com/wp/,+353(0)214770666,-8.4836522846283,51.7362580798279,Cork,Kinsale,Republic of Ireland
-Achill Cliff House Restaurant,http://www.achillcliff.com/,+353(0)9843400,-10.0823997707668,53.9763425294236,Mayo,"Dooagh, Achill Island",Republic of Ireland
+Achill Cliff House Restaurant,http://www.achillcliff.com/,+353(0)9843400,-10.0823997707668,53.9763425294236,Mayo,Dooagh,Republic of Ireland
 Poppy Seed Cafe,http://www.poppyseed.ie,+353(0)91535944,-9.05134351510537,53.2752889123867,Galway,Galway City,Republic of Ireland
 Lennons at Visual,http://www.lennons.ie/,+353(0)599179245,-6.927663,52.838609,Carlow,Carlow,Republic of Ireland
 Poppy Seed Cafe Clarinbridge,http://www.poppyseed.ie,+353(0)91796019,-8.88080357363287,53.2275955847738,Galway,Clarinbridge,Republic of Ireland
@@ -3438,7 +3438,7 @@ Aperitif - Wine & Tapas Bar,http://www.aperitifkinsale.com,+353(0)214772209,-8.5
 Maxwells Bistro,http://www.maxwellsrestaurant.ie,+353(0)91568974,-9.05119954907377,53.2740522965406,Galway,Galway,Republic of Ireland
 Clones Town Heritage Trail,http://www.monaghantourism.com/,,-7.2306630888188,54.1796853033201,Monaghan,Clones,Republic of Ireland
 Thomas Diem Pottery,http://www.diempottery.com,+353(0)18359083,-6.38857034337775,53.5015442728344,Meath,Ashbourne,Republic of Ireland
-Dundalk Craft and Farmers Market,http://www.marketsquaredundalk.ie,+353(0)429392959,-6.40356163121339,54.0035885596939,Louth,"Dundalk,",Republic of Ireland
+Dundalk Craft and Farmers Market,http://www.marketsquaredundalk.ie,+353(0)429392959,-6.40356163121339,54.0035885596939,Louth,Dundalk,Republic of Ireland
 Rossmore Theatre,http://www.rossmoretheatre.com/,+353(0)868036945,-8.99079702963866,51.6705526401936,Cork,Clonakilty,Republic of Ireland
 Go with the Flow - River Adventures,http://www.gowiththeflow.ie,+353(0)872529700,-7.7972965,52.9584832,Tipperary,Roscrea,Republic of Ireland
 My Ireland Heritage - Genealogy,http://www.myirelandheritage.com,+353(0)16890008,-6.52689896792298,53.4611572342369,Meath,Batterstown,Republic of Ireland
@@ -3499,7 +3499,7 @@ Butlers Chocolate Café - Henry Street,http://www.butlerschocolates.com/,+353(0)
 Butlers Chocolate Café - Heuston Station,http://www.butlerschocolates.com/,+353(0)16728780,-6.29282729117313,53.3465025584584,Dublin,Dublin,Republic of Ireland
 Butlers Chocolate Café - Jervis Street,http://www.butlerschocolates.com/,+353(0)18146001,-6.26567528931536,53.3480364896696,Dublin,Dublin,Republic of Ireland
 Butlers Chocolate Café - Liffey Street,http://www.butlerschocolates.com/,+353(0)18783402,-6.26323582021632,53.3470517698171,Dublin,Dublin,Republic of Ireland
-"Cliffs View Café, Cliffs of Moher",http://www.cliffsofmoher.ie,+353(0)657086141,-9.42480895435335,52.9714711016734,Clare,Liscannor,Republic of Ireland
+Cliffs View Café Cliffs of Moher,http://www.cliffsofmoher.ie,+353(0)657086141,-9.42480895435335,52.9714711016734,Clare,Liscannor,Republic of Ireland
 High Cafe,,+353(0)91532648,-9.0537415,53.2715923,Galway,Galway,Republic of Ireland
 Butlers Chocolate Café - Swords,http://www.butlerschocolates.com/,+353(0)18074020,-6.21904508559146,53.4543546269569,Dublin,Swords,Republic of Ireland
 Butlers Chocolate Café - Nassau Street,http://www.butlerschocolates.com/,+353(0)16710772,-6.25615210620799,53.3424272852474,Dublin,Dublin,Republic of Ireland
@@ -3512,7 +3512,7 @@ Suesey Street Restaurant,http://www.sueseystreet.ie/,+353(0)16694600,-6.25274385
 Monasterboice Inn,http://www.monasterboice-inn.ie,+353(0)419837383,-6.4000929285446,53.7696566470875,Louth,Drogheda,Republic of Ireland
 Burren Nature Sanctuary,http://www.bns.ie,+353(0)91637444,-8.92780773643187,53.1286745291165,Galway,Kinvara,Republic of Ireland
 Sheridan's Cheesemongers & Wine Bar,http://www.sheridanscheesemongers.com,+353(0)91564829,-9.054295,53.2724638,Galway,Galway City,Republic of Ireland
-Irish Horse Gateway,http://www.irishhorsegateway.ie/,+353(0)45854590,-6.67098087363274,53.2369813376081,Kildare,"Osberstown, Naas",Republic of Ireland
+Irish Horse Gateway,http://www.irishhorsegateway.ie/,+353(0)45854590,-6.67098087363274,53.2369813376081,Kildare,Osberstown,Republic of Ireland
 Cliffs of Moher Coastal Walk,http://www.doolincliffwalk.com,+353(0)868229913,-9.37747390175184,53.016199106306,Clare,Doolin,Republic of Ireland
 Celtic Designs,http://www.celticdesigns.ie,+353(0)16718835,-6.26323907301639,53.3449106594101,Dublin,Temple Bar,Republic of Ireland
 Galway Tourist Train,http://www.galwaytouristtrain.com/,+353(0)872188314,-9.04911849812208,53.2749472285752,Galway,Galway City,Republic of Ireland
@@ -3527,7 +3527,7 @@ KC Peaches - Dame Street,http://kcpeaches.com/,+353(0)16455307,-6.26357109634318
 Canal Boat Restaurant,http://www.canalboatrestaurant.com,+353(0)14731000,-6.24793794066158,53.3332160115043,Dublin,Dublin City,Republic of Ireland
 Sligo Tours,http://www.sligotours.com/,+353(0)7191305000,-8.50887634390256,54.2118625115611,Sligo,Sligo Town,Republic of Ireland
 New Ross Three Sisters Marinas Blue Flag award 2019,http://www.blueflagireland.org/locations.10.html,,-6.9461396,52.3948208,Wexford,New Ross,Republic of Ireland
-Bass Fishing Wexford,http://www.bassfishingwexford.com,+353(0)862611436,-6.65900241166991,52.2374776160161,Wexford,"Duncormick,",Republic of Ireland
+Bass Fishing Wexford,http://www.bassfishingwexford.com,+353(0)862611436,-6.65900241166991,52.2374776160161,Wexford,Duncormick,Republic of Ireland
 South East Angling Services,https://twitter.com/S_E_A_S,+353(0)863769727,-6.46199033990058,52.3413383258789,Wexford,Wexford Town,Republic of Ireland
 The Constant Knitter,http://www.theconstantknitter.ie/,+353(0)879967197,-6.27400488941111,53.3399098688401,Dublin,Dublin,Republic of Ireland
 Slí Eala,,,-8.2716463942977,52.9227199866422,Tipperary,Dromineer,Republic of Ireland
@@ -3764,7 +3764,7 @@ The Snackery,,+353(0)667126024,-9.7064005,52.2697733,Kerry,Tralee,Republic of Ir
 Nevsail's Limerick City Kayak Tours,http://www.nevsailwatersports.com,+353(0)863308236,-8.62469261664125,52.6661465495885,Limerick,Limerick,Republic of Ireland
 Nevsail's Rockclimbing Limerick,http://www.nevsailwatersports.com,+353(0)863308236,-8.62226706501769,52.6601035365736,Limerick,Limerick,Republic of Ireland
 Nevsail's Outdoor Rockclimbing The Burren,http://www.nevsailwatersports.com,+353(0)863308236,-9.35972434040832,53.0634620662582,Clare,The Burren,Republic of Ireland
-"Imperial Hotel, Bar and Restaurant",http://www.imperialhoteltralee.com,+353(0)667127755,-9.7052089,52.2684812,Kerry,Tralee,Republic of Ireland
+Imperial Hotel Bar and Restaurant,http://www.imperialhoteltralee.com,+353(0)667127755,-9.7052089,52.2684812,Kerry,Tralee,Republic of Ireland
 Partridges Bistro,http://www.partridges.ie,+353(0)539484040,-6.2919007,52.6762024,Wexford,Gorey,Republic of Ireland
 J W Weldon,http://www.weldons.ie,+353(0)16771638,-6.26087771534424,53.3426903567418,Dublin,Dublin City,Republic of Ireland
 The Rusty,,+353(0)749739101,-8.64257674183352,54.6367089733002,Donegal,Carrick,Republic of Ireland
@@ -3789,7 +3789,7 @@ il Pomo D'oro,http://ilpomodoro.ie/,+353(0)667194618,-9.7097214,52.2676924,Kerry
 Yummy Cafe Market,http://www.facebook.com/yummycafemarket,+353(0)667119019,-9.7074635,52.2689453,Kerry,Tralee,Republic of Ireland
 The Boatyard Restaurant,http://theboatyardrestaurant.ie/,+353(0)669150920,-10.2758720819723,52.1393012040178,Kerry,Dingle,Republic of Ireland
 Lakeside Cafe & Bistro,https://www.facebook.com/lakesidecafe.wetlands,+353(0)667126700,-9.70051681721145,52.2731768453068,Kerry,Tralee,Republic of Ireland
-Avondale Forest Park - Centenary Trail,http://www.coillteoutdoors.ie,,-6.2265377338989,52.9164790018516,Wicklow,"Rathdrum,",Republic of Ireland
+Avondale Forest Park - Centenary Trail,http://www.coillteoutdoors.ie,,-6.2265377338989,52.9164790018516,Wicklow,Rathdrum,Republic of Ireland
 Cream Coffee Shop & Tea Room,https://www.facebook.com/pages/Cream-Coffee-Shop-Tea-Room/257241217664342,+353(0)539191541,-6.45956435753328,52.3375966997519,Wexford,Wexford Town,Republic of Ireland
 Out of the Blue,http://outoftheblue.ie,+353(0)669150811,-10.279426008917,52.1396501947483,Kerry,Dingle,Republic of Ireland
 Lord Kenmare's Restaurant,http://www.murphysofkillarney.com/kenmares.html,+353(0)646637245,-9.506209,52.0594612,Kerry,Killarney,Republic of Ireland
@@ -3833,7 +3833,7 @@ Skibbereen Heritage Centre,http://www.skibbheritage.com,+353(0)2840900,-9.271904
 Clash Gaelic Games,http://www.clash.ie,+353(0)876408017,-6.14168851799922,53.4374416480545,Dublin,Portmarnock,Republic of Ireland
 La Scala,http://www.facebook.com/lascalatralee/?fref=ts,+353(0)667122477,-9.7070733,52.2681745,Kerry,Tralee,Republic of Ireland
 Christina's Cafe & Wine Bar,http://www.facebook.com/Christinas-Cafe-Wine-Bar-926697120714525,+353(0)667181857,-9.7062841,52.2691276,Kerry,Tralee,Republic of Ireland
-"The Cafe, Ballyseedy Garden Centre",http://www.ballyseedy.ie,+353(0)667192120,-9.64146530353957,52.2572080192752,Kerry,Tralee,Republic of Ireland
+The Cafe Ballyseedy Garden Centre,http://www.ballyseedy.ie,+353(0)667192120,-9.64146530353957,52.2572080192752,Kerry,Tralee,Republic of Ireland
 Wexford Lavender Farm,http://www.wexfordlavenderfarm.com,+353(0)40221402,-6.2699262844726,52.7363735348697,Wexford,Gorey,Republic of Ireland
 Cumann na mBád,https://www.facebook.com/CumannNamBad/info,+353(0)749520024,-8.53457373458036,54.9876684507679,Donegal,Arainn Mhór,Republic of Ireland
 Fantastic Flavours Ice Cream Parlour,http://www.fantasticflavours.ie,,-7.847864,51.9533661,Cork,Youghal,Republic of Ireland
@@ -3853,7 +3853,7 @@ Gally's Bar & Restaurant,http://www.facebook.com/gallys.bar,+353(0)667192250,-9.
 Sunfish Explorer - Motorised Kayaking Tours,http://www.sunfishexplorer.com/,+353(0)879474616,-9.8983245,51.8373942,Kerry,Sneem,Republic of Ireland
 Cassidy's Restaurant,,+353(0)667128833,-9.7079117,52.2690044,Kerry,Tralee,Republic of Ireland
 Ballincollig Regional Park,http://www.corkcoco.ie/co/pdf/828779554.pdf,+353(0)214276891,-8.59025367889398,51.8933234498262,Cork,Ballincollig,Republic of Ireland
-"O'Connell Restaurant, Ballyseede Castle Hotel",http://www.ballyseedecastle.com,+353(0)667125799,-9.6619895,52.2521579,Kerry,Tralee,Republic of Ireland
+O'Connell Restaurant Ballyseede Castle Hotel,http://www.ballyseedecastle.com,+353(0)667125799,-9.6619895,52.2521579,Kerry,Tralee,Republic of Ireland
 National Flight Centre,http://www.nfc.ie,+353(0)16217333,-6.49077667928464,53.3551866858181,Kildare,Leixlip,Republic of Ireland
 Farren's Bar,https://www.facebook.com/pages/Farrens-Bar/195549303807809,+353(0)749370128,-7.3363421,55.3682768,Donegal,Malin Head,Republic of Ireland
 National Flight Centre,http://www.nfc.ie,+353(0)16217333,-6.4906264755798,53.3552763351968,Kildare,Leixlip,Republic of Ireland
@@ -3865,7 +3865,7 @@ KRD Salmon Smokery,http://www.krdfisheries.com,+353(0)669761106,-9.7816902774932
 Gloria Jean's Coffees,,+353(0)646630915,-9.5128759,52.0587501,Kerry,Killarney,Republic of Ireland
 Der O'Sullivan's,http://www.derosullivan.com/,+353(0)667121049,-9.7059321,52.2696946,Kerry,Tralee,Republic of Ireland
 Westport Cycle Tours,http://www.westportcycletours.com,+353(0)9864833,-9.5143467,53.8021307,Mayo,Westport,Republic of Ireland
-"Earl of Desmond Hotel, Bar & Restaurant",http://www.earlofdesmond.com,+353(0)667121299,-9.6619895,52.2521579,Kerry,Tralee,Republic of Ireland
+Earl of Desmond Hotel Bar & Restaurant,http://www.earlofdesmond.com,+353(0)667121299,-9.6619895,52.2521579,Kerry,Tralee,Republic of Ireland
 Caroline's Cafe,https://www.facebook.com/CarolinesCafe,+353(0)719841759,-8.2734415,54.4805267,Donegal,Bundoran,Republic of Ireland
 Aran Sweater Market,http://www.aransweatermarket.com,+353(0)646639756,-9.7196641,53.1288715,Galway,Aran Islands,Republic of Ireland
 Aran Sweater Market,http://www.aransweatermarket.com,+353(0)646639756,-9.50795034260556,52.0587315630764,Kerry,Killarney,Republic of Ireland
@@ -3875,7 +3875,7 @@ Charlie St George Traditional Bar,http://www.parnellplaza.ie,+353(0)61279900,-8.
 Manor West Bar & Bistro,http://www.manorwesthotel.ie,+353(0)667194500,-9.67511093342238,52.2605703553364,Kerry,Tralee,Republic of Ireland
 Brudair's Bakery & Coffee Shop,,+353(0)667129929,-9.70223343098098,52.2710760125664,Kerry,Tralee,Republic of Ireland
 Rose Garden Chinese Restaurant & Takeway,,+353(0)667129393,-9.707682,52.2712278,Kerry,Tralee,Republic of Ireland
-"Eithna's By the Sea, Seafood Restaurant",http://www.bythesea.ie,+353(0)868515607,-8.44822980750075,54.4667686887473,Sligo,Mullaghmore,Republic of Ireland
+Eithna's By the Sea Seafood Restaurant,http://www.bythesea.ie,+353(0)868515607,-8.44822980750075,54.4667686887473,Sligo,Mullaghmore,Republic of Ireland
 Mungo Murphy’s Seaweed Co.,http://www.mungomurphyseaweed.com,+353(0)857583862,-9.5511,53.2708,Galway,Rossaveal,Republic of Ireland
 Sliabh Liag Boat Tours,http://www.sliabhleagueboattrips.com/,+353(0)876284688,-8.632111,54.623419,Donegal,Carrick,Republic of Ireland
 Greenway Bicycle Hire,http://www.greenwaybicyclehire.com,+353(0)860382593,-9.546564,53.8851654,Mayo,Newport,Republic of Ireland
@@ -3980,11 +3980,11 @@ Ger's Wild Atlantic Diner,http://www.facebook.com/pages/category/Breakfast---Bru
 Bear Essentials,http://www.bearessentials.ie/,+353(0)877610537,-7.709952,54.125209,Cavan,Bawnboy,Republic of Ireland
 Benbulben Pottery,http://www.davemcloughlinceramics.com/default.htm,+353(0)862155234,-8.483326,54.319433,Sligo,Rathcormac,Republic of Ireland
 Cronin's Forge,http://www.croninsforge.ie,+353(0)2761114,-9.54481544047553,51.6170289180746,Cork,Bantry,Republic of Ireland
-"Frances Crowe, Fibre Artist at Grange Studio",http://www.francescrowe.com/,+353(0)906629641,-8.24452988165581,53.7218669202331,Roscommon,Four Mile House,Republic of Ireland
+Frances Crowe Fibre Artist at Grange Studio,http://www.francescrowe.com/,+353(0)906629641,-8.24452988165581,53.7218669202331,Roscommon,Four Mile House,Republic of Ireland
 Siopa na bhFíodóirí,http://www.lisbethmulcahy.com,+353(0)669151688,-10.2711201018524,52.1407520170921,Kerry,Dingle,Republic of Ireland
 The Claypipe Centre,http://www.oghamwish.com/storepage2675925.aspx,+353(0)906661923,-8.09556777909847,53.5768343963126,Roscommon,Knockcroghery,Republic of Ireland
 The Cavern Bar,http://www.thecavern.ie,+353(0)749126733,-7.7382605,54.9480407,Donegal,Letterkenny,Republic of Ireland
-"Roadside Tavern, Kieran's Kitchen & Burren Brewery",http://www.roadsidetavern.ie,,-9.29082,53.02851,Clare,Lisdoonvarna,Republic of Ireland
+Roadside Tavern Kieran's Kitchen & Burren Brewery,http://www.roadsidetavern.ie,,-9.29082,53.02851,Clare,Lisdoonvarna,Republic of Ireland
 O'Donnell's Bar,http://www.odonnellsbar.com,+353(0)879186336,-10.181838,52.235723,Kerry,Tralee,Republic of Ireland
 From Fionn MacCumhail to Com Dhíneol,http://www.celticnature.com,+353(0)877903950,-10.3171166807007,52.141915241877,Kerry,Dingle,Republic of Ireland
 Celtic Nature Walking Tours,http://www.celticnature.com,+353(0)877903950,-10.3175777499449,52.1429950992622,Kerry,Dingle,Republic of Ireland
@@ -4026,7 +4026,7 @@ Andy's Bar and Restaurant,http://www.andysnenagh.com/,+353(0)6732494,-8.20244681
 Jade Court Chinese Restaurant,https://www.facebook.com/Jadecourt,+353(0)6741544,-8.20250392093624,52.8609265391457,Tipperary,Nenagh,Republic of Ireland
 Executive Helicopters,http://www.executive-helicopters.com,+353(0)909749764,-8.5660931,53.1989136,Galway,Loughrea,Republic of Ireland
 Wicklow County & Glendalough Tour,http://www.daytoursunplugged.ie,+353(0)872720764,-6.26083429182052,53.3514885312517,Dublin,Dublin City,Republic of Ireland
-"Belfast, Titanic & Giants Causeway - Wild Rover Tours",http://wildrovertours.com,+353(0)12845560,-6.26018078414836,53.3493606218099,Dublin,Dublin City,Republic of Ireland
+Belfast Titanic & Giants Causeway - Wild Rover Tours,http://wildrovertours.com,+353(0)12845560,-6.26018078414836,53.3493606218099,Dublin,Dublin City,Republic of Ireland
 Irish Food Trail,http://www.irishfoodtrail.ie,+353(0)857747005,-6.26530791337893,53.3477694160435,Dublin,Dublin City,Republic of Ireland
 Hop On Hop Off Tour - Big Bus Tours Dublin,http://www.bigbustours.com/en/dublin/dublin-sightseeing-tours,+353(0)15311711,-6.25971399734498,53.347839080963,Dublin,Dublin City Centre,Republic of Ireland
 The Paddocks Riding Centre,http://www.paddocks.ie,+353(0)872237981,-6.2355273,53.2619674,Dublin,Sandyford,Republic of Ireland
@@ -4125,7 +4125,7 @@ Seán Óg's Bar & Restaurant,https://www.facebook.com/seanogs,+353(0)749531999,-
 Donegal Designer Makers Gallery,https://www.facebook.com/donegaldesignermakers,+353(0)871023100,-8.41286684363504,54.7619638203877,Donegal,Ardara,Republic of Ireland
 Eily O Connell - Jeweller,http://www.eilyoconnell.com,+353(0)879493100,-6.27889100801394,53.3472598323661,Dublin,Smithfield Square,Republic of Ireland
 Wild Atlantic Surf School,http://www.wildatlanticsurfschool.com,+353(0)861997995,-8.38463,54.86918,Donegal,nr Dungloe,Republic of Ireland
-"Toots, The Malahide Road Train",http://www.malahidetrolley.com,+353(0)863858753,-6.15622008536991,53.4509765072009,Dublin,Malahide,Republic of Ireland
+Toots The Malahide Road Train,http://www.malahidetrolley.com,+353(0)863858753,-6.15622008536991,53.4509765072009,Dublin,Malahide,Republic of Ireland
 Secret Ireland Escapes,http://www.secretirelandescapes.com,+353(0)876754814,-8.4475152,52.808886,Clare,Killaloe,Republic of Ireland
 Secret Ireland Escapes,http://www.secretirelandescapes.com,+353(0)876754814,-8.4475152,52.808886,Clare,Killaloe,Republic of Ireland
 Dive Academy Scuba Diving School,http://www.diveacademy.info,+353(0)857257260,-9.34637115580324,52.9305456467308,Clare,Lahinch,Republic of Ireland
@@ -4226,7 +4226,7 @@ Celtic Nature Walking Tours,http://www.celticnature.com,+353(0)877903950,-10.317
 Pudding Row,http://www.puddingrow.ie,,-8.9605685890034,54.2857373479177,Sligo,Easkey,Republic of Ireland
 Phoenix Park Bikes,http://www.phoenixparkbikes.com,+353(0)873799946,-6.29733206121363,53.3484031519009,Dublin,Dublin,Republic of Ireland
 Funkytown Adventure Centre,http://www.funkytown.ie,+353(0)872611173,-8.313922,51.77283,Cork,Fountainstown,Republic of Ireland
-"Dinos, Kinsale",https://www.facebook.com/DinosChips/info?tab=page_info,+353(0)214774561,-8.52183892117921,51.7048288327257,Cork,Kinsale,Republic of Ireland
+Dinos Kinsale,https://www.facebook.com/DinosChips/info?tab=page_info,+353(0)214774561,-8.52183892117921,51.7048288327257,Cork,Kinsale,Republic of Ireland
 Wild Atlantic Way Adventures,http://www.wildatlanticwayadventures.ie,+353(0)860573002,-7.45727251819857,55.2819996148831,Donegal,Clonmany,Republic of Ireland
 Broadford Ashford Walking Trails - Gortnaclohy Loop,http://www.walkbroadfordashford.com,,-9.05958673450925,52.3602244792706,Limerick,Broadford,Republic of Ireland
 Broadford Ashford Walking Trails - Ashford to Broadford Way,http://walkbroadfordashford.com/trail/ashford-to-broadford-way/,,-9.059633,52.360564,Limerick,Broadford,Republic of Ireland
@@ -4483,7 +4483,7 @@ Ballycastle Bike Hire and Ceide Coast Tours,http://www.ballycastlebikehire.com,+
 The Cottage Store,http://thecottagestoreantiques.com,+353(0)860665315,-8.2224288779098,53.0914029885935,Galway,Portumna,Republic of Ireland
 Greenway Waterford Bike Hire,http://greenwaywaterfordbikehire.ie,+353(0)861292724,-7.1796404246063,52.2523043138421,Waterford,Waterford City,Republic of Ireland
 Wexford Kayak Safari,http://wexfordkayaksafari.com,+353(0)876739357,-6.45492366632083,52.344471238677,Wexford,Murrintown,Republic of Ireland
-"Tinahely Farm Shop, Restaurant, Activity Centre & Animal Walkway",http://tinahelyfarm.ie,+353(0)878168457,-6.46864459336245,52.7966569388921,Wicklow,Tinahely,Republic of Ireland
+Tinahely Farm Shop Restaurant Activity Centre & Animal Walkway,http://tinahelyfarm.ie,+353(0)878168457,-6.46864459336245,52.7966569388921,Wicklow,Tinahely,Republic of Ireland
 Killaloe Visitor Information Point,http://theringofloughderg.ie/,+353(0)61374838,-8.44024961780929,52.8073036418663,Clare,Killaloe,Republic of Ireland
 Slide Step The Dublin Show at Number Twenty Two,http://www.numbertwentytwo.ie/slide-step-dublin-show/,+353(0)17079899,-6.25903498926072,53.3409727054924,Dublin,Dublin City,Republic of Ireland
 Considine’s Bar,http://www.facebook.com/considines,+353(0)877986513,-9.42104139598382,52.9531583518799,Clare,Liscannor,Republic of Ireland
@@ -4511,7 +4511,7 @@ Footgolf at Deer Park Golf and Poc Fada,http://deerparkgolf.ie/footgolf/,+353(0)
 Poc Fada at Deer Park Golf and Footgolf,http://deerparkgolf.ie/poc-fada-golf/,+353(0)18323487,-6.0764149,53.382554,Dublin,Howth,Republic of Ireland
 The Irish Dance Party,http://irishdanceparty.com/,+353(0)873258626,-6.2552464,53.3504318,Dublin,Dublin City,Republic of Ireland
 BEYOND THE GLASS Wild Atlantic Way Adventure Tours,http://www.beyondtheglass.ie/6dayactivitytourofcorkandkerry,+353(0)863850398,-8.78492605764154,51.9174656550127,Cork,Kinsale,Republic of Ireland
-BEYOND THE GLASS Cycle Tour of Cork City,http://www.beyondtheglass.ie,+353(0)863850398,-8.50460435079458,51.8887420172216,Cork,"Glasheen, Cork City",Republic of Ireland
+BEYOND THE GLASS Cycle Tour of Cork City,http://www.beyondtheglass.ie,+353(0)863850398,-8.50460435079458,51.8887420172216,Cork,Glasheen Cork City,Republic of Ireland
 The Fireside Folklore Experience,http://www.facebook.com/firesidefolkloreexperience,,-8.47703377469793,54.3304372300901,Sligo,Drumcliffe,Republic of Ireland
 Burren Mountain Tours,https://www.facebook.com/BurrenMountainTours/,+353(0)868238864,-9.2735648275086,53.1251924908636,Clare,Ballyvaughan,Republic of Ireland
 Temple Cafe,http://facebook.com/cafetemple/,+353(0)838329368,-9.05273930496548,53.2713363799223,Galway,Galway City,Republic of Ireland
@@ -4549,14 +4549,14 @@ Translink,http://www.ulsterbustours.com,+44 (0)28 9033 7004,-5.91516,54.595146,A
 Logans Executive Travel,http://loganstravel.com,+44 (0)28 2765 7203,-6.414524,55.028671,Antrim,Ballymena,Northern Ireland
 Belle Isle Castle,http://belle-isle.com/,+44 (0)28 6638 7231,-7.555738,54.268985,Fermanagh,Enniskillen,Northern Ireland
 City Of Derry Airport,http://www.cityofderryairport.com,+44 (0)28 7181 0784,-7.1559178,55.0487536,Londonderry,Londonderry,Northern Ireland
-"The SSE Arena, Belfast",http://www.ssearenabelfast.com,+44 (0)28 9076 6030,-5.915444,54.603916,Antrim,Belfast,Northern Ireland
-"West Wing, Crom Castle",http://www.cromcastle.com,+44 (0)28 6773 8004,-7.449749,54.169494,Fermanagh,Enniskillen,Northern Ireland
+The SSE Arena Belfast,http://www.ssearenabelfast.com,+44 (0)28 9076 6030,-5.915444,54.603916,Antrim,Belfast,Northern Ireland
+West Wing Crom Castle,http://www.cromcastle.com,+44 (0)28 6773 8004,-7.449749,54.169494,Fermanagh,Enniskillen,Northern Ireland
 Ulster American Folk Park,http://www.nmni.com/uafp,+44 (0)28 9039 5110,-7.33030172613874,54.6607875324808,Tyrone,Omagh,Northern Ireland
 Drenagh - Exclusive House Lets,http://www.drenagh.com,+44 (0)28 7772 2649,-6.932014,55.0597,Londonderry,Limavady,Northern Ireland
 Lagan Valley Island Conference Centre,http://www.laganvalleyisland.co.uk,+44 (0)28 9250 9292,-6.027304,54.520992,Antrim,Lisburn,Northern Ireland
 Belfast Cookery School,http://www.belfastcookeryschool.com,+44 (0)28 9023 4772,-5.93138147751995,54.5992358567191,Antrim,Belfast,Northern Ireland
 SS Nomadic,http://www.nomadicbelfast.com,+44 (0)28 9076 6454,-5.904911,54.610408,Antrim,Belfast,Northern Ireland
-"Riddel Hall, Queen's University Belfast",http://www.qub.ac.uk,+44 (0)44 (0)9097 5047,-5.93974588791288,54.5724389855734,Antrim,Belfast,Northern Ireland
+Riddel Hall Queen's University Belfast,http://www.qub.ac.uk,+44 (0)44 (0)9097 5047,-5.93974588791288,54.5724389855734,Antrim,Belfast,Northern Ireland
 Crumlin Road Gaol,http://www.crumlinroadgaol.com,+44 (0)28 9074 1500,-5.940461,54.608233,Antrim,Belfast,Northern Ireland
 Larchfield Estate,http://www.larchfieldestate.co.uk,+44 (0)7970 030 146,-5.99144863107558,54.464274270211,Antrim,Lisburn,Northern Ireland
 Lusty Beg Island,http://www.lustybegisland.com,+44 (0)28 6863 3300,-7.831317,54.508518,Fermanagh,Enniskillen,Northern Ireland
@@ -4612,7 +4612,7 @@ Irish Whiskey Museum,http://www.irishwhiskeymuseum.ie,,-6.25955,53.34416,Dublin,
 Secret Ireland Escapes,http://www.secretirelandescapes.com,+353 61 302886,-8.44752,52.80889,Clare,Killaloe,Republic of Ireland
 Advantage PCO,http://www.advantagegroup.ie,+353 1 2164222,-6.260128,53.292375,Dublin,Dublin City,Republic of Ireland
 Hotel Solutions,https://www.hotel-solutions.ie,,-6.44294,53.29341,Dublin,Dublin City,Republic of Ireland
-"Siamsa Tíre, The National Folk Theatre & Arts Centre",http://www.siamsatire.com,,-9.7077,52.26623,Kerry,Tralee,Republic of Ireland
+Siamsa Tíre The National Folk Theatre & Arts Centre,http://www.siamsatire.com,,-9.7077,52.26623,Kerry,Tralee,Republic of Ireland
 Lighthouse Tavern,https://facebook.com/fanadlighthousetavern,+353(0)749159212,-7.63186947934571,55.2761077773154,Donegal,Fanad Head,Republic of Ireland
 Belfast City Hall,http://www.belfastcity.gov.uk/cityhall,+44 (0)28 9027 0281,-5.930126,54.59663,Antrim,Belfast,Northern Ireland
 Castle Ward,http://www.nationaltrust.org.uk/castle-ward,+44 (0)28 4488 1204,-5.5791449546814,54.3587684631348,Down,Downpatrick,Northern Ireland
@@ -4674,8 +4674,8 @@ Guinness Storehouse,http://www.guinness-storehouse.com/events,+353(0)14714602,-6
 Dublin Tour Guide,http://www.dublintourguide.ie,+353(0)863044433,-6.27671409999994,53.3460783,Dublin,Dublin City,Republic of Ireland
 Club Vitae Gym Cork,http://www.clubvitae.com/corkclayton/,+353(0)214224994,-8.465057861079,51.8984418129048,Cork,Cork City,Republic of Ireland
 Free Walking Tours Howth,http://freewalkingtourshowth.com,+353(0)879781390,-6.07422429999996,53.3889609,Dublin,Dublin,Republic of Ireland
-"Boyne Valley, Celtic Ireland and Slane Castle Whiskey Tour - Rabbie's Small Group Tours",http://rabbies.com/en/ireland-tours/from-dublin/day-tours,+44(0)1312263133,-6.25503378465577,53.3423507835212,Dublin,Dublin City,Republic of Ireland
-"Glendalough, Powerscourt and the Wicklow Mountains Tour – Rabbie's Small Group Tours",http://rabbies.com/en/ireland-tours/from-dublin/day-tours,+44(0)1312263133,-6.255073858184,53.3423856497978,Dublin,Dublin City,Republic of Ireland
+Boyne Valley Celtic Ireland and Slane Castle Whiskey Tour - Rabbie's Small Group Tours,http://rabbies.com/en/ireland-tours/from-dublin/day-tours,+44(0)1312263133,-6.25503378465577,53.3423507835212,Dublin,Dublin City,Republic of Ireland
+Glendalough Powerscourt and the Wicklow Mountains Tour – Rabbie's Small Group Tours,http://rabbies.com/en/ireland-tours/from-dublin/day-tours,+44(0)1312263133,-6.255073858184,53.3423856497978,Dublin,Dublin City,Republic of Ireland
 Cocoa Cookhouse,http://cocoacookhouse.ie,+353(0)861739753,-6.34460448968752,52.5283104071119,Wexford,Gorey,Republic of Ireland
 Glendalough Shuttle Bus,http://glendaloughshuttlebus.com,+353(0)429669130,-6.89019854059552,53.9918480627855,Cavan,Shercock,Republic of Ireland
 Carlingford Lough Ferry,https://www.carlingfordferry.com,+353(0)1800938004,-6.13183572990658,54.0342728756446,Louth,Greenore,Republic of Ireland
@@ -4868,8 +4868,8 @@ Cavan Community Tourist Office,,+353(0)16057700,-7.362114,53.992926,Cavan,Cavan 
 Kilkenny Tourist Information Centre,,+353(0)16057700,-7.25305471489946,52.6521817593577,Kilkenny,Kilkenny,Republic of Ireland
 Donegal Tourist Information Centre,,+353(0)16057700,-8.11174344560618,54.6520234300191,Donegal,Donegal Town,Republic of Ireland
 Kilmichael Pitch And Putt Club,http://www.facebook.com/kilmichaelppclub/,+353(0)877960867,-8.989916,51.874781,Cork,Macroom ,Republic of Ireland
-"The Church, Café, Late Bar & Restaurant",http://www.thechurch.ie,+353 1 828102,-6.26693,53.34856,Dublin,Dublin City,Republic of Ireland
-"The Church, Café, Late Bar and Restaurant",http://www.thechurch.ie,+353(0)18280102,-6.26669964781569,53.3486200402974,Dublin,Dublin,Republic of Ireland
+The Church Café Late Bar & Restaurant,http://www.thechurch.ie,+353 1 828102,-6.26693,53.34856,Dublin,Dublin City,Republic of Ireland
+The Church Café Late Bar and Restaurant,http://www.thechurch.ie,+353(0)18280102,-6.26669964781569,53.3486200402974,Dublin,Dublin,Republic of Ireland
 Waterford Tourist Information Centre,,+353(0)16057700,-7.10674176554699,52.2609493412396,Waterford,Waterford City,Republic of Ireland
 Mullingar Tourist Information Centre,,+353(0)16057700,-7.34161942726132,53.5256289908417,Westmeath,Mullingar,Republic of Ireland
 Wicklow Tourist Information Centre,,+353(0)16057700,-6.043428,52.98086,Wicklow,Wicklow Town,Republic of Ireland
@@ -5004,7 +5004,7 @@ Connemara Gifts,http://www.peacockes.ie/giftspeacockes/gift-shop,+353(0)91552306
 Merrow,http://merrow.ie,+353(0)91394076,-9.05293259934126,53.269923531975,Galway,Galway,Republic of Ireland
 Yellow Umbrella Tours Ltd,http://dublinfreewalkingtour.ie,+353(0)830673393,-6.26021629878289,53.3497150859291,Dublin,Dublin City,Republic of Ireland
 The Retreat Kinsale,http://theretreatkinsale.com,+353(0)876664899,-8.57560669471388,51.6640416186395,Cork,Kinsale,Republic of Ireland
-"7 Day Magnetic North Adventure Tour, Vagabond Tours of Ireland",https://vagabondtoursofireland.com/tour/7-day-magnetic-north-northern-ireland-adventure-tour,+353(0)15634358,-6.10577993557353,53.0844372051494,Wicklow,Newtownmountkennedy,Republic of Ireland
+7 Day Magnetic North Adventure Tour Vagabond Tours of Ireland,https://vagabondtoursofireland.com/tour/7-day-magnetic-north-northern-ireland-adventure-tour,+353(0)15634358,-6.10577993557353,53.0844372051494,Wicklow,Newtownmountkennedy,Republic of Ireland
 In Our Shoes Walking Tours,http://inourshoeswalkingtours.com,+353(0)16708880,-6.27220512716212,53.3449572803479,Dublin,Dublin City,Republic of Ireland
 10 Fleet Street Restaurant & Bar,http://themorgan.com/en/10-fleet-street,+353(0)16437000,-6.26123221008219,53.345795818709,Dublin,Dublin City,Republic of Ireland
 Peacockes Fireside Bar and Restaurant,http://peacockes.ie/dining/bar-and-restaurant,+353(0)91552306,-9.53950125376354,53.4560864533688,Galway,Recess,Republic of Ireland
@@ -5059,7 +5059,7 @@ ely winebar - Ely Place,http://www.elywinebar.ie/,+353(0)16768986,-6.254011,53.3
 Fallon and Byrne Restaurant,http://www.fallonandbyrne.com,+353(0)14721010,-6.26328841468046,53.3432012275799,Dublin,Dublin City Centre,Republic of Ireland
 Wrights Findlater Howth,http://findlater.ie/,+353(0)18324488,-6.067881,53.38766,Dublin,Howth,Republic of Ireland
 Il Corvo,http://www.ilcorvo.ie,+353(0)18375727,-6.25267963558189,53.3719910050559,Dublin,Drumcondra,Republic of Ireland
-"Jaipur, Malahide",http://jaipur.ie/locations/malahide/,+353(0)18455455,-6.15179475826641,53.4514512524201,Dublin,Malahide,Republic of Ireland
+Jaipur Malahide,http://jaipur.ie/locations/malahide/,+353(0)18455455,-6.15179475826641,53.4514512524201,Dublin,Malahide,Republic of Ireland
 Jaipur,http://www.jaipur.ie,+353(0)12850552,-6.104259,53.277496,Dublin,Dalkey,Republic of Ireland
 Jewel in The Crown,http://www.jewelinthecrown.ie,+353(0)16670959,-6.232093,53.330505,Dublin,Ballsbridge,Republic of Ireland
 La Peniche,http://www.lapeniche.ie,+353(0)877900077,-6.2494236554337,53.332882248925,Dublin,Dublin,Republic of Ireland
@@ -5141,10 +5141,10 @@ My Ireland Tour - 6 Day Iconic Scenes of Ireland Tour,http://www.myirelandtour.c
 My Ireland Tour-7 Day Castles and Backroads Tour,https://myirelandtour.com/tours/2020/castles-and-backroads-tour.php,+353(0)214376600,-7.24929689757221,52.6504665817755,Dublin,Dublin City,Republic of Ireland
 Lulu + Belle,http://www.luluandbelle.com,+353(0)14434034,-6.09112062387533,53.5219090375434,Dublin,Rush,Republic of Ireland
 Ireland Luxury Travel,http://IrelandLuxuryTravel.com,+353(0)2851390,-9.26733604125661,51.5484230278201,Cork,Skibbereen,Republic of Ireland
-"Blarney Castle, Kilkenny and Irish Whiskey - Rabbie's Small Group Tours",https://www.rabbies.com/en,+44(0)1312263133,-6.25517685519844,53.3422604234743,Dublin,Dublin,Republic of Ireland
-"Dingle, Killarney and the Wild Atlantic Way - Rabbie's Small Group Tours",http://rabbies.com/en,+44(0)1312263133,-6.25517390769892,53.3422642632311,Dublin,Dublin,Republic of Ireland
+Blarney Castle Kilkenny and Irish Whiskey - Rabbie's Small Group Tours,https://www.rabbies.com/en,+44(0)1312263133,-6.25517685519844,53.3422604234743,Dublin,Dublin,Republic of Ireland
+Dingle Killarney and the Wild Atlantic Way - Rabbie's Small Group Tours,http://rabbies.com/en,+44(0)1312263133,-6.25517390769892,53.3422642632311,Dublin,Dublin,Republic of Ireland
 My Ireland Tour - 6 Day Coast to Coast Discovery Tour,https://myirelandtour.com/tours/2020/coast-to-coast-discovery-tour.php,+353(0)214376600,-6.34522817425125,53.0051602725982,Dublin,Glendalough,Republic of Ireland
-"Ring of Kerry, Killarney and Cork - Rabbie's Small Group Tours",http://rabbies.com/en,+44(0)1312263133,-6.25510819050851,53.3421619284397,Dublin,Dublin,Republic of Ireland
+Ring of Kerry Killarney and Cork - Rabbie's Small Group Tours,http://rabbies.com/en,+44(0)1312263133,-6.25510819050851,53.3421619284397,Dublin,Dublin,Republic of Ireland
 Corrin Nature Reserve,http://rathcormacgameandwildlifeclub.ie,+353(0)2536253,-8.28814631964553,52.1104204738137,Cork,Fermoy,Republic of Ireland
 The West Coast Explorer - Rabbie's Small Group Tours,http://rabbies.com/en,+44(0)1312263133,-6.25515432355405,53.3423515670844,Dublin,Dublin,Republic of Ireland
 Wexford Discovery Tours,http://wexforddiscoverytaxitours.com/,+353(0)876411111,-6.48702929949366,52.3333629793542,Wexford,Wexford,Republic of Ireland

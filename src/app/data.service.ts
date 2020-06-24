@@ -27,7 +27,8 @@ export class DataService {
   public async getAttractionsCsv(): Promise<string> {
     if (this._attractionsCsv) return this._attractionsCsv;
 
-    const request = await fetch('/assets/data/attractions.csv');
+    const request = await fetch('/assets/data/activities.csv');
+    // const request = await fetch('/assets/data/attractions.csv');
     if (request.ok) {
       this._attractionsCsv = await request.text();
       return this._attractionsCsv;
