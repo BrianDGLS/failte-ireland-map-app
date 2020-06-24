@@ -108,7 +108,7 @@ Cong Caravan and Camping Park,https://www.congcamping.com/,+353(0)949546089,-9.2
 Donoghues White Villa Farm Caravan Park,http://www.killarneycaravanpark.com,+353(0)646620671,-9.45340313675683,52.0475282892549,Kerry,Killarney,Republic of Ireland
 Lakeside Holiday Park,http://www.lakesideireland.com,+353(0)61927225,-8.420733,52.927549,Clare,Mountshannon,Republic of Ireland
 Blarney Caravan and Camping Park,http://www.blarneycaravanpark.com,+353(0)214516519,-8.5461,51.947423,Cork,Blarney,Republic of Ireland
-"Belleek Park, Caravan and Camping Park",http://www.belleekpark.com/,+353(0)9671533,-9.156827,54.133439,Mayo,Ballina,Republic of Ireland
+Belleek Park Caravan and Camping Park,http://www.belleekpark.com/,+353(0)9671533,-9.156827,54.133439,Mayo,Ballina,Republic of Ireland
 Killarney Flesk Caravan Park,http://www.killarneyfleskcamping.com,+353(0)646631704,-9.500344,52.043889,Kerry,Killarney,Republic of Ireland
 Parsons Green,http://www.clogheen.com/,+353(0)527465290,-7.990178,52.281875,Tipperary,Clogheen,Republic of Ireland
 Lough Ramor Caravan and Camping Park,,+353(0)872825976,-7.049428,53.795701,Cavan,Virginia,Republic of Ireland
@@ -293,12 +293,12 @@ Friar's Lodge,http://www.friars-lodge.com,+353(0)214777384,-8.526748,51.707142,C
 Conyngham Arms Hotel,http://www.conynghamarms.ie,+353(0)419884444,-6.54471763833304,53.7085884860577,Meath,Slane,Republic of Ireland
 Hunters Hotel,http://www.hunters.ie,+353(0)40440106,-6.08413925396735,53.0063833395929,Wicklow,Rathnew,Republic of Ireland
 Holyrood Hotel,http://www.holyroodhotel.com,+353(0)719841232,-8.27984289699361,54.4779471310046,Donegal,Bundoran,Republic of Ireland
-"Central Hotel, Conference and Leisure Centre",https://www.facebook.com/pg/centralhoteldonegal/about/,+353(0)749721027,-8.11079991038127,54.6534912065065,Donegal,Donegal Town,Republic of Ireland
+Central Hotel Conference and Leisure Centre,https://www.facebook.com/pg/centralhoteldonegal/about/,+353(0)749721027,-8.11079991038127,54.6534912065065,Donegal,Donegal Town,Republic of Ireland
 Gougane Barra Hotel,http://www.gouganebarrahotel.com/,+353(0)2647069,-9.31700344295689,51.8388545118661,Cork,Ballingeary,Republic of Ireland
 Dorrian’s Imperial Hotel,http://www.dorriansimperialhotel.com,+353(0)719851147,-8.19124232142644,54.5020065267716,Donegal,Ballyshannon,Republic of Ireland
 Bay View Hotel,http://www.thebayviewhotel.com,+353(0)214646746,-8.00468228836053,51.8278908837917,Cork,Ballycotton,Republic of Ireland
 The Wyatt Hotel,http://www.wyatthotel.com,+353(0)9825027,-9.52530618650814,53.799263197959,Mayo,Westport,Republic of Ireland
-"Yeats Country Hotel, Spa and Leisure Club",http://www.yeatscountryhotel.com,+353(0)719177211,-8.56538857672126,54.3058449706144,Sligo,Rosses Point,Republic of Ireland
+Yeats Country Hotel Spa and Leisure Club,http://www.yeatscountryhotel.com,+353(0)719177211,-8.56538857672126,54.3058449706144,Sligo,Rosses Point,Republic of Ireland
 Talbot Hotel,https://www.talbotwexford.ie,+353(0)539122566,-6.45735591534424,52.3357635567824,Wexford,Wexford Town,Republic of Ireland
 Arbutus Hotel,http://www.arbutuskillarney.com,+353(0)646631037,-9.50609804662701,52.0595528069219,Kerry,Killarney,Republic of Ireland
 Casey's Hotel,http://www.caseyshotelglengarriff.ie,+353(0)2763010,-9.55140359391783,51.7498731934389,Cork,Glengarriff,Republic of Ireland
@@ -393,7 +393,7 @@ County Arms Hotel,http://www.countyarmshotel.com,+353(0)579120791,-7.90601869940
 Nuremore Hotel,http://www.nuremore.com,+353(0)429661438,-6.6948799478331,53.9630099257912,Monaghan,Carrickmacross,Republic of Ireland
 Tower Hotel and Leisure Centre,http://www.towerhotelwaterford.com,+353(0)51862300,-7.104975,52.260068,Waterford,Waterford City,Republic of Ireland
 Blue Haven Hotel,http://www.bluehavenkinsale.com,+353(0)214772209,-8.522925,51.706425,Cork,Kinsale,Republic of Ireland
-"Arklow Bay Conference, Leisure and Spa Hotel",http://www.arklowbay.com,+353(0)40226200,-6.14333676992328,52.802895818047,Wicklow,Arklow,Republic of Ireland
+Arklow Bay Conference Leisure and Spa Hotel,http://www.arklowbay.com,+353(0)40226200,-6.14333676992328,52.802895818047,Wicklow,Arklow,Republic of Ireland
 Listowel Arms Hotel,http://www.listowelarms.com,+353(0)6821500,-9.48695055456164,52.4451994274883,Kerry,Listowel,Republic of Ireland
 Clew Bay Hotel,http://www.clewbayhotel.com,+353(0)9828088,-9.52334504662701,53.8006288079752,Mayo,Westport,Republic of Ireland
 Dromoland Castle Hotel,https://www.dromoland.ie/,+353(0)61368144,-8.90565950660709,52.783473592409,Clare,Newmarket on Fergus,Republic of Ireland
@@ -404,7 +404,7 @@ Minella Hotel and Leisure Centre,https://www.hotelminella.com/,+353(0)526122388,
 Boyne Valley Hotel and Country Club,https://www.boynevalleyhotel.ie,+353(0)419837737,-6.32299776132481,53.7057606399197,Louth,Drogheda,Republic of Ireland
 The Hotel Rosslare,http://www.hotelrosslare.ie,+353(0)539133110,-6.33655392146113,52.2499136740371,Wexford,Wexford,Republic of Ireland
 Salthill Hotel,http://www.salthillhotel.com,+353(0)91522711,-9.08734321230315,53.2586568458885,Galway,Salthill,Republic of Ireland
-"Abbey Hotel, Conference and Leisure",http://www.abbeyhotel.ie,+353(0)906626240,-8.19374695031456,53.6245073881882,Roscommon,Roscommon,Republic of Ireland
+Abbey Hotel Conference and Leisure,http://www.abbeyhotel.ie,+353(0)906626240,-8.19374695031456,53.6245073881882,Roscommon,Roscommon,Republic of Ireland
 The Anner Hotel,http://www.annerhotel.ie,+353(0)50421799,-7.79621553372953,52.6787770238762,Tipperary,Thurles,Republic of Ireland
 Ivy Tower Hotel,https://www.ivytowerhotel.ie/,+353(0)949022288,-9.29782552397728,53.8597322289449,Mayo,Castlebar,Republic of Ireland
 Rochestown Lodge Hotel and Leisure Club,http://www.rochestownlodge.com/,+353(0)12853555,-6.14167254844472,53.2695679701424,Dublin,Dun Laoghaire,Republic of Ireland
@@ -429,7 +429,7 @@ Hotel Kilkenny,http://www.hotelkilkenny.ie,+353(0)567762000,-7.26107850487619,52
 Gregans Castle Hotel,http://www.gregans.ie,+353(0)657077005,-9.18425596808811,53.0767819075674,Clare,Ballyvaughan,Republic of Ireland
 Treacy's West County Conference & Leisure Hotel,http://www.treacyswestcounty.com/,+353(0)656869600,-8.98035322320936,52.8313270343498,Clare,Ennis,Republic of Ireland
 Clayton Hotel Silver Springs,http://www.claytonhotelsilversprings.com,+353(0)214507533,-8.4241143797102,51.9040011606565,Cork,Cork,Republic of Ireland
-"Mount Errigal Hotel, Conference and Leisure Centre",http://www.mounterrigal.com,+353(0)749122700,-7.71392856564136,54.9504880106702,Donegal,Letterkenny,Republic of Ireland
+Mount Errigal Hotel Conference and Leisure Centre,http://www.mounterrigal.com,+353(0)749122700,-7.71392856564136,54.9504880106702,Donegal,Letterkenny,Republic of Ireland
 Devon Inn Hotel,http://www.devoninnhotel.ie,+353(0)6984122,-9.17974568919373,52.3948304655072,Limerick,Templeglantine,Republic of Ireland
 The Inn At Dromoland,http://www.theinnatdromoland.ie,+353(0)61368161,-8.91545326943299,52.7890383201258,Clare,Dromoland,Republic of Ireland
 Brandon House Hotel and Solas Croi Spa,http://www.brandonhousehotel.ie,+353(0)51421703,-6.94412631282808,52.3869179458894,Wexford,New Ross,Republic of Ireland
@@ -457,13 +457,13 @@ Tara Towers Hotel,http://www.taratowers.com,+353(0)12694666,-6.20221143493563,53
 Greenhills Hotel,http://www.greenhillsgroup.com,+353(0)61453033,-8.6711574951239,52.6737115938038,Limerick,Limerick City,Republic of Ireland
 Rosleague Manor Hotel,http://www.rosleague.com,+353(0)9541101,-9.97303806480409,53.5469579384392,Galway,Connemara,Republic of Ireland
 Lawlors Hotel,http://www.lawlorshotel.com,+353(0)5841122,-7.62100419510647,52.0906640481633,Waterford,Dungarvan,Republic of Ireland
-"Hotel Westport, Leisure Spa and Conference",http://www.hotelwestport.ie,+353(0)9825122,-9.52814195146845,53.8010425209789,Mayo,Westport,Republic of Ireland
+Hotel Westport Leisure Spa and Conference,http://www.hotelwestport.ie,+353(0)9825122,-9.52814195146845,53.8010425209789,Mayo,Westport,Republic of Ireland
 Woodfield House Hotel,http://www.woodfield.ie/,+353(0)61453022,-8.65057147544576,52.6678067311415,Limerick,Limerick,Republic of Ireland
 Hillgrove Hotel Leisure and Spa,http://www.hillgrovehotel.com,+353(0)4781288,-6.954996,54.2465,Monaghan,Monaghan,Republic of Ireland
 Rathkeale House Hotel,http://www.rathkealehousehotel.ie,+353(0)6963333,-8.94099661423411,52.5222949951741,Limerick,Rathkeale,Republic of Ireland
 The Keadeen Hotel,http://www.keadeenhotel.ie,+353(0)45431666,-6.81448256812291,53.1702501407464,Kildare,Newbridge,Republic of Ireland
 Shannon Lodge Hotel,https://shannonlodgehotel.com/,+353(0)579152710,-7.98523976744172,53.1882479733321,Offaly,Banagher,Republic of Ireland
-"Castlecourt Hotel Spa, Leisure and Conference",http://www.castlecourthotel.ie,+353(0)9855088,-9.51898689699362,53.8011624018335,Mayo,Westport,Republic of Ireland
+Castlecourt Hotel Spa Leisure and Conference,http://www.castlecourthotel.ie,+353(0)9855088,-9.51898689699362,53.8011624018335,Mayo,Westport,Republic of Ireland
 Kelly's Hotel,http://www.kellysdublin.com,+353(0)16480010,-6.26467071266347,53.341989901462,Dublin,Dublin 2,Republic of Ireland
 Cabra Castle Hotel,http://www.cabracastle.com,+353(0)429667030,-6.7743727011366,53.9137938320051,Cavan,Kingscourt,Republic of Ireland
 Hotel Imperial,http://www.thehotelimperial.ie,+353(0)429332241,-6.40170590120601,54.0030150417948,Louth,Dundalk,Republic of Ireland
@@ -494,7 +494,7 @@ Riverbank House Hotel,http://www.riverbankhousehotel.com,+353(0)539123611,-6.455
 West County Hotel,http://www.westcountyhotel.ie,+353(0)16264011,-6.35590079629515,53.3513533016441,Dublin,Chapelizod,Republic of Ireland
 Mountshannon Hotel,http://www.mountshannon-hotel.ie,+353(0)61927162,-8.42815869692424,52.931839139924,Clare,Mountshannon,Republic of Ireland
 O'Loughlins Hotel,https://www.oloughlinshotel.com/,+353(0)578621305,-7.298301,53.034216,Laois,Portlaoise,Republic of Ireland
-"Redcastle Oceanfront, Golf and Spa Hotel",http://www.redcastlehotel.com,+353(0)749385555,-7.12270985568045,55.1585511927155,Donegal,Inishowen,Republic of Ireland
+Redcastle Oceanfront Golf and Spa Hotel,http://www.redcastlehotel.com,+353(0)749385555,-7.12270985568045,55.1585511927155,Donegal,Inishowen,Republic of Ireland
 Midleton Park Hotel and Spa,http://www.midletonpark.com,+353(0)214635100,-8.17894985400198,51.9148040731585,Cork,Midleton,Republic of Ireland
 Castle Arch Hotel,http://www.castlearchhotel.com,+353(0)469431516,-6.79492383986371,53.5509776259203,Meath,Trim,Republic of Ireland
 Marlfield House Hotel,http://www.marlfieldhouse.com,+353(0)539421124,-6.27521511962606,52.668749124278,Wexford,Gorey,Republic of Ireland
@@ -520,7 +520,7 @@ Sligo Southern Hotel,http://www.sligosouthernhotel.ie/,+353(0)719162101,-8.48277
 Woodenbridge Hotel,http://www.woodenbridgehotel.com,+353(0)40235146,-6.23499623065379,52.832201872125,Wicklow,Arklow,Republic of Ireland
 Dun A Ri House Hotel,http://www.dunarihouse.com,+353(0)429668091,-6.804325,53.905144,Cavan,Kingscourt,Republic of Ireland
 Óstán Inis Oírr,http://www.hotelinisoirr.com,+353(0)9975020,-9.52377011408612,53.0654410408056,Galway,Aran Islands,Republic of Ireland
-"Oranmore Lodge Hotel, Conference and Leisure Centre",http://www.oranmorelodge.ie,+353(0)91794400,-8.9308824141035,53.2760256616919,Galway,Oranmore,Republic of Ireland
+Oranmore Lodge Hotel Conference and Leisure Centre,http://www.oranmorelodge.ie,+353(0)91794400,-8.9308824141035,53.2760256616919,Galway,Oranmore,Republic of Ireland
 Creighton Hotel,http://www.creightonhotel.ie/,+353(0)4751055,-7.23467767418765,54.1813599796888,Monaghan,Clones,Republic of Ireland
 Farnham Arms Hotel,http://www.farnhamarmshotel.com/,+353(0)494332577,-7.35973755456166,53.9913385862435,Cavan,Cavan Town,Republic of Ireland
 The Westbury Hotel,http://www.doylecollection.com,+353(0)16791122,-6.26143753984638,53.3415244545117,Dublin,Dublin City,Republic of Ireland
@@ -533,7 +533,7 @@ The Belvedere Hotel,http://www.belvederehotel.ie,+353(0)18737700,-6.262128230653
 Clonea Strand Hotel,,+353(0)5845555,-7.54629,52.094416,Waterford,Dungarvan,Republic of Ireland
 The Strand Hotel,https://thestrandhotelbray.com/,+353(0)15482960,-6.095738,53.198565,Wicklow,Bray,Republic of Ireland
 Firgrove Hotel,http://www.firgrovehotel.com/,+353(0)2524111,-8.27193935639661,52.2743194053885,Cork,Mitchelstown,Republic of Ireland
-"Oriel House Hotel, Leisure Club",http://www.orielhousehotel.ie,+353(0)214208400,-8.60109918402668,51.888110823606,Cork,Ballincollig,Republic of Ireland
+Oriel House Hotel Leisure Club,http://www.orielhousehotel.ie,+353(0)214208400,-8.60109918402668,51.888110823606,Cork,Ballincollig,Republic of Ireland
 Hibernian Hotel,http://www.hibernianhotelmallow.com,+353(0)2258200,-8.64592732944777,52.1375983773317,Cork,Mallow,Republic of Ireland
 Imperial Hotel,,+353(0)238834185,-8.88579834508709,51.6226070980859,Cork,Clonakilty,Republic of Ireland
 Bunratty Castle Hotel,http://www.bunrattycastlehotel.com,+353(0)61478700,-8.81513438882916,52.6962513772804,Clare,Bunratty,Republic of Ireland
@@ -571,7 +571,7 @@ King Thomond Hotel,http://www.kingthomondhotel.com/,+353(0)657074444,-9.28408195
 Cliff House Hotel,http://www.cliffhousehotel.com,+353(0)6827777,-9.67339032333086,52.5144492466294,Kerry,Ballybunion,Republic of Ireland
 Majestic Hotel,http://www.majestic-hotel.ie,+353(0)51381761,-7.14842391534421,52.1631747556782,Waterford,Tramore,Republic of Ireland
 Lough Inagh Lodge Hotel,http://www.loughinaghlodgehotel.ie,+353(0)9534706,-9.74199683374695,53.5207980512211,Galway,Recess,Republic of Ireland
-"Slieve Russell Hotel, Golf and Country Club",http://www.slieverussell.ie,+353(0)499526444,-7.55676922551731,54.0967100074987,Cavan,Ballyconnell,Republic of Ireland
+Slieve Russell Hotel Golf and Country Club,http://www.slieverussell.ie,+353(0)499526444,-7.55676922551731,54.0967100074987,Cavan,Ballyconnell,Republic of Ireland
 Harvey's Point,http://www.harveyspoint.com,+353(0)749722208,-8.05272119187453,54.6961545999221,Donegal,Donegal Town,Republic of Ireland
 The Park Hotel and Leisure Centre,http://www.flynnhotels.com/Park_Hotel_Dungarvan/,+353(0)5842899,-7.6231689453516,52.0945941196026,Waterford,Dungarvan,Republic of Ireland
 McSweeney Arms Hotel,http://www.mcsweeneyarms.ie/,+353(0)646631211,-9.5059286736107,52.0600543244747,Kerry,Killarney,Republic of Ireland
@@ -647,15 +647,15 @@ Herbert Park Hotel,http://www.herbertparkhotel.ie,+353(0)16672200,-6.23203464285
 Blooms Hotel,https://www.blooms.ie/,+353(0)16715622,-6.262143,53.344811,Dublin,Dublin 2,Republic of Ireland
 Templemore Arms Hotel,http://www.templemorearms.com,+353(0)50431423,-7.833303,52.797279,Tipperary,Templemore,Republic of Ireland
 Merriman Hotel,http://www.merrimanhotel.com,+353(0)91638222,-8.939892,53.13931,Galway,Kinvara,Republic of Ireland
-The Mustard Seed,http://www.mustardseed.ie,"[""+353(0)6968508"",""+353(0)872396307""]",-8.867034,52.475325,Limerick,Ballingarry,Republic of Ireland
+The Mustard Seed,http://www.mustardseed.ie,+353(0)872396307,-8.867034,52.475325,Limerick,Ballingarry,Republic of Ireland
 Raheen House Hotel,http://www.raheenhouse.ie,+353(0)526122140,-7.696114,52.350914,Tipperary,Clonmel,Republic of Ireland
 Handels Hotel,https://www.thekeycollections.com/handels-hotel-temple-bar,+353(0)16709400,-6.26967435467634,53.3440867424419,Dublin,Dublin 2,Republic of Ireland
-"Citywest Hotel, Leisure & Events",http://www.citywesthotel.com,+353(0)14010500,-6.450051,53.285947,Dublin,Saggart,Republic of Ireland
+Citywest Hotel Leisure & Events,http://www.citywesthotel.com,+353(0)14010500,-6.450051,53.285947,Dublin,Saggart,Republic of Ireland
 Armada Hotel,http://www.armadahotel.com,+353(0)657079000,-9.436894,52.845222,Clare,Miltown Malbay,Republic of Ireland
 Hard Rock Hotel Dublin,https://www.hardrockhotels.com/dublin,+353(0)14825000,-6.268179,53.344112,Dublin,Dublin 2,Republic of Ireland
 Dunbrody Country House Hotel,http://www.dunbrodyhouse.com,+353(0)51389600,-6.942125,52.23985,Wexford,Arthurstown,Republic of Ireland
 Hotel Isaacs,https://www.hotelisaacscork.com/,+353(0)214500011,-8.468089,51.901594,Cork,Cork City,Republic of Ireland
-"Celtic Ross Hotel, Conference, Leisure Centre & Holistic Suite",http://www.celticrosshotel.com,+353(0)238848722,-9.02894,51.57588,Cork,West Cork,Republic of Ireland
+Celtic Ross Hotel Conference Leisure Centre & Holistic Suite,http://www.celticrosshotel.com,+353(0)238848722,-9.02894,51.57588,Cork,West Cork,Republic of Ireland
 Knockranny House Hotel & Spa,http://www.knockrannyhousehotel.ie,+353(0)9828600,-9.507916,53.802153,Mayo,Westport,Republic of Ireland
 Casey's of Baltimore Hotel,http://www.caseysofbaltimore.com,+353(0)2820197,-9.362506,51.484671,Cork,Baltimore,Republic of Ireland
 Ballyglass Country House,http://www.ballyglasshouse.com,+353(0)6252104,-8.165632,52.442009,Tipperary,Glen Of Aherlow,Republic of Ireland
@@ -674,7 +674,7 @@ Torc Hotel,https://www.torchotel.ie/,+353(0)646634168,-9.448667,52.052287,Kerry,
 Tullamore Court Hotel,http://www.tullamorecourthotel.ie,+353(0)579346666,-7.492426,53.269883,Offaly,Tullamore,Republic of Ireland
 Red Cow Moran Hotel,http://www.redcowmoranhotel.com/,+353(0)14593650,-6.363908,53.318877,Dublin,Clondalkin,Republic of Ireland
 Becketts Hotel,http://www.beckettshotel.ie,+353(0)16247040,-6.482477,53.359234,Kildare,Leixlip,Republic of Ireland
-"Radisson Blu Hotel, Dublin Airport",http://www.radissonblu.ie/hotel-dublinairport,+353(0)18446000,-6.232407,53.426515,Dublin,Dublin Airport,Republic of Ireland
+Radisson Blu Hotel Dublin Airport,http://www.radissonblu.ie/hotel-dublinairport,+353(0)18446000,-6.232407,53.426515,Dublin,Dublin Airport,Republic of Ireland
 Rhu Glenn Country Club Hotel,http://www.rhuglennhotel.com,+353(0)51832242,-7.054185,52.297288,Waterford,Waterford City,Republic of Ireland
 Mayfly Hotel,http://www.mayflyhotel.com,+353(0)949256801,-9.114866,53.980789,Mayo,Foxford,Republic of Ireland
 Arlington Hotel O'Connell Bridge,http://www.arlington.ie,+353(0)18049100,-6.260918,53.347243,Dublin,Dublin City,Republic of Ireland
@@ -682,7 +682,7 @@ Ambassador Hotel & Health Club,http://www.ambassadorhotelcork.ie,+353(0)21453900
 Galway Bay Hotel Conference and Leisure Centre,http://www.galwaybayhotel.net/,+353(0)91520520,-9.084982,53.258713,Galway,Galway City,Republic of Ireland
 Caulfields Hotel,,+353(0)18781550,-6.262576,53.358236,Dublin,Dublin 1,Republic of Ireland
 Maldron Hotel Galway,http://www.maldronhotelgalway.com,+353(0)91792244,-8.927413,53.277851,Galway,Oranmore,Republic of Ireland
-"Abbey Court Hotel, Lodges, and Trinity Leisure Spa",http://www.abbeycourt.ie,+353(0)6741111,-8.190088,52.864706,Tipperary,Nenagh,Republic of Ireland
+Abbey Court Hotel Lodges and Trinity Leisure Spa,http://www.abbeycourt.ie,+353(0)6741111,-8.190088,52.864706,Tipperary,Nenagh,Republic of Ireland
 Clifden Station House,http://www.clifdenstationhouse.com,+353(0)9521699,-10.01771,53.488777,Galway,Clifden,Republic of Ireland
 Sandymount Hotel,http://www.sandymounthotel.ie,+353(0)16142000,-6.224431,53.333405,Dublin,Dublin City,Republic of Ireland
 Riverside Park Hotel and Leisure Club,http://www.riversideparkhotel.com,+353(0)539237800,-6.566902,52.497528,Wexford,Enniscorthy,Republic of Ireland
@@ -730,7 +730,7 @@ Leenane Hotel,http://leenanehotel.com/,+353(0)9542249,-9.70493,53.594557,Galway,
 The Wilton Hotel,http://www.wiltonhotelbray.com,+353(0)12760258,-6.100199,53.186639,Wicklow,Bray,Republic of Ireland
 Westport Coast Hotel,http://www.westportcoasthotel.ie,+353(0)9829000,-9.549882,53.799578,Mayo,Westport,Republic of Ireland
 Commons Inn,http://www.commonsinn.com,+353(0)214210300,-8.487611,51.921844,Cork,Cork City,Republic of Ireland
-"The Morrison, a DoubleTree by Hilton Hotel",http://www.morrisonhotel.ie,+353(0)18872400,-6.266094,53.346516,Dublin,Dublin 1,Republic of Ireland
+The Morrison a DoubleTree by Hilton Hotel,http://www.morrisonhotel.ie,+353(0)18872400,-6.266094,53.346516,Dublin,Dublin 1,Republic of Ireland
 Shannon Springs Hotel,http://www.shannonspringshotel.com,+353(0)61364588,-8.862044,52.714901,Clare,Shannon V14 A336,Republic of Ireland
 Grand Central Hotel,http://www.grandcentralbundoran.com/,+353(0)719842722,-8.276529,54.47987,Donegal,Bundoran,Republic of Ireland
 Castle Grove Country House,http://www.castlegrove.com,+353(0)749151118,-7.648227,54.986987,Donegal,Letterkenny,Republic of Ireland
@@ -904,7 +904,7 @@ Robertstown Holiday Village,http://www.robertstownholidayvillage.com,+353(0)4587
 Carleton Village,http://www.carletonyoughal.com/,+353(0)2490044,-7.84531313624575,51.9480179632266,Cork,Youghal,Republic of Ireland
 Ballyhoura Mountain Lodges,http://www.ballyhouramountainlodges.ie,+353(0)6391666,-8.471497,52.318984,Limerick,Kilfinnane,Republic of Ireland
 Carraroe Holiday Village,http://www.carraroeholidaycottages.ie,+353(0)91551170,-9.601626,53.264241,Galway,Carraroe,Republic of Ireland
-Wolseley Manor,"http://www.dreamireland.com/site/Wolseley_Manor_Holiday_Lodges_at_Mount_Wolseley_Hotel,_Spa_and_Golf_Resort.21994.html",+353(0)646641170,-6.730272,52.791031,Carlow,Tullow,Republic of Ireland
+Wolseley Manor,http://www.dreamireland.com/site/Wolseley_Manor_Holiday_Lodges_at_Mount_Wolseley_Hotel,+353(0)646641170,-6.730272,52.791031,Carlow,Tullow,Republic of Ireland
 Fairgreen Holiday Cottages,http://www.fairgreencottages.com,+353(0)749521247,-8.365927,54.953188,Donegal,Dungloe,Republic of Ireland
 Killarney's Holiday Village,http://www.killarneysholidayvillage.com,+353(0)646636667,-9.495926,52.040112,Kerry,Killarney,Republic of Ireland
 Heyward Mews,http://www.tridentholidayhomes.ie/rentals/rentals-swords-d459497/,+353(0)12018479,-6.271584,53.486051,Dublin,Swords,Republic of Ireland
@@ -1876,7 +1876,7 @@ Seaspray & Radharc Na Farraige,http://www.coppercoastholidays.ie,+353(0)51292414
 Salterbridge Gatelodge - The Irish Landmark Trust,http://www.irishlandmark.com/property/salterbridge-gatelodge/,+353(0)16704733,-7.86292024730391,52.1512077236746,Waterford,Cappoquin,Republic of Ireland
 The Lodge,,+353(0)5868204,-7.741977,52.118013,Waterford,Dungarvan,Republic of Ireland
 Carnakilla Cottages,http://www.facebook.com/Carnakilla/,+353(0)906485389,-7.91605268084386,53.4902998900342,Westmeath,Athlone,Republic of Ireland
-"Seascape, Fethard-on-Sea",http://www.sykescottages.co.uk/cottage/County-Wexford-Slade/Seascape-17185.html,+353(0)51565626,-6.91129677916342,52.1342371186067,Wexford,Fethard-on-Sea,Republic of Ireland
+Seascape Fethard-on-Sea,http://www.sykescottages.co.uk/cottage/County-Wexford-Slade/Seascape-17185.html,+353(0)51565626,-6.91129677916342,52.1342371186067,Wexford,Fethard-on-Sea,Republic of Ireland
 The Cottage,,+353(0)51565683,-6.75031177516139,52.3144795315158,Wexford,Foulkesmill,Republic of Ireland
 Rose Cottage,,+353(0)51389182,-6.915243,52.236042,Wexford,Duncannon,Republic of Ireland
 Killiane Castle Courtyard Apartments,http://www.killianecastle.com,+353(0)539158885,-6.44860341909691,52.2919562883194,Wexford,Wexford Town,Republic of Ireland
@@ -2004,7 +2004,7 @@ House Dublin,http://www.housedublin.ie,+353(0)19059090,-6.25514113128281,53.3340
 Station House Hotel Letterkenny,http://www.stationhouseletterkenny.com,+353(0)749123100,-7.740214,54.945682,Donegal,Letterkenny,Republic of Ireland
 Carlton Hotel Dublin Airport,http://www.carltondublinairport.com,+353(0)18667500,-6.240896,53.41536,Dublin,Dublin Airport,Republic of Ireland
 Carlton Blanchardstown,http://www.carltonhotelblanchardstown.com,+353(0)18275600,-6.380736,53.41881,Dublin,Tyrrelstown,Republic of Ireland
-"Knightsbrook Hotel, Spa and Golf Resort",http://www.knightsbrook.com,+353(0)469482100,-6.7644,53.548435,Meath,Trim,Republic of Ireland
+Knightsbrook Hotel Spa and Golf Resort,http://www.knightsbrook.com,+353(0)469482100,-6.7644,53.548435,Meath,Trim,Republic of Ireland
 The Marina Hotel,http://www.leitrimmarinahotel.com/,+353(0)719623644,-8.06691395382696,53.9885893947143,Leitrim,Carrick on Shannon,Republic of Ireland
 Salthill Caravan Park,http://www.salthillcaravanpark.com,+353(0)91523972,-9.10477,53.257153,Galway,Salthill,Republic of Ireland
 The Gandon Inn,http://www.gandoninn.com,+353(0)578626622,-7.179547,53.092044,Laois,Portlaoise,Republic of Ireland
@@ -2038,7 +2038,7 @@ Castle Quay,http://www.castlequay.ie,+353(0)879312322,-8.603733,51.700628,Cork,B
 Montenotte Hotel,http://www.themontenottehotel.com,+353(0)214530050,-8.452177,51.904551,Cork,Cork,Republic of Ireland
 Ard Carraig Holiday Homes,http://www.westcoastholidays.ie/self-catering/kerry/ard-carrig-cottages,+353(0)61335799,-9.580096,51.890679,Kerry,Kenmare,Republic of Ireland
 Castlemartyr Holiday Lodges & Mews,http://www.tridentholidayhomes.ie/Self-Catering/Ireland/Cork/Castlemartyr-Holiday-Homes.aspx,+353(0)12018479,-8.062864,51.911264,Cork,Castlemartyr,Republic of Ireland
-"Westport Plaza Hotel Spa, Leisure and Conference",http://www.westportplazahotel.ie,+353(0)9851166,-9.519417,53.801053,Mayo,Westport,Republic of Ireland
+Westport Plaza Hotel Spa Leisure and Conference,http://www.westportplazahotel.ie,+353(0)9851166,-9.519417,53.801053,Mayo,Westport,Republic of Ireland
 Lakeside Holiday Cottages,http://www.tridentholidayhomes.ie/rentals/house-killaloe-lakeside-holiday-homes-204794.html,+353(0)12018479,-8.454272,52.812596,Clare,Killaloe,Republic of Ireland
 The Avenue Holiday Cottages,http://www.themalton.com/self-catering-maltonhotel-killarney.html,+353(0)646638000,-9.500677,52.058535,Kerry,Killarney,Republic of Ireland
 Cluain Raite,http://www.rentacottage.ie/holiday-homes/cottages/clare/bunratty_west.htm,+353(0)61411109,-8.81978,52.698871,Clare,Bunratty,Republic of Ireland
@@ -2155,7 +2155,7 @@ Moycarn Lodge and Marina,http://www.moycarnlodge.ie,+353(0)909645050,-8.197103,5
 Dublin Citi Hotel,http://www.dublincitihotel.com,+353(0)16794455,-6.263613,53.344328,Dublin,Dublin City,Republic of Ireland
 Hilton Dublin Kilmainham,http://www.hiltondublinkilmainham.com,+353(0)14201800,-6.308464,53.342353,Dublin,Kilmainham,Republic of Ireland
 Deebert House Hotel,http://www.deeberthousehotel.com,+353(0)6331200,-8.570646,52.400813,Limerick,Kilmallock,Republic of Ireland
-"Lough Eske Castle, a Solis Hotel & Spa",http://www.solishotels.com/lougheskecastle/default-en.html,+353(0)749725100,-8.066015,54.688357,Donegal,Donegal Town,Republic of Ireland
+Lough Eske Castle a Solis Hotel & Spa,http://www.solishotels.com/lougheskecastle/default-en.html,+353(0)749725100,-8.066015,54.688357,Donegal,Donegal Town,Republic of Ireland
 Delphi Resort,http://www.delphiresort.com,+353(0)9542208,-9.747114,53.631529,Galway,Connemara,Republic of Ireland
 Jacob's Well B&B,http://www.jacobswellrathdrum.com,+353(0)40446620,-6.230793,52.932588,Wicklow,Rathdrum,Republic of Ireland
 Grove Lodge,,+353(0)872494854,-6.964813,54.315495,Monaghan,Emyvale,Republic of Ireland
@@ -2247,8 +2247,8 @@ Killarney House,http://www.killarneyhousetralee.com,+353(0)667196989,-9.737669,5
 5 Viking Wharf,http://www.elitepropertieskinsale.com,System.Object[],-8.521202,51.697441,Cork,Kinsale,Republic of Ireland
 2 Millfield House,http://www.kenmare-selfcatering.com,+353(0)646685602,-9.598536,51.88282,Kerry,Kenmare,Republic of Ireland
 Castle View,,+353(0)646633794,-9.93818524175798,52.0584846203303,Kerry,Glenbeigh,Republic of Ireland
-"2, 9 & 13 Mountain View",http://www.sheenfallscountryclub.ie,+353(0)214915854,-9.565209,51.871949,Kerry,Kenmare,Republic of Ireland
-"The Anvil Bar, Restaurant and Accommodation",http://www.anvilbar.com,+353(0)669767137,-9.753773,52.1768,Kerry,Castlemaine,Republic of Ireland
+2 9 & 13 Mountain View,http://www.sheenfallscountryclub.ie,+353(0)214915854,-9.565209,51.871949,Kerry,Kenmare,Republic of Ireland
+The Anvil Bar Restaurant and Accommodation,http://www.anvilbar.com,+353(0)669767137,-9.753773,52.1768,Kerry,Castlemaine,Republic of Ireland
 Ballinwillin House,http://www.ballinwillinhouse.com,+353(0)2584979,-8.262749,52.272329,Cork,Mitchelstown,Republic of Ireland
 Adare Farm Cottage,http://www.adarefarmcottage.com,+353(0)61396223,-8.801211,52.552666,Limerick,Adare,Republic of Ireland
 An Súgán Guesthouse,http://www.ansugan.com,+353(0)238833719,-8.88585299999999,51.623167,Cork,Clonakilty,Republic of Ireland
@@ -2281,7 +2281,7 @@ Michaeleen's Manor B&B,http://www.michaeleensmanor.com/,+353(0)949546089,-9.2702
 Silver Tassie Hotel,http://www.silvertassiehotel.com,+353(0)749125619,-7.670526,54.986061,Donegal,Letterkenny,Republic of Ireland
 Slieve League Lodge,http://www.slieveleaguelodge.com/,+353(0)749739973,-8.633836,54.657436,Donegal,Carrick,Republic of Ireland
 The Red Door Country House,http://www.thereddoor.ie,+353(0)749360289,-7.4664325497722,55.0850320827163,Donegal,Inishowen,Republic of Ireland
-"Tannery Restaurant, Townhouse and Cookery School",http://www.tannery.ie,+353(0)5845420,-7.61687991342239,52.0886079364361,Waterford,Dungarvan,Republic of Ireland
+Tannery Restaurant Townhouse and Cookery School,http://www.tannery.ie,+353(0)5845420,-7.61687991342239,52.0886079364361,Waterford,Dungarvan,Republic of Ireland
 Newtown Farm Country House,http://www.newtownfarm.com,+353(0)2494143,-7.725015,51.996701,Waterford,Ardmore,Republic of Ireland
 Hillview,http://www.hillviewbray.com,+353(0)12877226,-6.09384331034664,53.1732961626398,Wicklow,Bray,Republic of Ireland
 Bradleys Cottage Creeslough,,+353(0)879589087,-7.91871381616215,55.1113013571748,Donegal,Creeslough,Republic of Ireland
@@ -2598,7 +2598,7 @@ Kilmore Quay Marina,http://kilmorequaymarina.com/,System.Object[],-6.58943885033
 Boat House,,+353(0)868100075,-6.1859457218593,54.0415274364237,Louth,Carlingford,Republic of Ireland
 Ard na Breatha,http://ardnabreatha.com,System.Object[],-8.1014134949371,54.6627425924957,Donegal,Donegal Town,Republic of Ireland
 NIBLICK,https://airbnb.ie/rooms/16659820,+353(0)858701268,-9.448342,51.698221,Cork,Bantry,Republic of Ireland
-"Coach Field Camp, Glamping Site",http://coachfieldcamp.com,+353(0)876572991,-9.90870226995844,52.2204485723682,Kerry,Tralee,Republic of Ireland
+Coach Field Camp Glamping Site,http://coachfieldcamp.com,+353(0)876572991,-9.90870226995844,52.2204485723682,Kerry,Tralee,Republic of Ireland
 Woodstock Bed no Breakfast,,+353(0)868520378,-6.60190715718999,53.5531625017474,Meath,Dunsany,Republic of Ireland
 Breac House,http://breac.house,+353(0)870958844,-7.9822222,55.2244444,Donegal,Dunfanaghy,Republic of Ireland
 International Outdoor Adventure Centre,http://ioac.ie,+353(0)539189022,-6.381111,52.2437,Wexford,Wexford,Republic of Ireland
@@ -2635,7 +2635,7 @@ Hilton Templepatrick,http://www.hilton.co.uk/templepatrick,+44 (0)28 9443 5500,-
 Westville Hotel,http://www.westvillehotel.com,+44 (0)28 6632 0333,-7.620694,54.34589,Fermanagh,Enniskillen,Northern Ireland
 Armagh City Hotel,http://www.armaghcityhotel.com,+44 (0)28 3751 8888,-6.648489,54.34708,Armagh,Armagh,Northern Ireland
 Canal Court Hotel and Spa,http://www.canalcourthotel.com,+44 (0)28 3025 1234,-6.340323,54.175857,Down,Newry,Northern Ireland
-"Da Vinci's Hotel, Derry",http://www.davincishotel.com,+44 (0)28 7127 9111,-7.305751,55.022716,Londonderry,Londonderry,Northern Ireland
+Da Vinci's Hotel Derry,http://www.davincishotel.com,+44 (0)28 7127 9111,-7.305751,55.022716,Londonderry,Londonderry,Northern Ireland
 Maldron Hotel Derry,http://www.maldronhotelderry.com,+44 (0)28 7137 1000,-7.322687,54.995723,Londonderry,Londonderry,Northern Ireland
 Holiday Inn Belfast City Centre,http://www.hibelfastcitycentre.co.uk,+44 (0)28 9024 2494,-5.935919,54.593276,Antrim,Belfast,Northern Ireland
 Clayton Hotel,http://www.claytonhotelbelfast.com,+44 (0)28 9032 8511,-5.930467,54.592781,Antrim,Belfast,Northern Ireland
@@ -2697,7 +2697,7 @@ The Rose Hotel,http://www.therosehotel.com,,-9.70068,52.26363,Kerry,Tralee,Repub
 Osprey Hotel & Spa,http://www.ospreyhotel.ie,,-6.67016,53.21321,Kildare,Naas,Republic of Ireland
 Hayfield Manor Hotel,http://www.hayfieldmanor.ie,,-8.49016,51.89098,Cork,Cork City,Republic of Ireland
 The Marker Hotel,http://www.themarkerhoteldublin.com,+353 1 6875100,-6.23945,53.34185,Dublin,Dublin City,Republic of Ireland
-"Citywest Hotel, Leisure & Events",http://www.citywesthotel.com,+353 1 4010500,-6.44659,53.28606,Dublin,Saggart,Republic of Ireland
+Citywest Hotel Leisure & Events,http://www.citywesthotel.com,+353 1 4010500,-6.44659,53.28606,Dublin,Saggart,Republic of Ireland
 The Metropole Hotel,http://www.themetropolehotel.ie,,-8.46759,51.90131,Cork,Cork City,Republic of Ireland
 Harbour Hotel,http://www.harbour.ie,,-9.04744,53.27076,Galway,Galway City,Republic of Ireland
 The Beacon,http://www.thebeacon.com,,-6.22064,53.27633,Dublin,Dublin City,Republic of Ireland
@@ -2749,10 +2749,10 @@ Knockranny House Hotel & Spa,http://www.knockrannyhousehotel.ie,,-9.50794,53.802
 Radisson Blu Hotel & Spa Limerick,http://radissonblu.ie/hotel-limerick,,-8.71011,52.68438,Limerick,Limerick City,Republic of Ireland
 Clayton Hotel Silver Springs,https://www.claytonhotelsilversprings.com,,-8.42411,51.904,Cork,Cork City,Republic of Ireland
 The Savoy Hotel,http://www.savoylimerick.com,+353 61 448700,-8.62906,52.66328,Limerick,Limerick City,Republic of Ireland
-"Oriel House Hotel, Leisure Club & Spa",http://www.orielhousehotel.ie,,-8.6011,51.88811,Cork,Ballincollig,Republic of Ireland
+Oriel House Hotel Leisure Club & Spa,http://www.orielhousehotel.ie,,-8.6011,51.88811,Cork,Ballincollig,Republic of Ireland
 International Hotel Killarney,http://www.killarneyinternational.com,,-9.50695,52.05811,Kerry,Killarney,Republic of Ireland
 Talbot Hotel Stillorgan,http://www.talbothotelstillorgan.com,,-6.20274,53.29494,Dublin,Stillorgan,Republic of Ireland
-"Arklow Bay Conference, Leisure and Spa Hotel",http://www.arklowbay.com,,-6.14334,52.8029,Wicklow,Arklow,Republic of Ireland
+Arklow Bay Conference Leisure and Spa Hotel,http://www.arklowbay.com,,-6.14334,52.8029,Wicklow,Arklow,Republic of Ireland
 InterContinental Dublin,http://www.intercontinental.com/dublin,,-6.22604,53.3266,Dublin,Dublin City,Republic of Ireland
 Roganstown Hotel and Country Club,http://www.roganstown.com,,-6.27149,53.48738,Dublin,Swords,Republic of Ireland
 Lough Rea Hotel & Spa,http://www.loughreahotelandspa.com,+353 91 880088,-8.58648,53.2028,Galway,Loughrea,Republic of Ireland
@@ -2906,7 +2906,7 @@ Lough Ine House,http://www.loughinehouse.com,+44(0)7720056020,-9.30036349604802,
 Easdale,http://easdaleguesthouse.com,+353(0)51384882,-7.24598904703111,52.2351376682903,Waterford,Kilmeaden,Republic of Ireland
 The Killarney Oaks,http://www.killarneyoaks.com,+353(0)646637600,-9.49476,52.039423,Kerry,Killarney,Republic of Ireland
 Strandhill Lodge - Hostel & Surf School,http://www.surfnstay.ie,+353(0)719168313,-8.60748272271916,54.2703521309439,Sligo,Strandhill,Republic of Ireland
-"Lough Eske Castle, a Solis Hotel & Spa",http://www.solishotels.com/lougheskecastle,+353 74 9725100,-8.06602,54.68836,Donegal,Donegal Town,Republic of Ireland
+Lough Eske Castle a Solis Hotel & Spa,http://www.solishotels.com/lougheskecastle,+353 74 9725100,-8.06602,54.68836,Donegal,Donegal Town,Republic of Ireland
 Maldron Hotel Parnell Square,http://www.maldronhotels.com,+353(0)18716800,-6.266458,53.354374,Dublin,Dublin 1,Republic of Ireland
 Glach a Mara,http://glachamara.com/,+353(0)719163789,-8.49705765069575,54.409405052094,Sligo,Grange,Republic of Ireland
 Glebe House,http://www.glebehouse.com,+353(0)719631086,-7.8683914892955,53.947672285494,Leitrim,Mohill,Republic of Ireland
@@ -2944,7 +2944,7 @@ Killarney View House,http://killarneyviewhouse.com,+353(0)646633122,-9.506197948
 Anam Cara Luxury Manor,http://anamcaraguesthouse.com,+353(0)539261895,-6.58933862944775,52.5064381244397,Wexford,Enniscorthy,Republic of Ireland
 Leitrim Quay,http://leitrimquay.com,+353(0)719622989,-8.06340382043743,53.9903596585218,Leitrim,Leitrim,Republic of Ireland
 Virginia Park Lodge,http://virginiaparklodge.com/,+353(0)498546100,-7.09310347804183,53.8347807176477,Cavan,Virginia,Republic of Ireland
-"The Galmont Hotel & Spa, Galway",http://www.thegalmont.com,+353 91 538300,-9.04355,53.27393,Galway,Galway City,Republic of Ireland
+The Galmont Hotel & Spa Galway,http://www.thegalmont.com,+353 91 538300,-9.04355,53.27393,Galway,Galway City,Republic of Ireland
 Riversdale B&B,http://www.bandbireland.com/accommodation/26351/riversdale-b-b,+353(0)18404802,-6.22240528864904,53.472432151114,Dublin,Swords,Republic of Ireland
 Brennan Court Guest Accommodation,http://conference.ul.ie/index.jsp?p=227&n=257,+353(0)61202081,-8.56343741180353,52.6747585549502,Limerick,Castletroy,Republic of Ireland
 Pier House,http://pierhousearan.com,+353(0)9961417,-9.66566082312033,53.1199601474873,Galway,Inishmore,Republic of Ireland
@@ -2960,7 +2960,7 @@ Seanor House,http://www.seanorhouse.com,+353(0)6827055,-9.65130937607477,52.5051
 Killofin House,http://www.bandbireland.com/accommodation/27999/killofin-house,+353(0)858427137,-9.26447830864913,52.6188688804203,Clare,Killimer,Republic of Ireland
 Dunowen House,http://www.dunowenhouse.ie,+353(0)2388669099,-8.9050180036354,51.5558387141295,Cork,Clonakilty,Republic of Ireland
 The Lookout,http://irland-reisen.eu,+353(0)834820637,-8.47493316023963,54.7703878962777,Donegal,Ardara,Republic of Ireland
-"The Rusty Mackerel Bar, Restaurant & Accommodation",https://facebook.com/therusty.teelin/,+353(0)749739101,-8.64273742839986,54.6370512671951,Donegal,Carrick,Republic of Ireland
+The Rusty Mackerel Bar Restaurant & Accommodation,https://facebook.com/therusty.teelin/,+353(0)749739101,-8.64273742839986,54.6370512671951,Donegal,Carrick,Republic of Ireland
 Gort na Mona,http://www.gortnamonabandb.com,+353(0)749537777,-8.37131835910793,54.7490844402666,Donegal,Ardara,Republic of Ireland
 An Capall Dubh,http://ancapalldubh.com/bed-breakfast/,+353(0)669151105,-10.2711945676608,52.1410789534959,Kerry,Dingle,Republic of Ireland
 Ashville House,http://www.ashvillekillarney.com,+353(0)646636405,-9.51240192728948,52.0635474756614,Kerry,Killarney,Republic of Ireland
@@ -2975,7 +2975,7 @@ Cloghaun Luxury Homes,http://cloghaunluxuryhomes.ie,+353(0)61411109,-9.341711098
 Bayview Hotel,http://www.bayviewhotelni.com,+44 (0)28 2073 4100,-6.546748,55.215282,Antrim,Bushmills,Northern Ireland
 Maldron Hotel,https://www.maldronhotels.com/belfast-city,+44 (0)44 9600 1680,-5.933296,54.595294,Antrim,Belfast,Northern Ireland
 Treetops,,+353(0)5843331,-7.66062221787694,52.1249729576984,Waterford,Dungarven,Republic of Ireland
-"The Butterbean Restaurant, Bed & Breakfast",http://thebutterbean.ie/bed-breakfast-2/,+353(0)749373693,-7.25976634635333,55.2513131055083,Donegal,Carndonagh,Republic of Ireland
+The Butterbean Restaurant Bed & Breakfast,http://thebutterbean.ie/bed-breakfast-2/,+353(0)749373693,-7.25976634635333,55.2513131055083,Donegal,Carndonagh,Republic of Ireland
 Abbey Lodge,http://abbeylodgeangling.com,+353(0)719645335,-7.81061881708876,53.9988445752481,Leitrim,Ballinamore,Republic of Ireland
 Kilkea Castle Estate and Golf Club,https://kilkeacastle.ie,+353(0)599145600,-6.88669398345155,52.9433605701406,Kildare,Castledermot,Republic of Ireland
 Dunmore House & Gardens,http://dunmoregardens.ie,+353(0)838028625,-7.42162908720877,54.9542757393315,Donegal,Carrigans,Republic of Ireland
@@ -2988,7 +2988,7 @@ Arvagh Market Square Apartments,,+353(0)494335127,-7.58146981779805,53.923341253
 Hill Cottage,,+353(0)51644749,-7.34067237141914,52.3917188067513,Kilkenny,Piltown,Republic of Ireland
 The Old Barracks Rosscarbery,http://theoldbarracksrosscarbery.com,+353(0)238857952,-9.03235471217999,51.5777192205035,Cork,Rosscarbery,Republic of Ireland
 Blackwater Eco Pods,http://www.blackwaterecotours.ie/eco-pods/,+353(0)892538699,-7.8508124127361,52.0884489947665,Waterford,Villierstown,Republic of Ireland
-"Giltraps Pub, Townhouse & Glamping",http://visitkinnitty.com,+353(0)579137076,-7.72220406398719,53.0984309885724,Offaly,Birr,Republic of Ireland
+Giltraps Pub Townhouse & Glamping,http://visitkinnitty.com,+353(0)579137076,-7.72220406398719,53.0984309885724,Offaly,Birr,Republic of Ireland
 Sheedy's Doolin,http://sheedysdoolin.com,+353(0)657075050,-9.38080453479608,53.0158786062026,Clare,Doolin,Republic of Ireland
 Cois Farraige Strandhill,http://coisfarraigestrandhill.com,+353(0)877510999,-8.60958948346422,54.270121175382,Sligo,Strandhill,Republic of Ireland
 Clayton Hotel Sligo,http://claytonhotelsligo.com,+353(0)719119000,-8.46115893954981,54.2816447574714,Sligo,Sligo,Republic of Ireland
