@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
+import { AngularFireModule } from '@angular/fire';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MapService } from './map.service';
@@ -37,6 +39,8 @@ import { MobileInfoPanelComponent } from './mobile-info-panel/mobile-info-panel.
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAnalyticsModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
     }),
