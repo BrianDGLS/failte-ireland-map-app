@@ -3,6 +3,7 @@ import { Injectable, ElementRef } from '@angular/core';
 
 import Map from 'ol/Map';
 import View from 'ol/View';
+import slugify from 'slugify';
 import OSM from 'ol/source/OSM';
 import Feature from 'ol/Feature';
 import Overlay from 'ol/Overlay';
@@ -12,7 +13,7 @@ import * as Projection from 'ol/proj';
 import Collection from 'ol/Collection';
 import VectorSource from 'ol/source/Vector';
 import * as Interaction from 'ol/interaction';
-import { Icon, Style, Fill, Stroke, Circle } from 'ol/style';
+import { Style, Fill, Stroke, Circle } from 'ol/style';
 
 import { Attraction } from './attraction';
 import { DataService } from './data.service';
@@ -98,7 +99,7 @@ export class MapService {
     return features;
   }
 
-  public async createMap($popup: ElementRef): Promise<void> {
+  public async createMap($popup: ElementRef, slug?: string): Promise<void> {
     this.features = new Collection(await this.getFeatures());
     const source = new VectorSource({ features: this.features });
     const vectorLayer = new Layer.Vector({ source });
@@ -113,6 +114,29 @@ export class MapService {
     this.registerPopup($popup);
     this.registerInputEvents();
     this.subscribeToSelectedFeature();
+
+    const attraction = slug ? this.getAttractionFromSlug(slug) : undefined;
+    if (attraction) {
+      this.viewAttractionOnMap(attraction);
+    }
+  }
+
+  public viewAttractionOnMap(attraction: Attraction) {
+    const { Name } = attraction;
+    const map = this.map;
+    const features = this.features;
+    const feature = features.getArray().find((feature) => {
+      return feature.get('attraction').Name === Name;
+    });
+
+    const view = map.getView();
+    const { Latitude, Longitude } = attraction;
+    const center = Projection.fromLonLat([Longitude, Latitude]);
+
+    view.setCenter(center);
+    view.setZoom(10);
+
+    this.selectedFeature$.next(feature);
   }
 
   private subscribeToSelectedFeature() {
@@ -128,6 +152,14 @@ export class MapService {
       const coordinates = feature.getGeometry().getCoordinates();
       this.popup.setPosition(coordinates);
     });
+  }
+
+  private getAttractionFromSlug(slug: string): Attraction {
+    const features = this.features.getArray();
+    const feature = features.find(
+      (_) => slugify(_.get('attraction').Name) === slug
+    );
+    return feature ? feature.get('attraction') : undefined;
   }
 
   private registerInputEvents() {

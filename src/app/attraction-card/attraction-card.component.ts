@@ -41,20 +41,7 @@ export class AttractionCardComponent implements AfterViewInit {
   }
 
   public viewAttractionOnMap(attraction: Attraction) {
-    const { Name } = attraction;
-    const { map, features } = this.mapService;
-    const feature = features.getArray().find((feature) => {
-      return feature.get('attraction').Name === Name;
-    });
-
-    const view = map.getView();
-    const { Latitude, Longitude } = attraction;
-    const center = Projection.fromLonLat([Longitude, Latitude]);
-
-    view.setCenter(center);
-    view.setZoom(10);
-
-    this.mapService.selectedFeature$.next(feature);
+    this.mapService.viewAttractionOnMap(attraction);
 
     if (this.screenSizeService.isSmallScreen && this.mobileMenuRef) {
       this.mobileMenuRef.dismiss();

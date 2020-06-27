@@ -5,8 +5,8 @@ import {
   ElementRef,
   AfterViewInit,
 } from '@angular/core';
-import { Router } from '@angular/router';
 import slugify from 'slugify';
+import { Location } from '@angular/common';
 
 import { Attraction } from '../attraction';
 import { MapService } from '../map.service';
@@ -27,7 +27,7 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
   }
 
   constructor(
-    private readonly router: Router,
+    private readonly location: Location,
     private readonly mapService: MapService,
     private readonly screenSizeService: ScreenSizeService
   ) {}
@@ -37,15 +37,16 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
       this.attraction = feature ? feature.get('attraction') : undefined;
 
       if (this.attraction) {
-        this.router.navigate([slugify(this.attraction.Name)]);
+        this.location.replaceState(slugify(this.attraction.Name));
       } else {
-        this.router.navigate(['/']);
+        this.location.replaceState('/');
       }
     });
   }
 
   async ngAfterViewInit(): Promise<void> {
-    await this.mapService.createMap(this.$popup);
+    const slug = slugify(this.location.path());
+    await this.mapService.createMap(this.$popup, slug);
   }
 
   closePopup() {
