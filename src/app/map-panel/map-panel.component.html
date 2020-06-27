@@ -46,8 +46,11 @@
               target="_blank"
               ><mat-icon>website</mat-icon></a
             >
-            <button mat-stroked-button (click)="share(attraction)">
+            <button mat-stroked-button *ngIf="!shareClicked" (click)="share()">
               Share
+            </button>
+            <button mat-button *ngIf="shareClicked">
+              Link Copied!
             </button>
           </mat-card-actions>
         </mat-card>

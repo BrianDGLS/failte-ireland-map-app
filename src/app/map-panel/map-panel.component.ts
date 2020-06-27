@@ -53,5 +53,28 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
     this.mapService.selectedFeature$.next();
   }
 
-  share(attraction: Attraction) {}
+  public shareClicked = false;
+
+  share() {
+    if (navigator.share) {
+      navigator.share({
+        title: document.title,
+        url: window.location.href,
+      });
+    } else {
+      const el = document.createElement('textarea');
+      el.value = window.location.href;
+      el.setAttribute('readonly', '');
+      el.style.position = 'absolute';
+      el.style.left = '-9999px';
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+      this.shareClicked = true;
+      setTimeout(() => {
+        this.shareClicked = false;
+      }, 2000);
+    }
+  }
 }
