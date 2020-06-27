@@ -1,0 +1,21 @@
+.content-container {
+  min-height: 100%;
+  margin: 0 auto;
+  background: #f5f5f5;
+}
+
+app-map-panel {
+  @media screen and (max-width: 960px) {
+    height: calc(100vh - 56px);
+  }
+}
+
+.bottom-toolbar {
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(-180deg, transparent 50%, #455a64 50%);
+
+  .bottom-sheet-button {
+    margin: 0 auto;
+  }
+}

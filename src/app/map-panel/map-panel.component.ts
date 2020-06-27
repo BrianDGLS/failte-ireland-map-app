@@ -5,6 +5,8 @@ import {
   ElementRef,
   AfterViewInit,
 } from '@angular/core';
+import { Router } from '@angular/router';
+import slugify from 'slugify';
 
 import { Attraction } from '../attraction';
 import { MapService } from '../map.service';
@@ -25,6 +27,7 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
   }
 
   constructor(
+    private readonly router: Router,
     private readonly mapService: MapService,
     private readonly screenSizeService: ScreenSizeService
   ) {}
@@ -32,6 +35,12 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
   ngOnInit() {
     this.mapService.selectedFeature$.subscribe((feature) => {
       this.attraction = feature ? feature.get('attraction') : undefined;
+
+      if (this.attraction) {
+        this.router.navigate([slugify(this.attraction.Name)]);
+      } else {
+        this.router.navigate(['/']);
+      }
     });
   }
 

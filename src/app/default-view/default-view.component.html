@@ -1,0 +1,22 @@
+<div fxLayout="column" class="content-container">
+  <app-header></app-header>
+
+  <div fxLayout="column" fxLayout.gt-sm="row" fxFlex="1">
+    <app-map-panel fxFlex.gt-sm="67"></app-map-panel>
+    <app-info-panel fxFlex.gt-sm="33" *ngIf="isLargeScreen"></app-info-panel>
+  </div>
+
+  <mat-toolbar class="bottom-toolbar" *ngIf="!isLargeScreen">
+    <button
+      mat-flat-button
+      color="accent"
+      class="bottom-sheet-button"
+      *ngIf="!isLargeScreen"
+      (click)="openBottomSheet()"
+    >
+      View Unmissable Destinations
+    </button>
+  </mat-toolbar>
+
+  <app-footer *ngIf="isLargeScreen"></app-footer>
+</div>
