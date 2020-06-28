@@ -56,8 +56,9 @@ export class MapPanelComponent implements AfterViewInit, OnInit {
   public shareClicked = false;
 
   share() {
-    if (navigator.share) {
-      navigator.share({
+    const nav = navigator as any;
+    if (nav.share) {
+      nav.share({
         title: document.title,
         url: window.location.href,
       });
